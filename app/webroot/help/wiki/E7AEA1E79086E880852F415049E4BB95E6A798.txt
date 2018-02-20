@@ -1,0 +1,79 @@
+* API仕様 [#t68d796c]
+
+** XMLRPCのURL [#ufed0572]
+https://kendb.rps.titech.ac.jp/xml_rpc
+
+** API仕様 [#uf64acbc]
+
+本システムでは以下のAPIが用意されています。
+
+- 各データ種別毎の検索(search)
+-- 第一引数にデータ種別(ページ下部コード表参照。科研費(文科・学振)、科研費(厚生労働)・・・の全データ)を文字列で指定
+-- 第二引数に検索条件の配列
+-- 第三引数に応答時に取得する項目の配列
+-- ※なお、設定可能な引数は、横断検索による項目と同一です。
+-- ※出力可能なフィールドは横断検索で出力している項目の範囲内です。
+
+- 各データをIDを指定して取得(get)
+-- 第一引数にデータ種別(同上)を設定
+-- 第二引数に取得するデータのIDの配列を設定
+-- 第三引数に応答時に取得する項目の配列
+
+- 教員をキーに全データ種別を横断したデータ取得(get)
+-- 第一引数に、データ種別(教員)をセットします
+-- 第二引数に検索条件の配列をセットします。ここで設定可能な項目は「東工大連携ID」のみとします。
+
+-- 件数取得(count)
+上述の検索条件を与え、件数を応答します。
+
+- describe
+-- 利用可能APIを応答します。
+
+詳細な仕様は
+#ref(describe.xml)
+を参照のこと
+
+* コードテーブル [#zdd8fd72]
+引数のデータ種別は以下の通りです。
+
+|BGCOLOR(#92CDDC):COLOR(#000000):LEFT:datatype|BGCOLOR(#92CDDC):COLOR(#000000):LEFT:意味|
+|COLOR(#000000):RIGHT:0|COLOR(#000000):LEFT:研究者情報|
+|COLOR(#000000):RIGHT:1|COLOR(#000000):LEFT:科研費(文科・学振)|
+|COLOR(#000000):RIGHT:2|COLOR(#000000):LEFT:科研費(環境・その他)|
+|COLOR(#000000):RIGHT:3|COLOR(#000000):LEFT:科研費(厚生労働)|
+|COLOR(#000000):RIGHT:4|COLOR(#000000):LEFT:科研費(特別研究員奨励費)→このデータの応答はしません|
+|COLOR(#000000):RIGHT:5|COLOR(#000000):LEFT:科研費分担金(文科・学振)|
+|COLOR(#000000):RIGHT:6|COLOR(#000000):LEFT:共同研究・受託研究(民間企業等)|
+|COLOR(#000000):RIGHT:7|COLOR(#000000):LEFT:奨学寄附金|
+|COLOR(#000000):RIGHT:8|COLOR(#000000):LEFT:受託研究(政府系)|
+|COLOR(#000000):RIGHT:9|COLOR(#000000):LEFT:受託事業|
+|COLOR(#000000):RIGHT:10|COLOR(#000000):LEFT:その他補助金|
+
+* 応答データ [#db570c57]
+
+応答データは最大で以下の内容が含まれる。
+なおデータ種別ごとに応答可能なデータが異なるため、詳細はdescribeの結果を参照のこと。
+
+|BGCOLOR(#92CDDC):COLOR(#000000):LEFT:項目名|BGCOLOR(#92CDDC):COLOR(#000000):LEFT:意味|
+|COLOR(#000000):LEFT:year|COLOR(#000000):LEFT:年度|
+|COLOR(#000000):LEFT:department|COLOR(#000000):LEFT:所属部局名|
+|COLOR(#000000):LEFT:datatype|COLOR(#000000):LEFT:データ種別|
+|COLOR(#000000):LEFT:subject|COLOR(#000000):LEFT:研究題目|
+|COLOR(#000000):LEFT:research_type|COLOR(#000000):LEFT:プログラム名|
+|COLOR(#000000):LEFT:fund_owner|COLOR(#000000):LEFT:資金元|
+|COLOR(#000000):LEFT:researcher_name|COLOR(#000000):LEFT:氏名|
+|COLOR(#000000):LEFT:job_title|COLOR(#000000):LEFT:職|
+|COLOR(#000000):LEFT:start_date|COLOR(#000000):LEFT:研究開始日|
+|COLOR(#000000):LEFT:end_date|COLOR(#000000):LEFT:研究終了日|
+|COLOR(#000000):LEFT:amount|COLOR(#000000):LEFT:受入総額|
+|COLOR(#000000):LEFT:direct_cost|COLOR(#000000):LEFT:直接経費|
+|COLOR(#000000):LEFT:indirect_cost|COLOR(#000000):LEFT:間接経費|
+|COLOR(#000000):LEFT:researcher_no|COLOR(#000000):LEFT:研究者番号|
+|COLOR(#000000):LEFT:cooperate_no|COLOR(#000000):LEFT:東工大連携Id|
+|COLOR(#000000):LEFT:memo|COLOR(#000000):LEFT:備考|
+|COLOR(#000000):LEFT:updated|COLOR(#000000):LEFT:更新日|
+|COLOR(#000000):LEFT:id|COLOR(#000000):LEFT:id|
+
+* 認証について [#fb618798]
+
+本APIは認証機構は実装しない。特定のIPアドレスからの呼び出しのみApacheレベルで許可するものとする。

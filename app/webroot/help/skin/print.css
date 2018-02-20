@@ -1,0 +1,31 @@
+@media print {
+  * { font-size : 16px; }
+  h1 { font-size : 24px; }
+  h2 { font-size : 22px; }
+  h3 { font-size : 18px; }
+  div#header {display: none;}
+  div#navigator {display: none;}
+  div#toolbar {display: none;}
+  div#footer {display: none;}
+  div#lastmodified {display: none;}
+  div#inputtoolbar {display: none;}
+  div.contents {display: none;}
+  div.navigationbar {display: none;}
+  div.menu { display:none; }
+  div.left { display:none; }
+  div.related { display:none; }
+  div.editbar { display:none; }
+  div.footer { display:none; }
+  div.logo p { display:none; }
+  div.jumpmenu { display:none; }
+  a { text-decoration : none; } 
+  a.anchor_super { display:none; }
+  img { border : 0px; }
+  div.body img { border : 1px solid #000; }
+  .style_table,
+  .style_th,
+  .style_td {
+    border-collapse: collapse;
+    border: 1px solid #000000;
+  }
+}

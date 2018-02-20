@@ -1,0 +1,22 @@
+<div id="snavi">
+    <ul>
+        <li><?php echo $this->Html->link(__('List Roles', true), array('action' => 'index')); ?></li>
+        <li><?php echo $this->Html->link(__('List Users', true), array('controller' => 'users', 'action' => 'index')); ?> </li>
+        <li><?php echo $this->Html->link(__('New User', true), array('controller' => 'users', 'action' => 'add')); ?> </li>
+    </ul>
+</div>
+
+<?php echo $this->element("crumbs"); ?>
+
+
+<div class="roles form">
+    <?php echo $this->Form->create('Role'); ?>
+    <fieldset>
+        <legend><?php __('Admin Add Role'); ?></legend>
+        <?php
+        echo $this->Form->input('name');
+        ?>
+    </fieldset>
+    <?php echo $this->Form->end(__('Submit', true)); ?>
+</div>
+

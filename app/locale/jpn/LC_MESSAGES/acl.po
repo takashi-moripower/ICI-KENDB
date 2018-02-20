@@ -1,0 +1,277 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2010-11-24 07:49+0900\n"
+"PO-Revision-Date: 2013-07-01 09:03+0900\n"
+"Last-Translator: ryuzee <ryuzee@i-c-i.jp>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: /plugins/acl/controllers/acos_controller.php:24
+msgid "The ACO table has been cleared"
+msgstr "ACOテーブルをクリアしました"
+
+#: /plugins/acl/controllers/acos_controller.php:28
+msgid "The ACO table could not be cleared"
+msgstr "ACOテーブルをクリアできませんでした"
+
+#: /plugins/acl/controllers/aros_controller.php:172
+msgid "The user role has been updated"
+msgstr "ユーザーロールを更新しました"
+
+#: /plugins/acl/controllers/aros_controller.php:176
+msgid "The user role could not be updated"
+msgstr "ユーザーロールを更新できませんでした"
+
+#: /plugins/acl/controllers/aros_controller.php:228
+msgid "The user '%s' does not exist in the ARO table"
+msgstr "%sというユーザーはAROテーブルには存在しません"
+
+#: /plugins/acl/controllers/aros_controller.php:282
+msgid "The permissions have been cleared"
+msgstr "パーミッションをクリアしました"
+
+#: /plugins/acl/controllers/aros_controller.php:286
+msgid "The permissions could not be cleared"
+msgstr "パーミッションをクリアできませんでした"
+
+#: /plugins/acl/controllers/aros_controller.php:305;328
+msgid "The role '%s' does not exist in the ARO table"
+msgstr "%sというロールはAROテーブルには存在しません"
+
+#: /plugins/acl/views/acos/admin_acos_missing.ctp:8
+msgid ""
+"Some controllers have been modified, resulting in actions that are not "
+"referenced as ACO in the database."
+msgstr ""
+"いくつかのコントローラーが変更されましたので、ACOテーブルで参照されていない"
+"データが発生しています"
+
+#: /plugins/acl/views/acos/admin_acos_missing.ctp:15
+msgid "You can update the ACOs by clicking on the following link"
+msgstr "以下のリンクをクリックするとACOを更新できます"
+
+#: /plugins/acl/views/acos/admin_acos_missing.ctp:16
+msgid "Build missing ACOs"
+msgstr "不足しているACOを作成します"
+
+#: /plugins/acl/views/acos/admin_acos_missing.ctp:20
+msgid ""
+"Please be aware that this message will appear only once. But you can always "
+"rebuild the ACOs by going to the ACO tab."
+msgstr ""
+"このメッセージは一度しか表示されませんので注意してください。ACOタブからいつで"
+"もACO定義を更新することができます"
+
+#: /plugins/acl/views/acos/admin_build_acl.ctp:15
+msgid "The following actions ACOs have been created"
+msgstr "以下のアクションのACOが作成されました"
+
+#: /plugins/acl/views/acos/admin_build_acl.ctp:22
+msgid "There was no new actions ACOs to create"
+msgstr "ACOを作成する必要があるアクションはありません"
+
+#: /plugins/acl/views/acos/admin_build_acl.ctp:29
+msgid "This page allows you to build missing actions ACOs if any."
+msgstr "このページでは必要であれば、不足しているACOを作成することができます"
+
+#: /plugins/acl/views/acos/admin_build_acl.ctp:33
+msgid "Clicking the link will not destroy existing actions ACOs."
+msgstr "リンクをクリックしても既存のACOには影響ありません"
+
+#: /plugins/acl/views/acos/admin_build_acl.ctp:37
+#: /plugins/acl/views/aros/admin_check.ctp:43
+msgid "Build"
+msgstr "作成"
+
+#: /plugins/acl/views/acos/admin_empty_acos.ctp:12
+msgid "This page allows you to clear all actions ACOs."
+msgstr "このページでは全てのアクションのACOをクリアすることができます"
+
+#: /plugins/acl/views/acos/admin_empty_acos.ctp:16
+msgid ""
+"Clicking the link will destroy all existing actions ACOs and associated "
+"permissions."
+msgstr ""
+"リンクをクリックすると全てのアクションのACOおよび関連するパーミッションを削除"
+"します"
+
+#: /plugins/acl/views/acos/admin_empty_acos.ctp:20
+msgid "Clear ACOs"
+msgstr "ACOのクリア"
+
+#: /plugins/acl/views/acos/admin_empty_acos.ctp:20
+msgid "Are you sure you want to destroy all existing ACOs ?"
+msgstr "全ての既存のACOを削除してもよろしいですか？"
+
+#: /plugins/acl/views/aros/admin_check.ctp:12
+msgid "Roles without corresponding Aro"
+msgstr "Aroに関連づけられていないロール"
+
+#: /plugins/acl/views/aros/admin_check.ctp:27
+msgid "Users without corresponding Aro"
+msgstr "Aroに関連づけられていないユーザー"
+
+#: /plugins/acl/views/aros/admin_check.ctp:49
+msgid "There is no missing ARO."
+msgstr "未定義のAROはありません"
+
+#: /plugins/acl/views/aros/admin_role_permissions.ctp:17
+msgid "Clear permissions table"
+msgstr "パーミッションテーブルをクリア"
+
+#: /plugins/acl/views/aros/admin_role_permissions.ctp:17
+msgid "Are you sure you want to delete all roles and users permissions ?"
+msgstr "全てのロールとユーザー権限を削除してもよろしいですか？"
+
+#: /plugins/acl/views/aros/admin_role_permissions.ctp:29
+msgid "grant access to <em>all actions</em>"
+msgstr "<em>全てのアクション</em>へのアクセス権限を付与"
+
+#: /plugins/acl/views/aros/admin_role_permissions.ctp:30
+msgid "deny access to <em>all actions</em>"
+msgstr "<em>全てのアクション</em>へのアクセスを禁止"
+
+#: /plugins/acl/views/aros/admin_role_permissions.ctp:40
+msgid ""
+"Are you sure you want to grant access to all actions of each controller to "
+"the role '%s' ?"
+msgstr ""
+"%sのロールに全コントローラーの全アクションへのアクセス権限を付与してもよろし"
+"いですか？"
+
+#: /plugins/acl/views/aros/admin_role_permissions.ctp:41
+msgid ""
+"Are you sure you want to deny access to all actions of each controller to "
+"the role '%s' ?"
+msgstr ""
+"%sのロールから全コントローラーの全アクションへのアクセス権限を削除してもよろ"
+"しいですか？"
+
+#: /plugins/acl/views/aros/admin_role_permissions.ctp:59
+#: /plugins/acl/views/aros/admin_user_permissions.ctp:90
+msgid "action"
+msgstr "アクション"
+
+#: /plugins/acl/views/aros/admin_role_permissions.ctp:118;200
+#: /plugins/acl/views/aros/ajax_role_denied.ctp:6
+#: /plugins/acl/views/aros/ajax_role_granted.ctp:6
+#: /plugins/acl/views/aros/ajax_user_denied.ctp:12
+#: /plugins/acl/views/aros/ajax_user_granted.ctp:12
+msgid "The ACO node is probably missing. Please try to rebuild the ACOs first."
+msgstr "ACOノードが見つかりません。ACOリストを再構築してください"
+
+#: /plugins/acl/views/aros/admin_role_permissions.ctp:147
+#: /plugins/acl/views/aros/admin_user_permissions.ctp:149
+msgid "Plugin"
+msgstr "プラグイン"
+
+#: /plugins/acl/views/aros/admin_role_permissions.ctp:222
+#: /plugins/acl/views/aros/admin_user_permissions.ctp:207
+msgid "authorized"
+msgstr "認証済"
+
+#: /plugins/acl/views/aros/admin_role_permissions.ctp:224
+#: /plugins/acl/views/aros/admin_user_permissions.ctp:209
+msgid "blocked"
+msgstr "ブロック"
+
+#: /plugins/acl/views/aros/admin_user_permissions.ctp:19
+msgid "This page allows to manage users specific rights"
+msgstr "このページではユーザー固有の権限を設定することができます"
+
+#: /plugins/acl/views/aros/admin_user_permissions.ctp:28
+msgid "user"
+msgstr "ユーザー"
+
+#: /plugins/acl/views/aros/admin_user_permissions.ctp:38
+msgid "Manage user specific rights"
+msgstr "ユーザー権限の管理"
+
+#: /plugins/acl/views/aros/admin_user_permissions.ctp:56
+msgid "Role"
+msgstr "ロール"
+
+#: /plugins/acl/views/aros/admin_user_permissions.ctp:72
+#: /plugins/acl/views/aros/admin_users.ctp:43
+msgid "Update the user role"
+msgstr "ユーザーロールの更新"
+
+#: /plugins/acl/views/aros/admin_user_permissions.ctp:82
+#: /plugins/acl/views/elements/design/header.ctp:19
+msgid "Permissions"
+msgstr "パーミッション"
+
+#: /plugins/acl/views/aros/admin_user_permissions.ctp:90
+msgid "authorization"
+msgstr "認証"
+
+#: /plugins/acl/views/aros/admin_users.ctp:14
+msgid "name"
+msgstr "名前"
+
+#: /plugins/acl/views/aros/admin_users.ctp:67
+msgid "Some users AROS are missing. Click on a role to assign one to a user."
+msgstr ""
+"いくつかのユーザーのAROSが見つかりません。ユーザーにロールを割り当ててくださ"
+"い"
+
+#: /plugins/acl/views/aros/ajax_role_denied.ctp:6
+#: /plugins/acl/views/aros/ajax_role_granted.ctp:6
+msgid "The role node does not exist in the ARO table"
+msgstr "ロールノードがAROテーブルに存在しません"
+
+#: /plugins/acl/views/aros/ajax_user_denied.ctp:8
+#: /plugins/acl/views/aros/ajax_user_granted.ctp:8
+msgid "The user node does not exist in the ARO table"
+msgstr "ユーザーノードがAROテーブルに存在しません"
+
+#: /plugins/acl/views/aros/ajax_user_denied.ctp:16
+#: /plugins/acl/views/aros/ajax_user_granted.ctp:16
+msgid ""
+"The ARO or the ACO node is probably missing. Please try to rebuild the ACOs "
+"first."
+msgstr "AROもしくはACOノードが見つかりません。ACOリストを再構築してください"
+
+#: /plugins/acl/views/elements/acos/links.ctp:6
+msgid "Build actions ACOs"
+msgstr "アクションのACOを作成"
+
+#: /plugins/acl/views/elements/acos/links.ctp:7
+msgid "Clear actions ACOs"
+msgstr "アクションのACOをクリア"
+
+#: /plugins/acl/views/elements/acos/links.ctp:7
+msgid "are you sure ?"
+msgstr "よろしいですか？"
+
+#: /plugins/acl/views/elements/aros/links.ctp:6
+msgid "Build missing AROs"
+msgstr "不足しているAROを作成"
+
+#: /plugins/acl/views/elements/aros/links.ctp:7
+msgid "Users roles"
+msgstr "ユーザーロール"
+
+#: /plugins/acl/views/elements/aros/links.ctp:8
+msgid "Roles permissions"
+msgstr "ロールパーミッション"
+
+#: /plugins/acl/views/elements/aros/links.ctp:9
+msgid "Users permissions"
+msgstr "ユーザーパーミッション"
+
+#: /plugins/acl/views/elements/design/header.ctp:10
+msgid "ACL plugin"
+msgstr "ACLプラグイン"
+
+#: /plugins/acl/views/elements/design/header.ctp:20
+msgid "Actions"
+msgstr "アクション"

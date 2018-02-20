@@ -1,0 +1,150 @@
+/* ベース */
+
+body{
+	background-color:#eeeeee;
+}
+
+div.container{
+	background-color:white;
+	border-color:#6699bb;
+}
+
+div.logo{
+	background-color:#6699bb;
+	color:white;
+}
+
+div.logo span.logo_text{
+	color:white;
+}
+
+div.logo img{
+	background-color:white;
+}
+
+div.navigationbar{
+	background-color:#dddddd;
+}
+
+div.body div.related, div.body div.notefoot{
+	color:#666666;
+}
+
+div.body div.notefoot span.small{
+	color:black;
+}
+
+div.editbar{
+	background-color:#dddddd;
+	color:#666666;
+}
+
+div.footer{
+	background-color:#6699bb;
+	color:white;
+}
+
+div.menu h2, div.menu h3, div.menu h4, div.menu h5{
+	border-bottom:dashed 1px #6699bb;
+}
+
+/* 本文デザイン */
+
+div.body pre{
+	border:solid 1px #6699bb;
+	background-color:#eeeeee;
+}
+
+div.body blockquote{
+	border-top:solid 2px #6699bb;
+	border-bottom:solid 2px #6699bb;
+	border-left:dashed 1px #6699bb;
+	border-right:dashed 1px #6699bb;
+}
+
+div.body h2{
+	border:solid #6699bb 1px;
+	border-left:solid #6699bb 8px;
+	padding:4px 4px 4px 10px;
+}
+
+div.body h3, div.body h5{
+	border-bottom:dashed #6699bb 1px;
+	padding:4px;
+}
+
+div.body h4{
+	border-bottom:solid #6699bb 1px;
+	padding:4px;
+}
+
+div.body .style_table{
+	border:solid 1px #6699bb;
+}
+
+div.body td.style_td{
+	border-bottom:dashed 1px #6699bb;
+}
+
+div.body thead td.style_td, div.body tfoot td.style_td{
+	background-color:#dddddd;
+}
+
+/* アンカー */
+
+div.logo a, div.footer a{
+	color:#ffaa00;
+	text-decoration:none;
+}
+
+div.navigationbar a, div.editbar a{
+	color:black;
+	text-decoration:none;
+}
+
+div.editbar a{
+	padding:0px 4px 0px 4px;
+}
+
+div.logo a:hover, div.footer a:hover, div.navigationbar a:hover, div.editbar a:hover{
+	text-decoration:underline;
+}
+
+div.menu ul a{
+	color:black;
+	border-color:white;
+	text-decoration:none;
+}
+
+div.menu ul a:hover{
+	background:#fdfdfd;
+	border:1px solid #6699bb;
+}
+
+div.body a{
+	color:black;
+	border-bottom:dashed 1px #6699bb;
+	text-decoration:none;
+}
+
+div.body a:hover{
+	color:black;
+	border-bottom:dashed 1px #ffaa00;
+	text-decoration:none;
+}
+
+div.body h2 a, div.body h3 a, div.body h4 a{
+	color:black;
+	border-bottom:0px;
+	text-decoration:none;
+}
+
+div.body h2 a:hover, div.body h3 a:hover, div.body h4 a:hover{
+	color:black;
+	border-bottom:0px;
+	text-decoration:none;
+}
+
+div.body div.related a, div.body div.notefoot a{
+	border-bottom:dashed 1px #dddddd;
+}

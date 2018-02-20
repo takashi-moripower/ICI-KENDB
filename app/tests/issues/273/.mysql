@@ -1,0 +1,5 @@
+export DBU=kendbuser
+export DBN=kendb
+export DBP=5zzYuga2
+export DBO=--default-character-set=utf8
+

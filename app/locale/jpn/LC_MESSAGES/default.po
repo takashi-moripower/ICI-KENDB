@@ -1,0 +1,5823 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KenDB\n"
+"POT-Creation-Date: 2013-06-28 17:25+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: ryuzee <ryuzee@gmail.com>\n"
+"Language-Team:  <titech-kendb@i-c-i.jp>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: /app_model.php:123;124
+msgid "This field can not leave empty."
+msgstr "必須入力です"
+
+#: /app_model.php:125
+msgid "Invalid Email address."
+msgstr "メールアドレスの形式が誤っています"
+
+#: /app_model.php:126
+msgid "Please input numerical and alphabetical characters."
+msgstr "英数字を入力してください"
+
+#: /app_model.php:127
+msgid "Between %2$d and %3$d characters."
+msgstr "%2$d文字から%3$d文字の間で入力してください"
+
+#: /app_model.php:128
+msgid "Please input numerical characters."
+msgstr "数字を入力してください"
+
+#: /app_model.php:129
+msgid "This value is not a unique."
+msgstr "ユニークな値を入力してください"
+
+#: /app_model.php:130
+msgid "This field can set boolean value."
+msgstr "真偽値を入力してください"
+
+#: /app_model.php:131
+msgid "Please input numerical and alphabetical characters and hyphen."
+msgstr "英数字かハイフンで入力してください"
+
+#: /app_model.php:132
+msgid "Please input numerical characters and hyphen."
+msgstr "数値かハイフンを入力してください"
+
+#: /app_model.php:133
+msgid "Please input %2$d characters."
+msgstr "半角%d文字で入力してください"
+
+#: /app_model.php:134
+msgid "Please input proper year."
+msgstr "西暦を入力してください"
+
+#: /app_model.php:135
+msgid "Please input date."
+msgstr "日付を入力してください"
+
+#: /app_model.php:136
+msgid "Please input proper japanese year."
+msgstr "和暦を入力してください"
+
+#: /app_model.php:137
+msgid ""
+"Please input numerical and alphabetical characters and hyphen, underscore, "
+"dot."
+msgstr "英数字、ハイフン、アンダースコア、ドットで入力してください"
+
+#: /app_model.php:138
+msgid "Please input proper password"
+msgstr "半角英数字記号を入力してください"
+
+#: /app_model.php:154
+msgid "Not empty"
+msgstr "空白以外"
+
+#: /app_model.php:155
+msgid "Required"
+msgstr "必須"
+
+#: /app_model.php:156 /vendors/shells/i18n_auto.php:26
+#: /views/elements/adoptions/view.ctp:380
+#: /views/elements/assessed_contributions/view.ctp:54
+#: /views/elements/donations/view.ctp:171 /views/elements/entrusts/view.ctp:60
+#: /views/elements/mhlw_research_grants/view.ctp:170
+#: /views/elements/other_research_grants/view.ctp:155
+#: /views/researchers/view.ctp:131 /views/roles/admin_view.ctp:51
+#: /views/users/admin_view.ctp:51
+msgid "Email"
+msgstr "メール"
+
+#: /app_model.php:157
+msgid "Numerical and alphabetical"
+msgstr "英数字を入力"
+
+#: /app_model.php:158
+msgid "Between %2$d and %3$d"
+msgstr "%2$d文字から%3$d文字で入力"
+
+#: /app_model.php:159
+msgid "Numerical characters."
+msgstr "数字を入力"
+
+#: /app_model.php:160
+msgid "Unique"
+msgstr "ユニークな値"
+
+#: /app_model.php:161
+msgid "Boolean"
+msgstr "選択"
+
+#: /app_model.php:162
+msgid "Numerical and alphabetical and hyphen"
+msgstr "英数字かハイフンで入力"
+
+#: /app_model.php:163
+msgid "Numerical and hyphen"
+msgstr "数字かハイフンを入力"
+
+#: /app_model.php:164
+#, fuzzy
+msgid "%1$d characters"
+msgstr "%2$d文字で入力"
+
+#: /app_model.php:165 /controllers/summaries_controller.php:313
+#: /vendors/shells/i18n_auto.php:49 /views/elements/adoptions/view.ctp:11
+#: /views/elements/assessed_contributions/view.ctp:11
+#: /views/elements/contracts/view.ctp:11 /views/elements/donations/view.ctp:11
+#: /views/elements/encourages/view.ctp:13 /views/elements/entrusts/view.ctp:11
+#: /views/elements/grants/view.ctp:11
+#: /views/elements/mhlw_research_grants/view.ctp:11
+#: /views/elements/nedo_jst_others/view.ctp:12
+#: /views/elements/other_research_grants/view.ctp:11
+msgid "Year"
+msgstr "年度"
+
+#: /app_model.php:166
+msgid "Japanese Year"
+msgstr "和暦で入力してください"
+
+#: /app_model.php:167
+msgid "YYYY-MM-DD"
+msgstr "YYYY-MM-DD"
+
+#: /app_model.php:168
+msgid "Numerical and alphabetical characters and hyphen, underscore, dot."
+msgstr "英数字、ハイフン、アンダースコア、ドットで入力してください"
+
+#: /app_model.php:169
+msgid "Password Character"
+msgstr "半角英数記号"
+
+#: /controllers/adoptions_controller.php:193
+#: /controllers/assessed_contributions_controller.php:192
+#: /controllers/contracts_controller.php:221
+#: /controllers/donations_controller.php:192
+#: /controllers/encourages_controller.php:191
+#: /controllers/entrusts_controller.php:493
+#: /controllers/grants_controller.php:224
+#: /controllers/mhlw_research_grants_controller.php:192
+#: /controllers/nedo_jst_others_controller.php:235
+#: /controllers/other_research_grants_controller.php:187
+msgid "Exceed Max Excel Record Count"
+msgstr ""
+"データ件数が多すぎるためExcelではダウンロード出来ません。CSV出力を利用してく"
+"ださい。"
+
+#: /controllers/adoptions_controller.php:264
+msgid "Invalid adoption"
+msgstr "無効な科研費(文科・学振)データ"
+
+#: /controllers/app_controller.php:145
+msgid "Invalid username or password"
+msgstr "ユーザー名かパスワードが違います"
+
+#: /controllers/app_controller.php:146
+msgid "You have no privileges"
+msgstr "権限がありません"
+
+#: /controllers/app_controller.php:322
+#: /controllers/researchers_controller.php:310
+msgid "File is not uploaded."
+msgstr "ファイルがアップロードされていません"
+
+#: /controllers/app_controller.php:330 /vendors/shells/bulkimport.php:98
+msgid "File can not be read. Please confirm file type."
+msgstr ""
+"ファイルの読み込みに失敗しました。ファイルが正しいExcel形式かどうか確認してく"
+"ださい"
+
+#: /controllers/app_controller.php:713
+#: /controllers/researchers_controller.php:320
+#: /vendors/shells/bulkimport.php:183
+msgid "There is no header record or does not match column count."
+msgstr "ヘッダーレコードが存在しないかカラム数が異なります"
+
+#: /controllers/app_controller.php:773
+#: /controllers/researchers_controller.php:362
+#: /vendors/shells/bulkimport.php:260
+msgid "Total %d records. %d records are invalid! rollback"
+msgstr ""
+"アップロード件数：%d件。うち%d件のデータに誤りがありますので、登録は実施しま"
+"せん。エラー内容を確認してください。"
+
+#: /controllers/app_controller.php:778
+#: /controllers/researchers_controller.php:367
+#: /vendors/shells/bulkimport.php:265
+msgid "Total %d records. %d records have been imported!"
+msgstr "アップロード件数：%d件。すべてのデータを登録しました。"
+
+#: /controllers/app_controller.php:781
+#: /controllers/researchers_controller.php:370
+#: /vendors/shells/bulkimport.php:268
+msgid ""
+"Total %d records. %d records have been imported. but %d records failed to "
+"insert or update."
+msgstr ""
+"アップロード件数：%d件。%d件のデータは登録しましたが、%d件のデータは登録に失"
+"敗しています。エラー内容を確認してください。"
+
+#: /controllers/app_controller.php:809;843;890;950
+#: /controllers/contracts_controller.php:417;568;650
+#: /controllers/entrusts_controller.php:324;606;691
+#: /controllers/grants_controller.php:424;575;657
+#: /controllers/information_controller.php:108;131
+#: /controllers/nedo_jst_others_controller.php:411;553;635
+#: /tests/cases/controllers/donations_controller.test.php:187
+#: /tests/cases/controllers/information_controller.test.php:44;107
+msgid "The %s has been saved"
+msgstr "%sを保存しました"
+
+#: /controllers/app_controller.php:816;849;899;911;956
+#: /controllers/contracts_controller.php:413;425;543;562;657
+#: /controllers/entrusts_controller.php:320;332;581;600;698
+#: /controllers/grants_controller.php:420;432;550;569;664
+#: /controllers/information_controller.php:111;134
+#: /controllers/nedo_jst_others_controller.php:407;419;528;547;642
+#: /tests/cases/controllers/information_controller.test.php:76
+msgid "The %s could not be saved. Please, try again."
+msgstr "%sの保存ができませんでした。再度試してください"
+
+#: /controllers/app_controller.php:878;940
+#: /controllers/information_controller.php:83;91;126
+#: /tests/cases/controllers/information_controller.test.php:178
+msgid "Invalid %s"
+msgstr "無効な%s"
+
+#: /controllers/app_controller.php:1012
+#: /controllers/information_controller.php:152
+msgid "Invalid id for %s"
+msgstr "%sのIDが無効です"
+
+#: /controllers/app_controller.php:1021
+#: /controllers/information_controller.php:156
+msgid "%s deleted"
+msgstr "%sを削除しました"
+
+#: /controllers/app_controller.php:1026
+msgid "%s was not deleted"
+msgstr "%sは削除できませんでした"
+
+#: /controllers/app_controller.php:1176
+msgid "%d records are updated."
+msgstr "%d件のデータを更新しました"
+
+#: /controllers/assessed_contributions_controller.php:265
+msgid "Invalid assessedContribution"
+msgstr "無効な科研費分担金(文科・学振)データ"
+
+#: /controllers/contracts_controller.php:306
+msgid "Invalid contract"
+msgstr "無効な受託事業データ"
+
+#: /controllers/contracts_controller.php:572;646
+#: /controllers/entrusts_controller.php:610;687
+#: /controllers/grants_controller.php:579;653
+#: /controllers/nedo_jst_others_controller.php:557;631
+msgid "Caluculation of %s has been failed"
+msgstr "%sの計算に失敗しました"
+
+#: /controllers/donations_controller.php:266
+msgid "Invalid donation"
+msgstr "無効な奨学寄附金データ"
+
+#: /controllers/encourages_controller.php:264
+msgid "Invalid encourage"
+msgstr "無効な科研費(特別研究員奨励費)データ"
+
+#: /controllers/entrusts_controller.php:257
+msgid "Invalid entrust"
+msgstr "無効な共同研究・受託研究（民間企業等）データ"
+
+#: /controllers/grants_controller.php:313
+#: /controllers/mhlw_research_grants_controller.php:265
+#: /controllers/other_research_grants_controller.php:258
+msgid "Invalid grant"
+msgstr "無効なその他補助金事業データ"
+
+#: /controllers/information_controller.php:83;91;108;111;126;131;134;152;156
+#: /tests/cases/controllers/information_controller.test.php:44;76;107;178
+#: /views/information/index.ctp:11 /views/information/view.ctp:12
+#: /views/users/index.ctp:7
+msgid "Information"
+msgstr "お知らせ"
+
+#: /controllers/nedo_jst_others_controller.php:322
+msgid "Invalid nedo jst other"
+msgstr "無効な受託研究（政府系）データです"
+
+#: /controllers/obligations_controller.php:88;118
+msgid "Invalid obligation"
+msgstr "無効な債主データ"
+
+#: /controllers/obligations_controller.php:102;123
+#: /tests/cases/controllers/obligations_controller.test.php:74;150
+msgid "The obligation has been saved"
+msgstr "債主データを保存しました"
+
+#: /controllers/obligations_controller.php:105;126
+#: /tests/cases/controllers/obligations_controller.test.php:114
+msgid "The obligation could not be saved. Please, try again."
+msgstr "債主データの保存ができませんでした。再度試してください"
+
+#: /controllers/obligations_controller.php:142
+msgid "Invalid id for obligation"
+msgstr "債主IDが無効です"
+
+#: /controllers/obligations_controller.php:146
+msgid "Obligation deleted"
+msgstr "債主データを削除しました"
+
+#: /controllers/obligations_controller.php:149
+msgid "Obligation was not deleted"
+msgstr "債主データは削除できませんでした"
+
+#: /controllers/other_research_grants_controller.php:88;97
+#: /views/other_research_grants/history_view.ctp:16
+#: /views/other_research_grants/view.ctp:34
+msgid "Other Research Grant"
+msgstr "研究補助金(環境・その他)"
+
+#: /controllers/projects_controller.php:88;122
+msgid "Invalid project"
+msgstr "無効なプロジェクト"
+
+#: /controllers/projects_controller.php:104;127
+msgid "The project has been saved"
+msgstr "プロジェクト情報を保存しました"
+
+#: /controllers/projects_controller.php:107;130
+msgid "The project could not be saved. Please, try again."
+msgstr "プロジェクト情報の保存ができませんでした。再度試してください"
+
+#: /controllers/projects_controller.php:148
+msgid "Invalid id for project"
+msgstr "プロジェクトIDが無効です"
+
+#: /controllers/projects_controller.php:152
+msgid "Project deleted"
+msgstr "プロジェクト情報を削除しました"
+
+#: /controllers/projects_controller.php:155
+msgid "Project was not deleted"
+msgstr "プロジェクト情報は削除できませんでした"
+
+#: /controllers/researchers_controller.php:162
+msgid "Invalid researcher"
+msgstr "無効な研究者"
+
+#: /controllers/roles_controller.php:74;106
+msgid "Invalid role"
+msgstr "無効な権限"
+
+#: /controllers/roles_controller.php:89;111
+#: /tests/cases/controllers/roles_controller.test.php:90
+msgid "The role has been saved"
+msgstr "権限情報を保存しました"
+
+#: /controllers/roles_controller.php:92;114
+msgid "The role could not be saved. Please, try again."
+msgstr "権限情報の保存ができませんでした。再度試してください"
+
+#: /controllers/roles_controller.php:131
+msgid "Invalid id for role"
+msgstr "権限IDが無効です"
+
+#: /controllers/roles_controller.php:136
+msgid "Role was not deleted because this role has some users."
+msgstr "権限が利用中のため削除できませんでした"
+
+#: /controllers/roles_controller.php:141
+msgid "Role deleted"
+msgstr "権限情報を削除しました"
+
+#: /controllers/roles_controller.php:144
+msgid "Role was not deleted"
+msgstr "権限情報は削除できませんでした"
+
+#: /controllers/selectable_items_controller.php:152;178
+#: /tests/cases/controllers/selectable_items_controller.test.php:47;76;143
+msgid "The selectable item has been saved"
+msgstr "データを保存しました"
+
+#: /controllers/selectable_items_controller.php:155;181
+#: /tests/cases/controllers/selectable_items_controller.test.php:112;175
+msgid "The selectable item could not be saved. Please, try again."
+msgstr "データの保存ができませんでした。再度試してください"
+
+#: /controllers/selectable_items_controller.php:172
+msgid "Invalid selectable item"
+msgstr "無効なデータです"
+
+#: /controllers/selectable_items_controller.php:199
+msgid "Invalid id for selectable item"
+msgstr "データのIDが無効です"
+
+#: /controllers/selectable_items_controller.php:210
+msgid "Selectable item deleted"
+msgstr "データを削除しました"
+
+#: /controllers/selectable_items_controller.php:213
+msgid "Selectable item was not deleted"
+msgstr "データを削除できませんでした"
+
+#: /controllers/summaries_controller.php:304 /vendors/shells/i18n_auto.php:1
+#: /views/contracts/edit.ctp:23 /views/contracts/view.ctp:40
+#: /views/elements/adoptions/view.ctp:4
+#: /views/elements/assessed_contributions/view.ctp:4
+#: /views/elements/contracts/view.ctp:4 /views/elements/donations/view.ctp:4
+#: /views/elements/encourages/view.ctp:4 /views/elements/entrusts/view.ctp:4
+#: /views/elements/grants/view.ctp:4
+#: /views/elements/mhlw_research_grants/view.ctp:4
+#: /views/elements/nedo_jst_others/view.ctp:4
+#: /views/elements/other_research_grants/view.ctp:4
+#: /views/entrusts/edit.ctp:24 /views/entrusts/view.ctp:40
+#: /views/grants/edit.ctp:23 /views/grants/view.ctp:40
+#: /views/information/view.ctp:14 /views/nedo_jst_others/edit.ctp:18
+#: /views/nedo_jst_others/view.ctp:41 /views/researchers/view.ctp:6
+#: /views/roles/admin_view.ctp:17;47 /views/users/admin_view.ctp:16
+#: /views/users/search.ctp:24
+msgid "Id"
+msgstr "ID"
+
+#: /controllers/summaries_controller.php:305
+#: /views/nedo_jst_others/index.ctp:69
+msgid "Parent Id"
+msgstr "プロジェクトレコードID"
+
+#: /controllers/summaries_controller.php:306
+#: /views/elements/cross_search.ctp:42 /views/summaries/index.ctp:29
+#: /views/users/search.ctp:28
+msgid "Common Search Department"
+msgstr "所属部局名"
+
+#: /controllers/summaries_controller.php:307 /views/summaries/index.ctp:30
+#: /views/users/search.ctp:27
+msgid "Common Search Researcher Name"
+msgstr "氏名"
+
+#: /controllers/summaries_controller.php:308
+#: /views/elements/cross_search.ctp:44 /views/summaries/index.ctp:31
+#: /views/users/search.ctp:29
+msgid "Common Search Job Title"
+msgstr "職"
+
+#: /controllers/summaries_controller.php:309 /views/summaries/index.ctp:32
+msgid "CurrentAge"
+msgstr "年齢"
+
+#: /controllers/summaries_controller.php:310
+#: /views/elements/cross_search.ctp:45 /views/summaries/index.ctp:33
+#: /views/users/search.ctp:33
+msgid "Common Search Amount"
+msgstr "受入総額"
+
+#: /controllers/summaries_controller.php:311
+#: /views/elements/cross_search.ctp:47 /views/summaries/index.ctp:34
+msgid "Common Search Direct Cost"
+msgstr "直接経費"
+
+#: /controllers/summaries_controller.php:312
+#: /views/elements/cross_search.ctp:51 /views/summaries/index.ctp:35
+msgid "Common Search Indirect Cost"
+msgstr "間接経費"
+
+#: /controllers/summaries_controller.php:314 /views/summaries/index.ctp:37
+#: /views/users/search.ctp:22
+msgid "Data Type"
+msgstr "データ種別"
+
+#: /controllers/summaries_controller.php:315
+#: /views/elements/cross_search.ctp:57 /views/summaries/index.ctp:38
+#: /views/users/search.ctp:25
+msgid "Common Search Research Type"
+msgstr "プログラム名"
+
+#: /controllers/summaries_controller.php:316
+#: /views/elements/cross_search.ctp:58 /views/summaries/index.ctp:39
+#: /views/users/search.ctp:30
+msgid "Common Search Subject"
+msgstr "研究題目"
+
+#: /controllers/summaries_controller.php:317
+#: /views/elements/cross_search.ctp:59 /views/summaries/index.ctp:40
+msgid "Common Search Fund Owner"
+msgstr "資金元"
+
+#: /controllers/summaries_controller.php:318
+#: /views/elements/cross_search.ctp:53 /views/summaries/index.ctp:41
+#: /views/users/search.ctp:31
+msgid "Common Search Start Date"
+msgstr "研究開始日"
+
+#: /controllers/summaries_controller.php:319
+#: /views/elements/cross_search.ctp:55 /views/summaries/index.ctp:42
+#: /views/users/search.ctp:32
+msgid "Common Search End Date"
+msgstr "研究終了日"
+
+#: /controllers/summaries_controller.php:320 /views/summaries/index.ctp:43
+msgid "BirthdayYMD"
+msgstr "生年月日"
+
+#: /controllers/summaries_controller.php:321
+#: /views/elements/cross_search.ctp:60 /views/summaries/index.ctp:44
+msgid "Common Search Memo"
+msgstr "備考"
+
+#: /controllers/users_controller.php:104
+msgid "You have finished to logout."
+msgstr "ログアウトしました"
+
+#: /controllers/users_controller.php:128;189;243
+msgid "Invalid user"
+msgstr "無効なユーザー"
+
+#: /controllers/users_controller.php:153;220;268
+#: /tests/cases/controllers/users_controller.test.php:113
+msgid "The user has been saved"
+msgstr "ユーザー情報を保存しました"
+
+#: /controllers/users_controller.php:159;224;272
+#: /tests/cases/controllers/users_controller.test.php:149
+msgid "The user could not be saved. Please, try again."
+msgstr "ユーザー情報の保存ができませんでした。再度試してください"
+
+#: /controllers/users_controller.php:291
+msgid "Invalid id for user"
+msgstr "ユーザーIDが無効です"
+
+#: /controllers/users_controller.php:295
+msgid "User deleted"
+msgstr "ユーザー情報を削除しました"
+
+#: /controllers/users_controller.php:298
+msgid "User was not deleted"
+msgstr "ユーザー情報は削除できませんでした"
+
+#: /models/user.php:133
+msgid "User not set."
+msgstr "ユーザーがセットされていません"
+
+#: /plugins/acl/acl_app_controller.php:35
+msgid ""
+"The role model name is unknown. The ACL plugin bootstrap.php file has to be "
+"loaded in order to work. (see the README file)"
+msgstr ""
+"ロールモデル名が不明です。動作するためにACLプラグインのbootstrap.phpが読み込"
+"まれている必要があります"
+
+#: /plugins/acl/acl_app_controller.php:56
+msgid "the ACL plugin \"tmp\" directory is not writable"
+msgstr "ACLプラグインの/tmp/ディレクトリに書き込みができません"
+
+#: /plugins/acl/views/elements/design/header.ctp:4 /views/users/edit.ctp:3
+msgid "Home"
+msgstr "ホーム"
+
+#: /plugins/acl/views/elements/design/header.ctp:4
+#: /views/layouts/default.ctp:96
+msgid "Manage"
+msgstr "管理"
+
+#: /tests/cases/controllers/donations_controller.test.php:187
+#: /vendors/shells/i18n_auto.php:669 /views/donations/index.ctp:38
+#: /views/donations/manage.ctp:4
+msgid "Donations"
+msgstr "奨学寄附金データ"
+
+#: /tests/cases/controllers/entrusts_controller.test.php:69;71
+#: /vendors/shells/i18n_auto.php:47 /views/elements/adoptions/view.ctp:432
+#: /views/elements/assessed_contributions/view.ctp:302
+#: /views/elements/contracts/view.ctp:218
+#: /views/elements/donations/view.ctp:218
+#: /views/elements/encourages/view.ctp:394
+#: /views/elements/entrusts/view.ctp:382 /views/elements/grants/view.ctp:206
+#: /views/elements/mhlw_research_grants/view.ctp:203
+#: /views/elements/nedo_jst_others/view.ctp:798
+#: /views/elements/other_research_grants/view.ctp:189
+msgid "Updated By"
+msgstr "更新者"
+
+#: /tests/cases/controllers/information_controller.test.php:154
+#: /plugins/acl/views/aros/admin_users.ctp:14
+msgid "name"
+msgstr "名前"
+
+#: /tests/cases/controllers/information_controller.test.php:155
+msgid "description"
+msgstr "詳細"
+
+#: /tests/cases/controllers/information_controller.test.php:156
+msgid "disabled"
+msgstr "無効"
+
+#: /tests/cases/controllers/information_controller.test.php:157
+msgid "startdate"
+msgstr "掲載開始日"
+
+#: /tests/cases/controllers/information_controller.test.php:158
+msgid "enddate"
+msgstr "掲載終了日"
+
+#: /vendors/shells/bulkimport.php:357;390 /vendors/shells/i18n_auto.php:658
+#: /views/adoptions/history_view.ctp:17 /views/adoptions/upload.ctp:14
+#: /views/adoptions/view.ctp:36
+msgid "Adoption"
+msgstr "科研費(文科・学振)"
+
+#: /vendors/shells/bulkimport.php:417 /vendors/shells/i18n_auto.php:659
+msgid "AssessedContribution"
+msgstr "科研費分担金（文科・学振）"
+
+#: /vendors/shells/bulkimport.php:450;486 /vendors/shells/i18n_auto.php:653
+#: /views/encourages/history_view.ctp:17 /views/encourages/upload.ctp:13
+#: /views/encourages/view.ctp:36
+msgid "Encourage"
+msgstr "科研費(特別研究員奨励費)"
+
+#: /vendors/shells/i18n_auto.php:2 /views/elements/adoptions/view.ctp:397
+#: /views/elements/assessed_contributions/view.ctp:25
+#: /views/elements/contracts/view.ctp:12
+#: /views/elements/donations/view.ctp:183
+#: /views/elements/encourages/view.ctp:63 /views/elements/entrusts/view.ctp:44
+#: /views/elements/grants/view.ctp:13
+#: /views/elements/mhlw_research_grants/view.ctp:56
+#: /views/elements/nedo_jst_others/view.ctp:59
+#: /views/elements/other_research_grants/view.ctp:41
+#: /views/projects/view.ctp:56 /views/researchers/view.ctp:11
+#: /views/users/search.ctp:35
+msgid "Cooperate No"
+msgstr "東工大連携Id"
+
+#: /vendors/shells/i18n_auto.php:3 /views/elements/adoptions/view.ctp:398
+#: /views/elements/assessed_contributions/view.ctp:26
+#: /views/elements/donations/view.ctp:185
+#: /views/elements/encourages/view.ctp:64
+#: /views/elements/mhlw_research_grants/view.ctp:57
+#: /views/elements/other_research_grants/view.ctp:42
+#: /views/researchers/view.ctp:16
+msgid "Personal No"
+msgstr "職員番号"
+
+#: /vendors/shells/i18n_auto.php:4 /views/elements/adoptions/view.ctp:126
+#: /views/elements/contracts/view.ctp:13
+#: /views/elements/donations/view.ctp:184
+#: /views/elements/encourages/view.ctp:65 /views/elements/entrusts/view.ctp:43
+#: /views/elements/grants/view.ctp:14
+#: /views/elements/mhlw_research_grants/view.ctp:58
+#: /views/elements/nedo_jst_others/view.ctp:58
+#: /views/elements/other_research_grants/view.ctp:43
+#: /views/projects/view.ctp:61 /views/researchers/view.ctp:21
+#: /views/users/search.ctp:34
+msgid "Researcher No"
+msgstr "研究者番号"
+
+#: /vendors/shells/i18n_auto.php:5 /views/elements/entrusts/view.ctp:45
+#: /views/elements/nedo_jst_others/view.ctp:60 /views/entrusts/edit.ctp:25
+#: /views/entrusts/view.ctp:41 /views/nedo_jst_others/edit.ctp:19
+#: /views/nedo_jst_others/view.ctp:42 /views/projects/view.ctp:31
+#: /views/researchers/view.ctp:26
+msgid "Researcher Name"
+msgstr "氏名"
+
+#: /vendors/shells/i18n_auto.php:6 /views/researchers/view.ctp:31
+msgid "Kana"
+msgstr "フリガナ"
+
+#: /vendors/shells/i18n_auto.php:7 /views/elements/encourages/view.ctp:36
+#: /views/researchers/view.ctp:36
+msgid "Sex"
+msgstr "性別"
+
+#: /vendors/shells/i18n_auto.php:8 /views/researchers/view.ctp:41
+msgid "Birth Year"
+msgstr "西暦"
+
+#: /vendors/shells/i18n_auto.php:9 /views/researchers/view.ctp:46
+msgid "Birth Month"
+msgstr "月"
+
+#: /vendors/shells/i18n_auto.php:10 /views/researchers/view.ctp:51
+msgid "Birth Day"
+msgstr "日"
+
+#: /vendors/shells/i18n_auto.php:11 /views/researchers/view.ctp:56
+msgid "Degree"
+msgstr "学位"
+
+#: /vendors/shells/i18n_auto.php:12 /views/elements/adoptions/view.ctp:57
+#: /views/elements/contracts/view.ctp:61 /views/elements/entrusts/view.ctp:46
+#: /views/elements/grants/view.ctp:62
+#: /views/elements/nedo_jst_others/view.ctp:61 /views/projects/view.ctp:46
+#: /views/researchers/view.ctp:61 /views/roles/admin_view.ctp:50
+#: /views/users/admin_view.ctp:44
+msgid "Department"
+msgstr "部局名"
+#: msgstr "部局名(旧組織)"
+
+#: /vendors/shells/i18n_auto.php:13 /views/elements/contracts/view.ctp:60
+#: /views/elements/donations/view.ctp:169 /views/elements/entrusts/view.ctp:57
+#: /views/elements/grants/view.ctp:61
+#: /views/elements/nedo_jst_others/view.ctp:73 /views/projects/view.ctp:36
+#: /views/researchers/view.ctp:66
+msgid "Job Title"
+msgstr "職名"
+
+#: /vendors/shells/i18n_auto.php:14 /views/researchers/view.ctp:71
+msgid "Sex No"
+msgstr "性別番号"
+
+#: /vendors/shells/i18n_auto.php:15 /views/researchers/view.ctp:76
+msgid "Degree No"
+msgstr "学位番号"
+
+#: /vendors/shells/i18n_auto.php:16 /views/researchers/view.ctp:81
+msgid "Affiliation No"
+msgstr "所属番号"
+
+#: /vendors/shells/i18n_auto.php:17 /views/researchers/view.ctp:86
+msgid "Job No"
+msgstr "職番号"
+
+#: /vendors/shells/i18n_auto.php:18 /views/elements/adoptions/view.ctp:67
+#: /views/elements/mhlw_research_grants/view.ctp:71
+#: /views/elements/other_research_grants/view.ctp:56
+#: /views/researchers/view.ctp:91
+msgid "Notifying Department"
+msgstr "通知部局名"
+#: msgstr "通知部局名"
+
+#: /vendors/shells/i18n_auto.php:19 /views/elements/adoptions/view.ctp:68
+#: /views/elements/encourages/view.ctp:79
+#: /views/elements/mhlw_research_grants/view.ctp:72
+#: /views/elements/other_research_grants/view.ctp:57
+#: /views/researchers/view.ctp:96
+msgid "Statistical Department"
+msgstr "統計部局名"
+#: msgstr "統計部局名(旧組織)"
+
+#: /vendors/shells/i18n_auto.php:20 /views/researchers/view.ctp:101
+msgid "Counting Department"
+msgstr "集計部局名"
+#: msgstr "集計部局名(旧組織)"
+
+#: /vendors/shells/i18n_auto.php:21 /views/elements/adoptions/view.ctp:69
+#: /views/elements/contracts/view.ctp:62
+#: /views/elements/donations/view.ctp:168 /views/elements/entrusts/view.ctp:47
+#: /views/elements/grants/view.ctp:63
+#: /views/elements/nedo_jst_others/view.ctp:62 /views/researchers/view.ctp:106
+msgid "Major Name"
+msgstr "専攻名"
+#: msgstr "専攻名(旧組織)"
+
+#: /vendors/shells/i18n_auto.php:22 /views/researchers/view.ctp:111
+msgid "Statistical Job Title"
+msgstr "統計職名"
+
+#: /vendors/shells/i18n_auto.php:23 /views/researchers/view.ctp:116
+msgid "Formal Job Title"
+msgstr "役職辞令用正式名称"
+
+#: /vendors/shells/i18n_auto.php:24 /views/elements/adoptions/view.ctp:377
+#: /views/elements/assessed_contributions/view.ctp:43
+#: /views/elements/donations/view.ctp:170 /views/elements/entrusts/view.ctp:58
+#: /views/elements/mhlw_research_grants/view.ctp:167
+#: /views/elements/other_research_grants/view.ctp:152
+#: /views/researchers/view.ctp:121
+msgid "Extension"
+msgstr "内線"
+
+#: /vendors/shells/i18n_auto.php:25 /views/elements/adoptions/view.ctp:378
+#: /views/elements/assessed_contributions/view.ctp:53
+#: /views/elements/mhlw_research_grants/view.ctp:168
+#: /views/elements/other_research_grants/view.ctp:153
+#: /views/researchers/view.ctp:126
+msgid "Fax"
+msgstr "ＦＡＸ"
+
+#: /vendors/shells/i18n_auto.php:27 /views/elements/adoptions/view.ctp:379
+#: /views/elements/assessed_contributions/view.ctp:42
+#: /views/elements/donations/view.ctp:182 /views/elements/entrusts/view.ctp:59
+#: /views/elements/mhlw_research_grants/view.ctp:169
+#: /views/elements/other_research_grants/view.ctp:154
+#: /views/researchers/view.ctp:136
+msgid "Post No"
+msgstr "ポスト番号"
+
+#: /vendors/shells/i18n_auto.php:28 /views/researchers/view.ctp:141
+msgid "Qualification"
+msgstr "資格"
+
+#: /vendors/shells/i18n_auto.php:29 /views/researchers/view.ctp:146
+msgid "Applicant Qualification"
+msgstr "科研費応募資格"
+
+#: /vendors/shells/i18n_auto.php:30 /views/researchers/view.ctp:151
+msgid "Detail No"
+msgstr "細目番号"
+
+#: /vendors/shells/i18n_auto.php:31 /views/researchers/view.ctp:156
+msgid "Group Name"
+msgstr "系"
+
+#: /vendors/shells/i18n_auto.php:32 /views/researchers/view.ctp:161
+msgid "Discipline"
+msgstr "分野"
+
+#: /vendors/shells/i18n_auto.php:33 /views/researchers/view.ctp:166
+msgid "Branch"
+msgstr "分科"
+
+#: /vendors/shells/i18n_auto.php:34 /views/researchers/view.ctp:171
+msgid "Detail"
+msgstr "細目"
+
+#: /vendors/shells/i18n_auto.php:35 /views/researchers/view.ctp:176
+msgid "Comments"
+msgstr "コメント"
+
+#: /vendors/shells/i18n_auto.php:36 /views/researchers/view.ctp:181
+msgid "Transfer Date"
+msgstr "異動日"
+
+#: /vendors/shells/i18n_auto.php:37 /views/researchers/view.ctp:186
+msgid "Erad Change Date"
+msgstr "e-Rad変更日"
+
+#: /vendors/shells/i18n_auto.php:38
+#: /views/elements/assessed_contributions/view.ctp:55
+#: /views/elements/mhlw_research_grants/view.ctp:26
+#: /views/elements/other_research_grants/view.ctp:26
+#: /views/researchers/view.ctp:191
+msgid "Moving History"
+msgstr "転入元転出先"
+
+#: /vendors/shells/i18n_auto.php:39 /views/researchers/view.ctp:196
+msgid "Old Job Title"
+msgstr "旧職名"
+
+#: /vendors/shells/i18n_auto.php:40 /views/researchers/view.ctp:201
+msgid "Changes"
+msgstr "変更・転出等"
+
+#: /vendors/shells/i18n_auto.php:41
+#: /views/elements/assessed_contributions/view.ctp:95
+#: /views/elements/donations/view.ctp:133
+#: /views/elements/encourages/view.ctp:129
+#: /views/elements/mhlw_research_grants/view.ctp:160
+#: /views/elements/nedo_jst_others/view.ctp:770
+#: /views/elements/other_research_grants/view.ctp:145
+#: /views/nedo_jst_others/edit.ctp:20 /views/nedo_jst_others/view.ctp:43
+#: /views/researchers/view.ctp:206
+msgid "Remarks"
+msgstr "備考"
+
+#: /vendors/shells/i18n_auto.php:42 /views/elements/adoptions/view.ctp:416
+#: /views/elements/assessed_contributions/view.ctp:286
+#: /views/elements/contracts/view.ctp:202
+#: /views/elements/donations/view.ctp:202
+#: /views/elements/encourages/view.ctp:378
+#: /views/elements/entrusts/view.ctp:366 /views/elements/grants/view.ctp:190
+#: /views/elements/mhlw_research_grants/view.ctp:187
+#: /views/elements/nedo_jst_others/view.ctp:782
+#: /views/elements/other_research_grants/view.ctp:173
+#: /views/information/view.ctp:29 /views/roles/admin_view.ctp:55
+#: /views/users/admin_view.ctp:86
+msgid "Disabled"
+msgstr "無効"
+
+#: /vendors/shells/i18n_auto.php:43 /views/elements/adoptions/view.ctp:417
+#: /views/elements/assessed_contributions/view.ctp:287
+#: /views/elements/contracts/view.ctp:203
+#: /views/elements/donations/view.ctp:203
+#: /views/elements/encourages/view.ctp:379
+#: /views/elements/entrusts/view.ctp:367 /views/elements/grants/view.ctp:191
+#: /views/elements/mhlw_research_grants/view.ctp:188
+#: /views/elements/nedo_jst_others/view.ctp:783
+#: /views/elements/other_research_grants/view.ctp:174
+msgid "Hidden"
+msgstr "レコードを隠す"
+
+#: /vendors/shells/i18n_auto.php:44 /views/elements/adoptions/view.ctp:429
+#: /views/elements/assessed_contributions/view.ctp:299
+#: /views/elements/contracts/view.ctp:215
+#: /views/elements/donations/view.ctp:215
+#: /views/elements/encourages/view.ctp:391
+#: /views/elements/entrusts/view.ctp:379 /views/elements/grants/view.ctp:203
+#: /views/elements/mhlw_research_grants/view.ctp:200
+#: /views/elements/nedo_jst_others/view.ctp:795
+#: /views/elements/other_research_grants/view.ctp:186
+#: /views/information/view.ctp:44 /views/roles/admin_view.ctp:27;56
+#: /views/users/admin_view.ctp:93
+msgid "Created"
+msgstr "作成日"
+
+#: /vendors/shells/i18n_auto.php:45 /views/elements/adoptions/view.ctp:431
+#: /views/elements/assessed_contributions/view.ctp:301
+#: /views/elements/contracts/view.ctp:217
+#: /views/elements/donations/view.ctp:217
+#: /views/elements/encourages/view.ctp:393
+#: /views/elements/entrusts/view.ctp:381 /views/elements/grants/view.ctp:205
+#: /views/elements/mhlw_research_grants/view.ctp:202
+#: /views/elements/nedo_jst_others/view.ctp:797
+#: /views/elements/other_research_grants/view.ctp:188
+#: /views/information/view.ctp:49 /views/roles/admin_view.ctp:32;57
+#: /views/users/admin_view.ctp:100
+msgid "Updated"
+msgstr "更新日"
+
+#: /vendors/shells/i18n_auto.php:46 /views/elements/adoptions/view.ctp:430
+#: /views/elements/assessed_contributions/view.ctp:300
+#: /views/elements/contracts/view.ctp:216
+#: /views/elements/donations/view.ctp:216
+#: /views/elements/encourages/view.ctp:392
+#: /views/elements/entrusts/view.ctp:380 /views/elements/grants/view.ctp:204
+#: /views/elements/mhlw_research_grants/view.ctp:201
+#: /views/elements/nedo_jst_others/view.ctp:796
+#: /views/elements/other_research_grants/view.ctp:187
+msgid "Created By"
+msgstr "作成者"
+
+#: /vendors/shells/i18n_auto.php:48
+msgid "Entrust Id"
+msgstr "プロジェクトレコードID"
+
+#: /vendors/shells/i18n_auto.php:50 /views/elements/contracts/view.ctp:14
+#: /views/elements/donations/view.ctp:61 /views/elements/entrusts/view.ctp:12
+#: /views/elements/grants/view.ctp:15
+#: /views/elements/nedo_jst_others/view.ctp:13
+#: /views/elements/projects/form.ctp:7 /views/projects/view.ctp:16
+msgid "Project Code"
+msgstr "PJコード"
+
+#: /views/summaries/index.ctp:42
+msgid "Project Code or Number"
+msgstr "課題番号・PJコード"
+
+#: /vendors/shells/i18n_auto.php:51 /views/elements/entrusts/view.ctp:13
+#: /views/elements/nedo_jst_others/view.ctp:14
+msgid "Project Type"
+msgstr "種別"
+
+#: /vendors/shells/i18n_auto.php:52
+#: /views/elements/assessed_contributions/view.ctp:251
+#: /views/elements/entrusts/view.ctp:15
+#: /views/elements/nedo_jst_others/view.ctp:40
+msgid "Person In Charge"
+msgstr "担当者"
+
+#: /vendors/shells/i18n_auto.php:53 /views/elements/entrusts/view.ctp:25
+msgid "Resolution No"
+msgstr "原義番号"
+
+#: /vendors/shells/i18n_auto.php:54 /views/elements/entrusts/view.ctp:26
+msgid "Branch No"
+msgstr "変更枝番"
+
+#: /vendors/shells/i18n_auto.php:55 /views/elements/entrusts/search.ctp:12
+#: /views/elements/entrusts/view.ctp:14
+msgid "Reception Date"
+msgstr "受付日"
+
+#: /vendors/shells/i18n_auto.php:56 /views/elements/entrusts/view.ctp:136
+msgid "Start Budget Year"
+msgstr "開始予算年度"
+
+#: /vendors/shells/i18n_auto.php:57 /views/elements/entrusts/search.ctp:72
+#: /views/elements/entrusts/view.ctp:137
+msgid "Credit"
+msgstr "本年度入金"
+
+#: /vendors/shells/i18n_auto.php:58 /views/elements/entrusts/view.ctp:75
+#: /views/elements/nedo_jst_others/view.ctp:90
+msgid "Subject"
+msgstr "研究題目"
+
+#: /vendors/shells/i18n_auto.php:59 /views/elements/entrusts/search.ctp:43
+#: /views/elements/entrusts/view.ctp:76
+#: /views/elements/nedo_jst_others/search.ctp:58
+#: /views/elements/nedo_jst_others/view.ctp:121
+msgid "Start Date"
+msgstr "研究開始日"
+
+#: /vendors/shells/i18n_auto.php:60 /views/elements/entrusts/search.ctp:44
+#: /views/elements/entrusts/view.ctp:77
+#: /views/elements/nedo_jst_others/search.ctp:61
+#: /views/elements/nedo_jst_others/view.ctp:122
+msgid "End Date"
+msgstr "研究終了日"
+
+#: /vendors/shells/i18n_auto.php:61 /views/elements/entrusts/view.ctp:79
+#: /views/elements/nedo_jst_others/view.ctp:120
+msgid "Area Of Research"
+msgstr "研究分野"
+
+#: /vendors/shells/i18n_auto.php:62 /views/elements/contracts/view.ctp:72
+#: /views/elements/entrusts/view.ctp:90 /views/elements/grants/view.ctp:88
+#: /views/elements/nedo_jst_others/view.ctp:148
+msgid "Singular Or Multi"
+msgstr "単/複数"
+
+#: /vendors/shells/i18n_auto.php:63 /views/elements/adoptions/view.ctp:55
+#: /views/elements/contracts/view.ctp:58
+#: /views/elements/encourages/view.ctp:35 /views/elements/entrusts/view.ctp:91
+#: /views/elements/mhlw_research_grants/view.ctp:41
+#: /views/elements/nedo_jst_others/view.ctp:147
+#: /views/elements/other_research_grants/view.ctp:30
+msgid "New Or Continuance"
+msgstr "新/継"
+
+#: /vendors/shells/i18n_auto.php:64 /views/elements/entrusts/view.ctp:138
+msgid "Payment"
+msgstr "納付"
+
+#: /vendors/shells/i18n_auto.php:65 /views/elements/donations/search.ctp:59
+#: /views/elements/donations/view.ctp:82
+#: /views/elements/entrusts/search.ctp:74
+#: /views/elements/entrusts/view.ctp:139
+msgid "Division Count"
+msgstr "分割回数"
+
+#: /vendors/shells/i18n_auto.php:66 /views/elements/entrusts/view.ctp:27
+msgid "Continuance No"
+msgstr "継続番号"
+
+#: /vendors/shells/i18n_auto.php:67 /views/elements/entrusts/view.ctp:92
+msgid "Applicant Name 1"
+msgstr "申込機関1"
+
+#: /vendors/shells/i18n_auto.php:68 /views/elements/entrusts/view.ctp:93
+msgid "Category Of Business"
+msgstr "業種"
+
+#: /vendors/shells/i18n_auto.php:69 /views/elements/entrusts/view.ctp:94
+msgid "Association Type"
+msgstr "機関分類"
+
+#: /vendors/shells/i18n_auto.php:70 /views/elements/entrusts/view.ctp:104
+msgid "Applicant Scale"
+msgstr "会社規模"
+
+#: /vendors/shells/i18n_auto.php:71 /views/elements/entrusts/view.ctp:105
+msgid "Applicant Name 2"
+msgstr "申込機関2"
+
+#: /vendors/shells/i18n_auto.php:72 /views/elements/entrusts/view.ctp:106
+msgid "Business Title"
+msgstr "役職名"
+
+#: /vendors/shells/i18n_auto.php:73 /views/elements/entrusts/view.ctp:107
+msgid "Representative"
+msgstr "機関代表者"
+
+#: /vendors/shells/i18n_auto.php:74
+#: /views/elements/assessed_contributions/view.ctp:248
+#: /views/elements/entrusts/view.ctp:108
+msgid "Address"
+msgstr "機関代表者住所"
+
+#: /vendors/shells/i18n_auto.php:75 /views/elements/entrusts/view.ctp:118
+msgid "Associate Researcher Name"
+msgstr "民間等共同研究員氏名"
+
+#: /vendors/shells/i18n_auto.php:76 /views/elements/entrusts/view.ctp:119
+msgid "Number Of Researchers"
+msgstr "研究員数"
+
+#: /vendors/shells/i18n_auto.php:77 /views/elements/entrusts/view.ctp:192
+msgid "Formula"
+msgstr "計算式"
+
+#: /vendors/shells/i18n_auto.php:78 /views/elements/entrusts/search.ctp:78
+#: /views/elements/entrusts/view.ctp:150
+msgid "Former Payment D"
+msgstr "前年度以前納付直"
+
+#: /vendors/shells/i18n_auto.php:79 /views/elements/entrusts/search.ctp:79
+#: /views/elements/entrusts/view.ctp:151
+msgid "Former Payment R"
+msgstr "前年度以前納付研"
+
+#: /vendors/shells/i18n_auto.php:80 /views/elements/entrusts/search.ctp:80
+#: /views/elements/entrusts/view.ctp:152
+msgid "Former Payment I"
+msgstr "前年度以前納付間"
+
+#: /vendors/shells/i18n_auto.php:81 /views/elements/entrusts/search.ctp:81
+#: /views/elements/entrusts/view.ctp:153
+msgid "Former Payment Sum"
+msgstr "前年度以前納付計"
+
+#: /vendors/shells/i18n_auto.php:82 /views/elements/entrusts/search.ctp:96
+#: /views/elements/entrusts/view.ctp:164
+msgid "Current Payment Dr"
+msgstr "本年度直（研究室配分）"
+
+#: /vendors/shells/i18n_auto.php:83 /views/elements/entrusts/search.ctp:97
+#: /views/elements/entrusts/view.ctp:165
+msgid "Current Payment U"
+msgstr "本年度光熱水料"
+
+#: /vendors/shells/i18n_auto.php:84 /views/elements/entrusts/search.ctp:98
+#: /views/elements/entrusts/view.ctp:166
+msgid "Current Payment G"
+msgstr "本年度一般管理費"
+
+#: /vendors/shells/i18n_auto.php:85 /views/elements/adoptions/search.ctp:81
+#: /views/elements/adoptions/view.ctp:110
+#: /views/elements/entrusts/search.ctp:86
+#: /views/elements/entrusts/view.ctp:178
+msgid "Current Payment D"
+msgstr "本年度直"
+
+#: /vendors/shells/i18n_auto.php:86 /views/elements/adoptions/search.ctp:82
+#: /views/elements/entrusts/search.ctp:87
+#: /views/elements/entrusts/view.ctp:179
+msgid "Current Payment R"
+msgstr "本年度研料"
+
+#: /vendors/shells/i18n_auto.php:87 /views/elements/adoptions/view.ctp:111
+#: /views/elements/entrusts/search.ctp:88
+#: /views/elements/entrusts/view.ctp:180
+msgid "Current Payment I"
+msgstr "本年度間"
+
+#: /vendors/shells/i18n_auto.php:88 /views/elements/adoptions/search.ctp:80
+#: /views/elements/entrusts/search.ctp:89
+#: /views/elements/entrusts/view.ctp:181
+msgid "Current Payment Sum"
+msgstr "本年度総計"
+
+#: /vendors/shells/i18n_auto.php:89 /views/elements/entrusts/search.ctp:105
+#: /views/elements/entrusts/view.ctp:193
+msgid "Current Payment Alloc"
+msgstr "本年度研究室配分"
+
+#: /vendors/shells/i18n_auto.php:90 /views/elements/adoptions/search.ctp:88
+#: /views/elements/adoptions/view.ctp:112
+#: /views/elements/entrusts/search.ctp:109
+#: /views/elements/entrusts/view.ctp:206
+msgid "Next1 Payment D"
+msgstr "次年度直"
+
+#: /vendors/shells/i18n_auto.php:91 /views/elements/entrusts/search.ctp:110
+#: /views/elements/entrusts/view.ctp:207
+msgid "Next1 Payment R"
+msgstr "次年度研料"
+
+#: /vendors/shells/i18n_auto.php:92 /views/elements/entrusts/search.ctp:111
+#: /views/elements/entrusts/view.ctp:208
+msgid "Next1 Payment I"
+msgstr "次年度間"
+
+#: /vendors/shells/i18n_auto.php:93 /views/elements/entrusts/search.ctp:112
+#: /views/elements/entrusts/view.ctp:209
+msgid "Next1 Payment Sum"
+msgstr "次年度総計"
+
+#: /vendors/shells/i18n_auto.php:94 /views/elements/adoptions/search.ctp:89
+#: /views/elements/adoptions/view.ctp:113
+#: /views/elements/entrusts/search.ctp:117
+#: /views/elements/entrusts/view.ctp:220
+msgid "Next2 Payment D"
+msgstr "次々年度直"
+
+#: /vendors/shells/i18n_auto.php:95 /views/elements/entrusts/search.ctp:118
+#: /views/elements/entrusts/view.ctp:221
+msgid "Next2 Payment R"
+msgstr "次々年度研料"
+
+#: /vendors/shells/i18n_auto.php:96 /views/elements/entrusts/search.ctp:119
+#: /views/elements/entrusts/view.ctp:222
+msgid "Next2 Payment I"
+msgstr "次々年度間"
+
+#: /vendors/shells/i18n_auto.php:97 /views/elements/entrusts/search.ctp:120
+#: /views/elements/entrusts/view.ctp:223
+msgid "Next2 Payment Sum"
+msgstr "次々年度総計"
+
+#: /vendors/shells/i18n_auto.php:98 /views/elements/adoptions/search.ctp:90
+#: /views/elements/adoptions/view.ctp:123
+#: /views/elements/entrusts/search.ctp:125
+#: /views/elements/entrusts/view.ctp:234
+msgid "Next3 Payment D"
+msgstr "次々々年度直"
+
+#: /vendors/shells/i18n_auto.php:99 /views/elements/entrusts/search.ctp:126
+#: /views/elements/entrusts/view.ctp:235
+msgid "Next3 Payment R"
+msgstr "次々々年度研料"
+
+#: /vendors/shells/i18n_auto.php:100 /views/elements/entrusts/search.ctp:127
+#: /views/elements/entrusts/view.ctp:236
+msgid "Next3 Payment I"
+msgstr "次々々年度間"
+
+#: /vendors/shells/i18n_auto.php:101 /views/elements/entrusts/search.ctp:128
+#: /views/elements/entrusts/view.ctp:237
+msgid "Next3 Payment Sum"
+msgstr "次々々年度総計"
+
+#: /vendors/shells/i18n_auto.php:102 /views/elements/adoptions/search.ctp:91
+#: /views/elements/adoptions/view.ctp:124
+#: /views/elements/entrusts/search.ctp:133
+#: /views/elements/entrusts/view.ctp:248
+msgid "Next4 Payment D"
+msgstr "次々々々年度直"
+
+#: /vendors/shells/i18n_auto.php:103 /views/elements/entrusts/search.ctp:134
+#: /views/elements/entrusts/view.ctp:249
+msgid "Next4 Payment R"
+msgstr "次々々々年度研料"
+
+#: /vendors/shells/i18n_auto.php:104 /views/elements/entrusts/search.ctp:135
+#: /views/elements/entrusts/view.ctp:250
+msgid "Next4 Payment I"
+msgstr "次々々々年度間"
+
+#: /vendors/shells/i18n_auto.php:105 /views/elements/entrusts/search.ctp:136
+#: /views/elements/entrusts/view.ctp:251
+msgid "Next4 Payment Sum"
+msgstr "次々々々年度総計"
+
+#: /vendors/shells/i18n_auto.php:106 /views/elements/entrusts/search.ctp:141
+#: /views/elements/entrusts/view.ctp:263
+msgid "D Total"
+msgstr "直総計"
+
+#: /vendors/shells/i18n_auto.php:107 /views/elements/entrusts/search.ctp:142
+#: /views/elements/entrusts/view.ctp:264
+msgid "R Total"
+msgstr "研総計"
+
+#: /vendors/shells/i18n_auto.php:108 /views/elements/entrusts/search.ctp:143
+#: /views/elements/entrusts/view.ctp:265
+msgid "I Total"
+msgstr "間総計"
+
+#: /vendors/shells/i18n_auto.php:109 /views/elements/entrusts/search.ctp:144
+#: /views/elements/entrusts/view.ctp:266
+msgid "Total Amount"
+msgstr "受入総額"
+
+#: /vendors/shells/i18n_auto.php:110 /views/elements/donations/search.ctp:57
+#: /views/elements/donations/view.ctp:80
+#: /views/elements/entrusts/search.ctp:45 /views/elements/entrusts/view.ctp:78
+#: /views/elements/nedo_jst_others/search.ctp:276
+#: /views/elements/nedo_jst_others/view.ctp:366
+msgid "Contraction Date"
+msgstr "契約締結日"
+
+#: /vendors/shells/i18n_auto.php:111 /views/elements/entrusts/search.ctp:149
+#: /views/elements/entrusts/view.ctp:277
+msgid "Resolution Date"
+msgstr "決議書履行日"
+
+#: /vendors/shells/i18n_auto.php:112 /views/elements/donations/search.ctp:56
+#: /views/elements/donations/view.ctp:79
+#: /views/elements/entrusts/search.ctp:150
+#: /views/elements/entrusts/view.ctp:278
+msgid "Payment Due"
+msgstr "入金期日"
+
+#: /vendors/shells/i18n_auto.php:113 /views/elements/entrusts/search.ctp:151
+#: /views/elements/entrusts/view.ctp:279
+msgid "Payment Month"
+msgstr "納付月"
+
+#: /vendors/shells/i18n_auto.php:114 /views/elements/adoptions/search.ctp:30
+#: /views/elements/adoptions/view.ctp:25
+#: /views/elements/assessed_contributions/search.ctp:96
+#: /views/elements/assessed_contributions/view.ctp:154
+#: /views/elements/donations/search.ctp:30
+#: /views/elements/donations/view.ctp:31
+#: /views/elements/encourages/search.ctp:29
+#: /views/elements/encourages/view.ctp:16
+#: /views/elements/entrusts/search.ctp:152
+#: /views/elements/entrusts/view.ctp:280
+#: /views/elements/mhlw_research_grants/search.ctp:25
+#: /views/elements/mhlw_research_grants/view.ctp:14
+#: /views/elements/other_research_grants/search.ctp:26
+#: /views/elements/other_research_grants/view.ctp:14
+msgid "Payment Date"
+msgstr "入金年月日"
+
+#: /vendors/shells/i18n_auto.php:115 /views/elements/entrusts/view.ctp:281
+msgid "Advance"
+msgstr "立替申込"
+
+#: /vendors/shells/i18n_auto.php:116 /views/elements/entrusts/view.ctp:295
+msgid "Ow Post No"
+msgstr "（事）〒"
+
+#: /vendors/shells/i18n_auto.php:117 /views/elements/entrusts/view.ctp:296
+msgid "Ow Address"
+msgstr "（事）住所"
+
+#: /vendors/shells/i18n_auto.php:118 /views/elements/entrusts/view.ctp:297
+msgid "Ow Company Name"
+msgstr "（事）社名"
+
+#: /vendors/shells/i18n_auto.php:119 /views/elements/entrusts/view.ctp:298
+msgid "Ow Section"
+msgstr "（事）部署"
+
+#: /vendors/shells/i18n_auto.php:120 /views/elements/entrusts/view.ctp:299
+msgid "Ow Title"
+msgstr "（事）役職"
+
+#: /vendors/shells/i18n_auto.php:121 /views/elements/entrusts/view.ctp:309
+msgid "Ow Name"
+msgstr "（事）氏名"
+
+#: /vendors/shells/i18n_auto.php:122 /views/elements/entrusts/view.ctp:310
+msgid "Ow Tel"
+msgstr "（事）ＴＥＬ"
+
+#: /vendors/shells/i18n_auto.php:123 /views/elements/entrusts/view.ctp:311
+msgid "Ow Fax"
+msgstr "（事）ＦＡＸ"
+
+#: /vendors/shells/i18n_auto.php:124 /views/elements/entrusts/view.ctp:312
+msgid "Ow Email"
+msgstr "（事）E-mail"
+
+#: /vendors/shells/i18n_auto.php:125 /views/elements/entrusts/view.ctp:323
+msgid "Bill Post No"
+msgstr "（請）〒"
+
+#: /vendors/shells/i18n_auto.php:126 /views/elements/entrusts/view.ctp:324
+msgid "Bill Address"
+msgstr "（請）住所"
+
+#: /vendors/shells/i18n_auto.php:127 /views/elements/entrusts/view.ctp:325
+msgid "Bill Company Name"
+msgstr "（請）社名"
+
+#: /vendors/shells/i18n_auto.php:128 /views/elements/entrusts/view.ctp:326
+msgid "Bill Section"
+msgstr "（請）部署"
+
+#: /vendors/shells/i18n_auto.php:129 /views/elements/entrusts/view.ctp:327
+msgid "Bill Title"
+msgstr "（請）役職"
+
+#: /vendors/shells/i18n_auto.php:130 /views/elements/entrusts/view.ctp:337
+msgid "Bill Name"
+msgstr "（請）氏名"
+
+#: /vendors/shells/i18n_auto.php:131 /views/elements/entrusts/view.ctp:338
+msgid "Bill Tel"
+msgstr "（請）ＴＥＬ"
+
+#: /vendors/shells/i18n_auto.php:132 /views/elements/entrusts/view.ctp:339
+msgid "Bill Fax"
+msgstr "（請）ＦＡＸ"
+
+#: /vendors/shells/i18n_auto.php:133 /views/elements/entrusts/view.ctp:340
+msgid "Bill Email"
+msgstr "（請）E-mail"
+
+#: /vendors/shells/i18n_auto.php:134 /views/elements/entrusts/form.ctp:218
+#: /views/elements/entrusts/view.ctp:355 /views/entrusts/edit.ctp:26
+#: /views/entrusts/view.ctp:42
+msgid "Entrust Remarks"
+msgstr "備考欄"
+
+#: /vendors/shells/i18n_auto.php:135 /views/elements/adoptions/view.ctp:415
+#: /views/elements/assessed_contributions/view.ctp:285
+#: /views/elements/contracts/view.ctp:201
+#: /views/elements/donations/view.ctp:201
+#: /views/elements/encourages/view.ctp:377
+#: /views/elements/entrusts/view.ctp:365 /views/elements/grants/view.ctp:189
+#: /views/elements/mhlw_research_grants/view.ctp:186
+#: /views/elements/nedo_jst_others/view.ctp:781
+#: /views/elements/other_research_grants/view.ctp:172
+msgid "Open To Public"
+msgstr "StarSearchに公開する"
+
+#: /vendors/shells/i18n_auto.php:136
+msgid "Nedo Jst Other Id"
+msgstr "プロジェクトレコードID"
+
+#: /vendors/shells/i18n_auto.php:137
+#: /views/elements/nedo_jst_others/view.ctp:26
+msgid "Arrange No 1"
+msgstr "整理番号"
+
+#: /vendors/shells/i18n_auto.php:138
+#: /views/elements/nedo_jst_others/view.ctp:27
+msgid "Arrange No 2"
+msgstr "整理番号2"
+
+#: /vendors/shells/i18n_auto.php:139
+#: /views/elements/nedo_jst_others/view.ctp:28
+msgid "Arrange No 3"
+msgstr "整理番号3"
+
+#: /vendors/shells/i18n_auto.php:140
+#: /views/elements/nedo_jst_others/view.ctp:29
+msgid "Arrange No 4"
+msgstr "整理番号4"
+
+#: /vendors/shells/i18n_auto.php:141
+#: /views/elements/nedo_jst_others/view.ctp:30
+msgid "Arrange No 5"
+msgstr "整理番号5"
+
+#: /vendors/shells/i18n_auto.php:142
+#: /views/elements/nedo_jst_others/view.ctp:15
+msgid "Master Registration"
+msgstr "マスター登録"
+
+#: /vendors/shells/i18n_auto.php:143
+#: /views/elements/nedo_jst_others/search.ctp:106
+#: /views/elements/nedo_jst_others/view.ctp:41
+msgid "Application Reception Date"
+msgstr "申込書受付日"
+
+#: /vendors/shells/i18n_auto.php:144
+#: /views/elements/nedo_jst_others/view.ctp:610
+msgid "Cc Reception Date 1"
+msgstr "変更契約の申込書受付日(第１次)"
+
+#: /vendors/shells/i18n_auto.php:145
+#: /views/elements/nedo_jst_others/view.ctp:642
+msgid "Cc Reception Date 2"
+msgstr "変更契約の申込書受付日(第２次)"
+
+#: /vendors/shells/i18n_auto.php:146
+#: /views/elements/nedo_jst_others/view.ctp:674
+msgid "Cc Reception Date 3"
+msgstr "変更契約の申込書受付日(第３次)"
+
+#: /vendors/shells/i18n_auto.php:147
+#: /views/elements/nedo_jst_others/view.ctp:706
+msgid "Cc Reception Date 4"
+msgstr "変更契約の申込書受付日(第４次)"
+
+#: /vendors/shells/i18n_auto.php:148
+#: /views/elements/nedo_jst_others/view.ctp:738
+msgid "Cc Reception Date 5"
+msgstr "変更契約の申込書受付日(第５次)"
+
+#: /vendors/shells/i18n_auto.php:149
+#: /views/elements/nedo_jst_others/view.ctp:42
+msgid "Titech Reception No"
+msgstr "東工大受付番号"
+
+#: /vendors/shells/i18n_auto.php:150
+#: /views/elements/nedo_jst_others/view.ctp:611
+msgid "Cc Titech Reception No 1"
+msgstr "変更契約の東工大受付番号（第１次）"
+
+#: /vendors/shells/i18n_auto.php:151
+#: /views/elements/nedo_jst_others/view.ctp:643
+msgid "Cc Titech Reception No 2"
+msgstr "変更契約の東工大受付番号（第２次）"
+
+#: /vendors/shells/i18n_auto.php:152
+#: /views/elements/nedo_jst_others/view.ctp:675
+msgid "Cc Titech Reception No 3"
+msgstr "変更契約の東工大受付番号（第３次）"
+
+#: /vendors/shells/i18n_auto.php:153
+#: /views/elements/nedo_jst_others/view.ctp:707
+msgid "Cc Titech Reception No 4"
+msgstr "変更契約の東工大受付番号（第４次）"
+
+#: /vendors/shells/i18n_auto.php:154
+#: /views/elements/nedo_jst_others/view.ctp:739
+msgid "Cc Titech Reception No 5"
+msgstr "変更契約の東工大受付番号（第５次）"
+
+#: /vendors/shells/i18n_auto.php:155
+#: /views/elements/nedo_jst_others/search.ctp:109
+#: /views/elements/nedo_jst_others/view.ctp:197
+msgid "Notification Drafting Date"
+msgstr "通知起案日"
+
+#: /vendors/shells/i18n_auto.php:156
+#: /views/elements/nedo_jst_others/view.ctp:612
+msgid "Cc Notification Drafting Date 1"
+msgstr "変更契約の受入決定通知起案日（第１次）"
+
+#: /vendors/shells/i18n_auto.php:157
+#: /views/elements/nedo_jst_others/view.ctp:644
+msgid "Cc Notification Drafting Date 2"
+msgstr "変更契約の受入決定通知起案日（第２次）"
+
+#: /vendors/shells/i18n_auto.php:158
+#: /views/elements/nedo_jst_others/view.ctp:676
+msgid "Cc Notification Drafting Date 3"
+msgstr "変更契約の受入決定通知起案日（第３次）"
+
+#: /vendors/shells/i18n_auto.php:159
+#: /views/elements/nedo_jst_others/view.ctp:708
+msgid "Cc Notification Drafting Date 4"
+msgstr "変更契約の受入決定通知起案日（第４次）"
+
+#: /vendors/shells/i18n_auto.php:160
+#: /views/elements/nedo_jst_others/view.ctp:740
+msgid "Cc Notification Drafting Date 5"
+msgstr "変更契約の受入決定通知起案日（第５次）"
+
+#: /vendors/shells/i18n_auto.php:161
+#: /views/elements/nedo_jst_others/search.ctp:111
+#: /views/elements/nedo_jst_others/view.ctp:198
+msgid "Notification Settlement Date"
+msgstr "通知決裁日"
+
+#: /vendors/shells/i18n_auto.php:162
+#: /views/elements/nedo_jst_others/view.ctp:613
+msgid "Cc Notification Settlement Date 1"
+msgstr "変更契約の受入通知決裁日（第１次）"
+
+#: /vendors/shells/i18n_auto.php:163
+#: /views/elements/nedo_jst_others/view.ctp:645
+msgid "Cc Notification Settlement Date 2"
+msgstr "変更契約の受入通知決裁日（第２次）"
+
+#: /vendors/shells/i18n_auto.php:164
+#: /views/elements/nedo_jst_others/view.ctp:677
+msgid "Cc Notification Settlement Date 3"
+msgstr "変更契約の受入通知決裁日（第３次）"
+
+#: /vendors/shells/i18n_auto.php:165
+#: /views/elements/nedo_jst_others/view.ctp:709
+msgid "Cc Notification Settlement Date 4"
+msgstr "変更契約の受入通知決裁日（第４次）"
+
+#: /vendors/shells/i18n_auto.php:166
+#: /views/elements/nedo_jst_others/view.ctp:741
+msgid "Cc Notification Settlement Date 5"
+msgstr "変更契約の受入通知決裁日（第５次）"
+
+#: /vendors/shells/i18n_auto.php:167
+#: /views/elements/nedo_jst_others/search.ctp:113
+#: /views/elements/nedo_jst_others/view.ctp:211
+msgid "Notification Send Date"
+msgstr "通知発送日"
+
+#: /vendors/shells/i18n_auto.php:168
+#: /views/elements/nedo_jst_others/view.ctp:614
+msgid "Cc Notification Send Date 1"
+msgstr "変更契約の受入通知発送日（第１次）"
+
+#: /vendors/shells/i18n_auto.php:169
+#: /views/elements/nedo_jst_others/view.ctp:646
+msgid "Cc Notification Send Date 2"
+msgstr "変更契約の受入通知発送日（第２次）"
+
+#: /vendors/shells/i18n_auto.php:170
+#: /views/elements/nedo_jst_others/view.ctp:678
+msgid "Cc Notification Send Date 3"
+msgstr "変更契約の受入通知発送日（第３次）"
+
+#: /vendors/shells/i18n_auto.php:171
+#: /views/elements/nedo_jst_others/view.ctp:710
+msgid "Cc Notification Send Date 4"
+msgstr "変更契約の受入通知発送日（第４次）"
+
+#: /vendors/shells/i18n_auto.php:172
+#: /views/elements/nedo_jst_others/view.ctp:742
+msgid "Cc Notification Send Date 5"
+msgstr "変更契約の受入通知発送日（第５次）"
+
+#: /vendors/shells/i18n_auto.php:173
+#: /views/elements/nedo_jst_others/search.ctp:115
+#: /views/elements/nedo_jst_others/view.ctp:212
+msgid "Contract Send Date"
+msgstr "契約書発送日"
+
+#: /vendors/shells/i18n_auto.php:174
+#: /views/elements/nedo_jst_others/view.ctp:624
+msgid "Cc Contract Send Date 1"
+msgstr "変更契約の契約書発送日（第１次）"
+
+#: /vendors/shells/i18n_auto.php:175
+#: /views/elements/nedo_jst_others/view.ctp:656
+msgid "Cc Contract Send Date 2"
+msgstr "変更契約の契約書発送日（第２次）"
+
+#: /vendors/shells/i18n_auto.php:176
+#: /views/elements/nedo_jst_others/view.ctp:688
+msgid "Cc Contract Send Date 3"
+msgstr "変更契約の契約書発送日（第３次）"
+
+#: /vendors/shells/i18n_auto.php:177
+#: /views/elements/nedo_jst_others/view.ctp:720
+msgid "Cc Contract Send Date 4"
+msgstr "変更契約の契約書発送日（第４次）"
+
+#: /vendors/shells/i18n_auto.php:178
+#: /views/elements/nedo_jst_others/view.ctp:752
+msgid "Cc Contract Send Date 5"
+msgstr "変更契約の契約書発送日（第５次）"
+
+#: /vendors/shells/i18n_auto.php:179
+#: /views/elements/nedo_jst_others/search.ctp:122
+#: /views/elements/nedo_jst_others/view.ctp:213
+msgid "Contract Reception Date"
+msgstr "契約書受領日"
+
+#: /vendors/shells/i18n_auto.php:180
+#: /views/elements/nedo_jst_others/view.ctp:625
+msgid "Cc Contract Reception Date 1"
+msgstr "変更契約の契約書受領日（第１次）"
+
+#: /vendors/shells/i18n_auto.php:181
+#: /views/elements/nedo_jst_others/view.ctp:657
+msgid "Cc Contract Reception Date 2"
+msgstr "変更契約の契約書受領日（第２次）"
+
+#: /vendors/shells/i18n_auto.php:182
+#: /views/elements/nedo_jst_others/view.ctp:689
+msgid "Cc Contract Reception Date 3"
+msgstr "変更契約の契約書受領日（第３次）"
+
+#: /vendors/shells/i18n_auto.php:183
+#: /views/elements/nedo_jst_others/view.ctp:721
+msgid "Cc Contract Reception Date 4"
+msgstr "変更契約の契約書受領日（第４次）"
+
+#: /vendors/shells/i18n_auto.php:184
+#: /views/elements/nedo_jst_others/view.ctp:753
+msgid "Cc Contract Reception Date 5"
+msgstr "変更契約の契約書受領日（第５次）"
+
+#: /vendors/shells/i18n_auto.php:185
+#: /views/elements/nedo_jst_others/search.ctp:124
+#: /views/elements/nedo_jst_others/view.ctp:214
+msgid "Amount Fixed Date"
+msgstr "確定金額日"
+
+#: /vendors/shells/i18n_auto.php:186
+#: /views/elements/nedo_jst_others/view.ctp:215
+msgid "Divide Paying"
+msgstr "分割入金"
+
+#: /vendors/shells/i18n_auto.php:187
+#: /views/elements/nedo_jst_others/view.ctp:225
+msgid "Adjust Paying"
+msgstr "精算払"
+
+#: /vendors/shells/i18n_auto.php:188
+#: /views/elements/nedo_jst_others/view.ctp:226
+msgid "Charge Format"
+msgstr "請求書様式の有無"
+
+#: /vendors/shells/i18n_auto.php:189
+#: /views/elements/nedo_jst_others/search.ctp:133
+#: /views/elements/nedo_jst_others/view.ctp:227
+msgid "Charge"
+msgstr "請求金額"
+
+#: /vendors/shells/i18n_auto.php:190
+#: /views/elements/nedo_jst_others/search.ctp:135
+#: /views/elements/nedo_jst_others/view.ctp:228
+msgid "Charged Amount"
+msgstr "請求済金額"
+
+#: /vendors/shells/i18n_auto.php:191
+#: /views/elements/nedo_jst_others/search.ctp:137
+#: /views/elements/nedo_jst_others/view.ctp:229
+msgid "Claimed Balance"
+msgstr "請求残高"
+
+#: /vendors/shells/i18n_auto.php:192
+#: /views/elements/nedo_jst_others/search.ctp:144
+#: /views/elements/nedo_jst_others/view.ctp:239
+msgid "Charge 1"
+msgstr "請求金額１回"
+
+#: /vendors/shells/i18n_auto.php:193
+#: /views/elements/nedo_jst_others/search.ctp:146
+#: /views/elements/nedo_jst_others/view.ctp:240
+msgid "Statement Send Date 1"
+msgstr "発送日１回"
+
+#: /vendors/shells/i18n_auto.php:194
+#: /views/elements/nedo_jst_others/search.ctp:148
+#: /views/elements/nedo_jst_others/view.ctp:241
+msgid "Statement Date 1"
+msgstr "請求日１回"
+
+#: /vendors/shells/i18n_auto.php:195 /views/elements/contracts/search.ctp:92
+#: /views/elements/contracts/view.ctp:121
+#: /views/elements/nedo_jst_others/search.ctp:150
+#: /views/elements/nedo_jst_others/view.ctp:242
+msgid "Payment Due 1"
+msgstr "入金期日１回"
+
+#: /vendors/shells/i18n_auto.php:196 /views/elements/contracts/search.ctp:95
+#: /views/elements/contracts/view.ctp:122
+#: /views/elements/nedo_jst_others/search.ctp:153
+#: /views/elements/nedo_jst_others/view.ctp:243
+msgid "Payment Date 1"
+msgstr "入金日１回"
+
+#: /vendors/shells/i18n_auto.php:197
+#: /views/elements/nedo_jst_others/search.ctp:158
+#: /views/elements/nedo_jst_others/view.ctp:253
+msgid "Charge 2"
+msgstr "請求金額２回"
+
+#: /vendors/shells/i18n_auto.php:198
+#: /views/elements/nedo_jst_others/search.ctp:161
+#: /views/elements/nedo_jst_others/view.ctp:254
+msgid "Statement Send Date 2"
+msgstr "発送日２回"
+
+#: /vendors/shells/i18n_auto.php:199
+#: /views/elements/nedo_jst_others/search.ctp:164
+#: /views/elements/nedo_jst_others/view.ctp:255
+msgid "Statement Date 2"
+msgstr "請求日２回"
+
+#: /vendors/shells/i18n_auto.php:200 /views/elements/contracts/search.ctp:106
+#: /views/elements/contracts/view.ctp:135
+#: /views/elements/nedo_jst_others/search.ctp:167
+#: /views/elements/nedo_jst_others/view.ctp:256
+msgid "Payment Due 2"
+msgstr "入金期日２回"
+
+#: /vendors/shells/i18n_auto.php:201 /views/elements/contracts/search.ctp:109
+#: /views/elements/contracts/view.ctp:136
+#: /views/elements/nedo_jst_others/search.ctp:170
+#: /views/elements/nedo_jst_others/view.ctp:257
+msgid "Payment Date 2"
+msgstr "入金日２回"
+
+#: /vendors/shells/i18n_auto.php:202
+#: /views/elements/nedo_jst_others/search.ctp:175
+#: /views/elements/nedo_jst_others/view.ctp:267
+msgid "Charge 3"
+msgstr "請求金額３回"
+
+#: /vendors/shells/i18n_auto.php:203
+#: /views/elements/nedo_jst_others/search.ctp:178
+#: /views/elements/nedo_jst_others/view.ctp:268
+msgid "Statement Send Date 3"
+msgstr "発送日３回"
+
+#: /vendors/shells/i18n_auto.php:204
+#: /views/elements/nedo_jst_others/search.ctp:181
+#: /views/elements/nedo_jst_others/view.ctp:269
+msgid "Statement Date 3"
+msgstr "請求日３回"
+
+#: /vendors/shells/i18n_auto.php:205 /views/elements/contracts/search.ctp:120
+#: /views/elements/contracts/view.ctp:149
+#: /views/elements/nedo_jst_others/search.ctp:184
+#: /views/elements/nedo_jst_others/view.ctp:270
+msgid "Payment Due 3"
+msgstr "入金期日３回"
+
+#: /vendors/shells/i18n_auto.php:206 /views/elements/contracts/search.ctp:123
+#: /views/elements/contracts/view.ctp:150
+#: /views/elements/nedo_jst_others/search.ctp:187
+#: /views/elements/nedo_jst_others/view.ctp:271
+msgid "Payment Date 3"
+msgstr "入金日３回"
+
+#: /vendors/shells/i18n_auto.php:207
+#: /views/elements/nedo_jst_others/search.ctp:192
+#: /views/elements/nedo_jst_others/view.ctp:281
+msgid "Charge 4"
+msgstr "請求金額４回"
+
+#: /vendors/shells/i18n_auto.php:208
+#: /views/elements/nedo_jst_others/search.ctp:195
+#: /views/elements/nedo_jst_others/view.ctp:282
+msgid "Statement Send Date 4"
+msgstr "発送日４回"
+
+#: /vendors/shells/i18n_auto.php:209
+#: /views/elements/nedo_jst_others/search.ctp:198
+#: /views/elements/nedo_jst_others/view.ctp:283
+msgid "Statement Date 4"
+msgstr "請求日４回"
+
+#: /vendors/shells/i18n_auto.php:210 /views/elements/contracts/search.ctp:134
+#: /views/elements/contracts/view.ctp:163
+#: /views/elements/nedo_jst_others/search.ctp:201
+#: /views/elements/nedo_jst_others/view.ctp:284
+msgid "Payment Due 4"
+msgstr "入金期日４回"
+
+#: /vendors/shells/i18n_auto.php:211 /views/elements/contracts/search.ctp:137
+#: /views/elements/contracts/view.ctp:164
+#: /views/elements/nedo_jst_others/search.ctp:204
+#: /views/elements/nedo_jst_others/view.ctp:285
+msgid "Payment Date 4"
+msgstr "入金日４回"
+
+#: /vendors/shells/i18n_auto.php:212
+#: /views/elements/nedo_jst_others/search.ctp:209
+#: /views/elements/nedo_jst_others/view.ctp:295
+msgid "Charge 5"
+msgstr "請求金額５回"
+
+#: /vendors/shells/i18n_auto.php:213
+#: /views/elements/nedo_jst_others/search.ctp:212
+#: /views/elements/nedo_jst_others/view.ctp:296
+msgid "Statement Send Date 5"
+msgstr "発送日５回"
+
+#: /vendors/shells/i18n_auto.php:214
+#: /views/elements/nedo_jst_others/search.ctp:215
+#: /views/elements/nedo_jst_others/view.ctp:297
+msgid "Statement Date 5"
+msgstr "請求日５回"
+
+#: /vendors/shells/i18n_auto.php:215
+#: /views/elements/nedo_jst_others/search.ctp:218
+#: /views/elements/nedo_jst_others/view.ctp:298
+msgid "Payment Due 5"
+msgstr "入金期日５回"
+
+#: /vendors/shells/i18n_auto.php:216
+#: /views/elements/nedo_jst_others/search.ctp:221
+#: /views/elements/nedo_jst_others/view.ctp:299
+msgid "Payment Date 5"
+msgstr "入金日５回"
+
+#: /vendors/shells/i18n_auto.php:217
+#: /views/elements/nedo_jst_others/search.ctp:226
+#: /views/elements/nedo_jst_others/view.ctp:309
+msgid "Charge 6"
+msgstr "請求金額６回"
+
+#: /vendors/shells/i18n_auto.php:218
+#: /views/elements/nedo_jst_others/search.ctp:229
+#: /views/elements/nedo_jst_others/view.ctp:310
+msgid "Statement Send Date 6"
+msgstr "発送日６回"
+
+#: /vendors/shells/i18n_auto.php:219
+#: /views/elements/nedo_jst_others/search.ctp:232
+#: /views/elements/nedo_jst_others/view.ctp:311
+msgid "Statement Date 6"
+msgstr "請求日６回"
+
+#: /vendors/shells/i18n_auto.php:220
+#: /views/elements/nedo_jst_others/search.ctp:235
+#: /views/elements/nedo_jst_others/view.ctp:312
+msgid "Payment Due 6"
+msgstr "入金期日６回"
+
+#: /vendors/shells/i18n_auto.php:221
+#: /views/elements/nedo_jst_others/search.ctp:238
+#: /views/elements/nedo_jst_others/view.ctp:313
+msgid "Payment Date 6"
+msgstr "入金日６回"
+
+#: /vendors/shells/i18n_auto.php:222
+#: /views/elements/nedo_jst_others/search.ctp:246
+#: /views/elements/nedo_jst_others/view.ctp:323
+msgid "Accounting Report Due"
+msgstr "会計報告提出期限"
+
+#: /vendors/shells/i18n_auto.php:223
+#: /views/elements/nedo_jst_others/view.ctp:324
+msgid "Accounting Report Format"
+msgstr "会計報告先方様式"
+
+#: /vendors/shells/i18n_auto.php:224
+#: /views/elements/nedo_jst_others/search.ctp:249
+#: /views/elements/nedo_jst_others/view.ctp:325
+msgid "Accounting Report Request Day"
+msgstr "会計報告依頼日"
+
+#: /vendors/shells/i18n_auto.php:225
+#: /views/elements/nedo_jst_others/search.ctp:251
+#: /views/elements/nedo_jst_others/view.ctp:326
+msgid "Accounting Report Reception Date"
+msgstr "会計報告受領日"
+
+#: /vendors/shells/i18n_auto.php:226
+#: /views/elements/nedo_jst_others/search.ctp:253
+#: /views/elements/nedo_jst_others/view.ctp:327
+msgid "Accounting Report Drafting Date"
+msgstr "会計報告起案日"
+
+#: /vendors/shells/i18n_auto.php:227
+#: /views/elements/nedo_jst_others/search.ctp:260
+#: /views/elements/nedo_jst_others/view.ctp:337
+msgid "Accounting Report Settlement Date"
+msgstr "会計報告決裁日"
+
+#: /vendors/shells/i18n_auto.php:228
+#: /views/elements/nedo_jst_others/search.ctp:262
+#: /views/elements/nedo_jst_others/view.ctp:338
+msgid "Accounting Report Send Date"
+msgstr "会計報告発送日"
+
+#: /vendors/shells/i18n_auto.php:229
+#: /views/elements/nedo_jst_others/search.ctp:264
+#: /views/elements/nedo_jst_others/view.ctp:351
+msgid "Accomplishment Due"
+msgstr "成果提出期限"
+
+#: /vendors/shells/i18n_auto.php:230
+#: /views/elements/nedo_jst_others/view.ctp:352
+msgid "Accomplishment Format"
+msgstr "成果報告書先方様式"
+
+#: /vendors/shells/i18n_auto.php:231
+#: /views/elements/nedo_jst_others/search.ctp:267
+#: /views/elements/nedo_jst_others/view.ctp:353
+msgid "Accomplishment Send Date"
+msgstr "成果発送日"
+
+#: /vendors/shells/i18n_auto.php:232
+#: /views/elements/nedo_jst_others/view.ctp:134
+msgid "Asset Belongingness"
+msgstr "資産帰属"
+
+#: /vendors/shells/i18n_auto.php:233
+#: /views/elements/nedo_jst_others/view.ctp:135
+msgid "Continuance Forcast"
+msgstr "継続予定"
+
+#: /vendors/shells/i18n_auto.php:234
+#: /views/elements/nedo_jst_others/view.ctp:149
+msgid "Multi Year No"
+msgstr "複数年度番号"
+
+#: /vendors/shells/i18n_auto.php:235
+#: /views/elements/nedo_jst_others/view.ctp:150
+msgid "Competitive Fund"
+msgstr "競争的資金"
+
+#: /vendors/shells/i18n_auto.php:236
+#: /views/elements/nedo_jst_others/view.ctp:75
+msgid "Area"
+msgstr "地域"
+
+#: /vendors/shells/i18n_auto.php:237
+#: /views/elements/nedo_jst_others/view.ctp:76
+msgid "Co Researcher"
+msgstr "研究分担者"
+
+#: /vendors/shells/i18n_auto.php:238
+#: /views/elements/nedo_jst_others/view.ctp:72
+msgid "Head Of Department"
+msgstr "部局長"
+#: msgstr "部局長(旧組織)"
+
+#: /vendors/shells/i18n_auto.php:239
+#: /views/elements/nedo_jst_others/view.ctp:91
+msgid "Ordering Organization Name"
+msgstr "委託機関名"
+
+#: /vendors/shells/i18n_auto.php:240
+#: /views/elements/nedo_jst_others/view.ctp:92
+msgid "Applicant Job Title"
+msgstr "申込者役職名"
+
+#: /vendors/shells/i18n_auto.php:241
+#: /views/elements/nedo_jst_others/view.ctp:93
+msgid "Applicant Name"
+msgstr "申込者氏名"
+
+#: /vendors/shells/i18n_auto.php:242
+#: /views/elements/nedo_jst_others/view.ctp:104
+msgid "Contractor Job Title"
+msgstr "契約者役職名"
+
+#: /vendors/shells/i18n_auto.php:243
+#: /views/elements/nedo_jst_others/view.ctp:105
+msgid "Contractor Name"
+msgstr "契約者氏名"
+
+#: /vendors/shells/i18n_auto.php:244
+#: /views/elements/nedo_jst_others/view.ctp:106
+msgid "Related Ministries"
+msgstr "関係省庁名"
+
+#: /vendors/shells/i18n_auto.php:245
+#: /views/elements/mhlw_research_grants/view.ctp:28
+#: /views/elements/nedo_jst_others/view.ctp:107
+#: /views/elements/other_research_grants/view.ctp:27
+msgid "Business Name"
+msgstr "事業名"
+
+#: /vendors/shells/i18n_auto.php:246
+#: /views/elements/nedo_jst_others/view.ctp:118
+msgid "Ordering Organization Type"
+msgstr "委託者種別"
+
+#: /vendors/shells/i18n_auto.php:247
+#: /views/elements/nedo_jst_others/view.ctp:119
+msgid "Government Type"
+msgstr "政府等の別"
+
+#: /vendors/shells/i18n_auto.php:248
+#: /views/elements/nedo_jst_others/search.ctp:64
+#: /views/elements/nedo_jst_others/view.ctp:132
+msgid "Memorandum Start Date"
+msgstr "覚書の研究始期(JST)"
+
+#: /vendors/shells/i18n_auto.php:249
+#: /views/elements/nedo_jst_others/search.ctp:67
+#: /views/elements/nedo_jst_others/view.ctp:133
+msgid "Memorandum End Date"
+msgstr "覚書の研究終期(JST)"
+
+#: /vendors/shells/i18n_auto.php:250
+#: /views/elements/nedo_jst_others/search.ctp:274
+#: /views/elements/nedo_jst_others/view.ctp:365
+msgid "Reception Decision Date"
+msgstr "受入決定日"
+
+#: /vendors/shells/i18n_auto.php:251
+msgid "Contraction Change Date 1"
+msgstr "変更契約日(１次)"
+
+#: /vendors/shells/i18n_auto.php:252
+msgid "Contraction Change Outline 1"
+msgstr "変更契約概要(１次)"
+
+#: /vendors/shells/i18n_auto.php:253
+msgid "Contraction Change Date 2"
+msgstr "変更契約日(２次)"
+
+#: /vendors/shells/i18n_auto.php:254
+msgid "Contraction Change Outline 2"
+msgstr "変更契約概要(２次)"
+
+#: /vendors/shells/i18n_auto.php:255
+msgid "Contraction Change Date 3"
+msgstr "変更契約日(３次)"
+
+#: /vendors/shells/i18n_auto.php:256
+msgid "Contraction Change Outline 3"
+msgstr "変更契約概要(３次)"
+
+#: /vendors/shells/i18n_auto.php:257
+msgid "Contraction Change Date 4"
+msgstr "変更契約日(４次)"
+
+#: /vendors/shells/i18n_auto.php:258
+msgid "Contraction Change Outline 4"
+msgstr "変更契約概要(４次)"
+
+#: /vendors/shells/i18n_auto.php:259
+msgid "Contraction Change Date 5"
+msgstr "変更契約日(５次)"
+
+#: /vendors/shells/i18n_auto.php:260
+msgid "Contraction Change Outline 5"
+msgstr "変更契約概要(５次)"
+
+#: /vendors/shells/i18n_auto.php:261
+msgid "Contraction Change Date 6"
+msgstr "変更契約日(６次)"
+
+#: /vendors/shells/i18n_auto.php:262
+msgid "Contraction Change Outline 6"
+msgstr "変更契約概要(６次)"
+
+#: /vendors/shells/i18n_auto.php:263
+msgid "Contraction Change Date 7"
+msgstr "変更契約日(７次)"
+
+#: /vendors/shells/i18n_auto.php:264
+msgid "Contraction Change Outline 7"
+msgstr "変更契約概要(７次)"
+
+#: /vendors/shells/i18n_auto.php:265
+msgid "Contraction Change Date 8"
+msgstr "変更契約日(８次)"
+
+#: /vendors/shells/i18n_auto.php:266
+msgid "Contraction Change Outline 8"
+msgstr "変更契約概要(８次)"
+
+#: /vendors/shells/i18n_auto.php:267
+msgid "Contraction Change Date 9"
+msgstr "変更契約日(９次)"
+
+#: /vendors/shells/i18n_auto.php:268
+msgid "Contraction Change Outline 9"
+msgstr "変更契約概要(９次)"
+
+#: /vendors/shells/i18n_auto.php:269
+msgid "Contraction Change Date 10"
+msgstr "変更契約日(１０次)"
+
+#: /vendors/shells/i18n_auto.php:270
+msgid "Contraction Change Outline 10"
+msgstr "変更契約概要(１０次)"
+
+#: /vendors/shells/i18n_auto.php:271
+msgid "Contraction Change Date 11"
+msgstr "変更契約日(１１次)"
+
+#: /vendors/shells/i18n_auto.php:272
+msgid "Contraction Change Outline 11"
+msgstr "変更契約概要(１１次)"
+
+#: /vendors/shells/i18n_auto.php:273
+msgid "Contraction Change Date 12"
+msgstr "変更契約日(１２次)"
+
+#: /vendors/shells/i18n_auto.php:274
+msgid "Contraction Change Outline 12"
+msgstr "変更契約概要(１２次)"
+
+#: /vendors/shells/i18n_auto.php:275
+msgid "Contraction Change Date 13"
+msgstr "変更契約日(１３次)"
+
+#: /vendors/shells/i18n_auto.php:276
+msgid "Contraction Change Outline 13"
+msgstr "変更契約概要(１３次)"
+
+#: /vendors/shells/i18n_auto.php:277
+msgid "Contraction Change Date 14"
+msgstr "変更契約日(１４次)"
+
+#: /vendors/shells/i18n_auto.php:278
+msgid "Contraction Change Outline 14"
+msgstr "変更契約概要(１４次)"
+
+#: /vendors/shells/i18n_auto.php:279
+msgid "Contraction Change Date 15"
+msgstr "変更契約日(１５次)"
+
+#: /vendors/shells/i18n_auto.php:280
+msgid "Contraction Change Outline 15"
+msgstr "変更契約概要(１５次)"
+
+#: /vendors/shells/i18n_auto.php:281
+msgid "Contraction Change Date 16"
+msgstr "変更契約日(１６次)"
+
+#: /vendors/shells/i18n_auto.php:282
+msgid "Contraction Change Outline 16"
+msgstr "変更契約概要(１６次)"
+
+#: /vendors/shells/i18n_auto.php:283
+msgid "Contraction Change Date 17"
+msgstr "変更契約日(１７次)"
+
+#: /vendors/shells/i18n_auto.php:284
+msgid "Contraction Change Outline 17"
+msgstr "変更契約概要(１７次)"
+
+#: /vendors/shells/i18n_auto.php:285
+msgid "Contraction Change Date 18"
+msgstr "変更契約日(１８次)"
+
+#: /vendors/shells/i18n_auto.php:286
+msgid "Contraction Change Outline 18"
+msgstr "変更契約概要(１８次)"
+
+#: /vendors/shells/i18n_auto.php:287
+msgid "Contraction Change Date 19"
+msgstr "変更契約日(１９次)"
+
+#: /vendors/shells/i18n_auto.php:288
+msgid "Contraction Change Outline 19"
+msgstr "変更契約概要(１９次)"
+
+#: /vendors/shells/i18n_auto.php:289
+msgid "Contraction Change Date 20"
+msgstr "変更契約日(２０次)"
+
+#: /vendors/shells/i18n_auto.php:290
+msgid "Contraction Change Outline 20"
+msgstr "変更契約概要(２０次)"
+
+#: /vendors/shells/i18n_auto.php:291
+#: /views/elements/nedo_jst_others/view.ctp:165
+msgid "Cp Post No"
+msgstr "先方担当者郵便番号"
+
+#: /vendors/shells/i18n_auto.php:292
+#: /views/elements/nedo_jst_others/view.ctp:166
+msgid "Cp Address"
+msgstr "先方担当者住所"
+
+#: /vendors/shells/i18n_auto.php:293
+#: /views/elements/nedo_jst_others/view.ctp:167
+msgid "Cp Section"
+msgstr "先方担当者所属"
+
+#: /vendors/shells/i18n_auto.php:294
+#: /views/elements/nedo_jst_others/view.ctp:168
+msgid "Cp Job Title"
+msgstr "先方担当者役職"
+
+#: /vendors/shells/i18n_auto.php:295
+#: /views/elements/nedo_jst_others/view.ctp:169
+msgid "Cp Name"
+msgstr "先方担当者"
+
+#: /vendors/shells/i18n_auto.php:296
+#: /views/elements/nedo_jst_others/view.ctp:179
+msgid "Cp Tel"
+msgstr "電話"
+
+#: /vendors/shells/i18n_auto.php:297
+#: /views/elements/nedo_jst_others/view.ctp:180
+msgid "Cp Extension"
+msgstr "内線"
+
+#: /vendors/shells/i18n_auto.php:298
+#: /views/elements/nedo_jst_others/view.ctp:181
+msgid "Cp Fax"
+msgstr "ＦＡＸ"
+
+#: /vendors/shells/i18n_auto.php:299
+msgid "Cp Email"
+msgstr "メール"
+
+#: /vendors/shells/i18n_auto.php:300
+#: /views/elements/nedo_jst_others/search.ctp:285
+#: /views/elements/nedo_jst_others/view.ctp:393
+msgid "Plural Year 1"
+msgstr "〔複数年〕1年目契約年度"
+
+#: /vendors/shells/i18n_auto.php:301
+#: /views/elements/nedo_jst_others/search.ctp:286
+#: /views/elements/nedo_jst_others/view.ctp:394
+msgid "Plural Contract Amount 1"
+msgstr "〔複数年〕1年目契約金額"
+
+#: /vendors/shells/i18n_auto.php:302
+#: /views/elements/nedo_jst_others/search.ctp:288
+#: /views/elements/nedo_jst_others/view.ctp:395
+msgid "Plural Year 2"
+msgstr "〔複数年〕2年目契約年度"
+
+#: /vendors/shells/i18n_auto.php:303
+#: /views/elements/nedo_jst_others/search.ctp:289
+#: /views/elements/nedo_jst_others/view.ctp:396
+msgid "Plural Contract Amount 2"
+msgstr "〔複数年〕2年目契約金額"
+
+#: /vendors/shells/i18n_auto.php:304
+#: /views/elements/nedo_jst_others/search.ctp:291
+#: /views/elements/nedo_jst_others/view.ctp:407
+msgid "Plural Year 3"
+msgstr "〔複数年〕3年目契約年度"
+
+#: /vendors/shells/i18n_auto.php:305
+#: /views/elements/nedo_jst_others/search.ctp:292
+#: /views/elements/nedo_jst_others/view.ctp:408
+msgid "Plural Contract Amount 3"
+msgstr "〔複数年〕3年目契約金額"
+
+#: /vendors/shells/i18n_auto.php:306
+#: /views/elements/nedo_jst_others/search.ctp:296
+#: /views/elements/nedo_jst_others/view.ctp:409
+msgid "Plural Year 4"
+msgstr "〔複数年〕4年目契約年度"
+
+#: /vendors/shells/i18n_auto.php:307
+#: /views/elements/nedo_jst_others/search.ctp:297
+#: /views/elements/nedo_jst_others/view.ctp:410
+msgid "Plural Contract Amount 4"
+msgstr "〔複数年〕4年目契約金額"
+
+#: /vendors/shells/i18n_auto.php:308
+#: /views/elements/nedo_jst_others/search.ctp:299
+#: /views/elements/nedo_jst_others/view.ctp:421
+msgid "Plural Year 5"
+msgstr "〔複数年〕5年目契約年度"
+
+#: /vendors/shells/i18n_auto.php:309
+#: /views/elements/nedo_jst_others/search.ctp:300
+#: /views/elements/nedo_jst_others/view.ctp:422
+msgid "Plural Contract Amount 5"
+msgstr "〔複数年〕5年目契約金額"
+
+#: /vendors/shells/i18n_auto.php:310
+#: /views/elements/nedo_jst_others/search.ctp:302
+#: /views/elements/nedo_jst_others/view.ctp:423
+msgid "Plural Year 6"
+msgstr "〔複数年〕6年目契約年度"
+
+#: /vendors/shells/i18n_auto.php:311
+#: /views/elements/nedo_jst_others/search.ctp:303
+#: /views/elements/nedo_jst_others/view.ctp:424
+msgid "Plural Contract Amount 6"
+msgstr "〔複数年〕6年目契約金額"
+
+#: /vendors/shells/i18n_auto.php:312
+#: /views/elements/nedo_jst_others/search.ctp:307
+#: /views/elements/nedo_jst_others/view.ctp:435
+msgid "Plural Year 7"
+msgstr "〔複数年〕7年目契約年度"
+
+#: /vendors/shells/i18n_auto.php:313
+#: /views/elements/nedo_jst_others/search.ctp:308
+#: /views/elements/nedo_jst_others/view.ctp:436
+msgid "Plural Contract Amount 7"
+msgstr "〔複数年〕7年目契約金額"
+
+#: /vendors/shells/i18n_auto.php:314
+#: /views/elements/nedo_jst_others/search.ctp:310
+#: /views/elements/nedo_jst_others/view.ctp:437
+msgid "Plural Year 8"
+msgstr "〔複数年〕8年目契約年度"
+
+#: /vendors/shells/i18n_auto.php:315
+#: /views/elements/nedo_jst_others/search.ctp:311
+#: /views/elements/nedo_jst_others/view.ctp:438
+msgid "Plural Contract Amount 8"
+msgstr "〔複数年〕8年目契約金額"
+
+#: /vendors/shells/i18n_auto.php:316
+#: /views/elements/nedo_jst_others/search.ctp:313
+#: /views/elements/nedo_jst_others/view.ctp:449
+msgid "Plural Year 9"
+msgstr "〔複数年〕9年目契約年度"
+
+#: /vendors/shells/i18n_auto.php:317
+#: /views/elements/nedo_jst_others/search.ctp:314
+#: /views/elements/nedo_jst_others/view.ctp:450
+msgid "Plural Contract Amount 9"
+msgstr "〔複数年〕9年目契約金額"
+
+#: /vendors/shells/i18n_auto.php:318
+#: /views/elements/nedo_jst_others/search.ctp:318
+#: /views/elements/nedo_jst_others/view.ctp:451
+msgid "Plural Year 10"
+msgstr "〔複数年〕10年目契約年度"
+
+#: /vendors/shells/i18n_auto.php:319
+#: /views/elements/nedo_jst_others/search.ctp:319
+#: /views/elements/nedo_jst_others/view.ctp:452
+msgid "Plural Contract Amount 10"
+msgstr "〔複数年〕10年目契約金額"
+
+#: /vendors/shells/i18n_auto.php:320
+#: /views/elements/nedo_jst_others/search.ctp:278
+#: /views/elements/nedo_jst_others/view.ctp:379
+msgid "Total Reception Amount"
+msgstr "複数年度契約受入予定総額"
+
+#: /vendors/shells/i18n_auto.php:321
+#: /views/elements/nedo_jst_others/search.ctp:326
+msgid "Photothermic Cost"
+msgstr "共通経費(光熱水料)"
+
+#: /vendors/shells/i18n_auto.php:322 /views/elements/grants/search.ctp:82
+#: /views/elements/grants/view.ctp:116
+#: /views/elements/nedo_jst_others/search.ctp:328
+msgid "Other Cost"
+msgstr "共通経費以外の経費"
+
+#: /vendors/shells/i18n_auto.php:323
+#: /views/elements/nedo_jst_others/search.ctp:330
+msgid "Research Expense"
+msgstr "研究費計"
+
+#: /vendors/shells/i18n_auto.php:324
+#: /views/elements/nedo_jst_others/search.ctp:339
+msgid "Reconsignment Cost"
+msgstr "再委託費"
+
+#: /vendors/shells/i18n_auto.php:325 /views/elements/contracts/search.ctp:69
+#: /views/elements/contracts/view.ctp:90 /views/elements/grants/search.ctp:74
+#: /views/elements/grants/view.ctp:104
+#: /views/elements/nedo_jst_others/search.ctp:341
+msgid "General Administration Cost"
+msgstr "一般管理費"
+
+#: /vendors/shells/i18n_auto.php:326 /views/elements/adoptions/search.ctp:115
+#: /views/elements/adoptions/view.ctp:148
+#: /views/elements/encourages/search.ctp:118
+#: /views/elements/encourages/view.ctp:195
+#: /views/elements/nedo_jst_others/search.ctp:343
+msgid "Total Primary Cost"
+msgstr "直接経費計"
+
+#: /vendors/shells/i18n_auto.php:327
+#: /views/elements/assessed_contributions/search.ctp:60
+#: /views/elements/assessed_contributions/view.ctp:83
+#: /views/elements/contracts/search.ctp:66
+#: /views/elements/contracts/view.ctp:89 /views/elements/grants/search.ctp:71
+#: /views/elements/grants/view.ctp:103
+#: /views/elements/nedo_jst_others/search.ctp:345
+msgid "Indirect Cost"
+msgstr "間接経費"
+
+#: /vendors/shells/i18n_auto.php:328
+msgid "Labo Earnings"
+msgstr "間接経費（研究室配当分）"
+
+#: /vendors/shells/i18n_auto.php:329
+msgid "Titech Earnings"
+msgstr "間接経費（大学収益化額）"
+
+#: /vendors/shells/i18n_auto.php:330 /views/elements/contracts/search.ctp:57
+#: /views/elements/contracts/view.ctp:86
+#: /views/elements/nedo_jst_others/search.ctp:347
+msgid "This Year Reception Amount"
+msgstr "当該年度の受入金額"
+
+#: /vendors/shells/i18n_auto.php:331
+#: /views/elements/nedo_jst_others/search.ctp:369
+#: /views/elements/nedo_jst_others/view.ctp:520
+msgid "Income 1"
+msgstr "第１回入金額"
+
+#: /vendors/shells/i18n_auto.php:332
+#: /views/elements/nedo_jst_others/search.ctp:371
+#: /views/elements/nedo_jst_others/view.ctp:521
+msgid "Income 2"
+msgstr "第２回入金額"
+
+#: /vendors/shells/i18n_auto.php:333
+#: /views/elements/nedo_jst_others/search.ctp:373
+#: /views/elements/nedo_jst_others/view.ctp:522
+msgid "Income 3"
+msgstr "第３回入金額"
+
+#: /vendors/shells/i18n_auto.php:334
+#: /views/elements/nedo_jst_others/search.ctp:375
+#: /views/elements/nedo_jst_others/view.ctp:523
+msgid "Income 4"
+msgstr "第４回入金額"
+
+#: /vendors/shells/i18n_auto.php:335
+#: /views/elements/nedo_jst_others/search.ctp:380
+#: /views/elements/nedo_jst_others/view.ctp:524
+msgid "Income 5"
+msgstr "第５回入金額"
+
+#: /vendors/shells/i18n_auto.php:336
+#: /views/elements/nedo_jst_others/search.ctp:382
+#: /views/elements/nedo_jst_others/view.ctp:534
+msgid "Income 6"
+msgstr "第６回入金額"
+
+#: /vendors/shells/i18n_auto.php:337
+#: /views/elements/nedo_jst_others/view.ctp:548
+msgid "Former1 Project Code"
+msgstr "前年度PJコード"
+
+#: /vendors/shells/i18n_auto.php:338
+#: /views/elements/nedo_jst_others/view.ctp:549
+msgid "Former2 Project Code"
+msgstr "前々年度PJコード"
+
+#: /vendors/shells/i18n_auto.php:339
+#: /views/elements/nedo_jst_others/view.ctp:550
+msgid "Former3 Project Code"
+msgstr "前々々年度PJコード"
+
+#: /vendors/shells/i18n_auto.php:340
+#: /views/elements/nedo_jst_others/view.ctp:551
+msgid "Functions Manual"
+msgstr "事務処理要領(有無)"
+
+#: /vendors/shells/i18n_auto.php:341
+#: /views/elements/nedo_jst_others/view.ctp:562
+msgid "Implementation Document"
+msgstr "実施計画書等(有無)"
+
+#: /vendors/shells/i18n_auto.php:342
+#: /views/elements/nedo_jst_others/view.ctp:563
+msgid "Contract Management No"
+msgstr "契約管理番号"
+
+#: /vendors/shells/i18n_auto.php:343
+#: /views/elements/nedo_jst_others/search.ctp:395
+#: /views/elements/nedo_jst_others/view.ctp:564
+msgid "Reported Amount"
+msgstr "報告書金額"
+
+#: /vendors/shells/i18n_auto.php:344 /views/elements/adoptions/search.ctp:205
+#: /views/elements/adoptions/view.ctp:295
+#: /views/elements/nedo_jst_others/search.ctp:397
+#: /views/elements/nedo_jst_others/view.ctp:565
+msgid "Fixed Amount"
+msgstr "確定金額"
+
+#: /vendors/shells/i18n_auto.php:345
+#: /views/elements/nedo_jst_others/search.ctp:399
+#: /views/elements/nedo_jst_others/view.ctp:566
+msgid "Balance"
+msgstr "残高"
+
+#: /vendors/shells/i18n_auto.php:346 /views/elements/adoptions/search.ctp:208
+#: /views/elements/adoptions/view.ctp:298
+#: /views/elements/nedo_jst_others/search.ctp:401
+#: /views/elements/nedo_jst_others/view.ctp:576
+msgid "Turnback Amount"
+msgstr "返還額"
+
+#: /vendors/shells/i18n_auto.php:347
+#: /views/elements/nedo_jst_others/search.ctp:403
+#: /views/elements/nedo_jst_others/view.ctp:577
+msgid "Advance Confirmation Date"
+msgstr "立替申込書確認日"
+
+#: /vendors/shells/i18n_auto.php:348
+#: /views/elements/nedo_jst_others/search.ctp:407
+#: /views/elements/nedo_jst_others/view.ctp:578
+msgid "Goods System Registration Date"
+msgstr "物品システム登録日"
+
+#: /vendors/shells/i18n_auto.php:349
+msgid "Grant Id"
+msgstr "プロジェクトレコードID"
+
+#: /vendors/shells/i18n_auto.php:350 /views/elements/grants/view.ctp:12
+msgid "Adoption Year"
+msgstr "採択年度"
+
+#: /vendors/shells/i18n_auto.php:351 /views/elements/contracts/view.ctp:15
+#: /views/elements/encourages/view.ctp:48 /views/elements/grants/view.ctp:25
+#: /views/elements/mhlw_research_grants/view.ctp:30
+#: /views/elements/other_research_grants/view.ctp:29
+msgid "Assignment No"
+msgstr "課題番号"
+
+#: /vendors/shells/i18n_auto.php:352 /views/elements/grants/view.ctp:26
+msgid "Grant Name"
+msgstr "補助金名称"
+
+#: /vendors/shells/i18n_auto.php:353 /views/elements/grants/view.ctp:27
+msgid "Grant Project Name"
+msgstr "補助金プログラム名"
+
+#: /vendors/shells/i18n_auto.php:354 /views/elements/contracts/view.ctp:27
+#: /views/elements/grants/view.ctp:28
+msgid "Project Assignment Name"
+msgstr "事業/課題名"
+
+#: /vendors/shells/i18n_auto.php:355 /views/elements/grants/view.ctp:29
+#: /views/elements/mhlw_research_grants/search.ctp:24
+#: /views/elements/mhlw_research_grants/view.ctp:13
+#: /views/elements/other_research_grants/search.ctp:25
+#: /views/elements/other_research_grants/view.ctp:13
+msgid "Grant Initial Decision Date"
+msgstr "交付決定日"
+
+#: /vendors/shells/i18n_auto.php:356 /views/elements/grants/search.ctp:20
+#: /views/elements/grants/view.ctp:40
+msgid "Grant Initial Start Date"
+msgstr "事業始期"
+
+#: /vendors/shells/i18n_auto.php:357 /views/elements/grants/search.ctp:23
+#: /views/elements/grants/view.ctp:41
+msgid "Grant Initial End Date"
+msgstr "事業終期"
+
+#: /vendors/shells/i18n_auto.php:358 /views/elements/grants/search.ctp:26
+#: /views/elements/grants/view.ctp:42
+msgid "Grant This Year Decision Date"
+msgstr "(当該年度)交付決定日"
+
+#: /vendors/shells/i18n_auto.php:359 /views/elements/grants/search.ctp:29
+#: /views/elements/grants/view.ctp:43
+msgid "Grant This Year Start Date"
+msgstr "(当該年度)事業始期"
+
+#: /vendors/shells/i18n_auto.php:360 /views/elements/grants/search.ctp:32
+#: /views/elements/grants/view.ctp:44
+msgid "Grant This Year End Date"
+msgstr "(当該年度)事業終期"
+
+#: /vendors/shells/i18n_auto.php:361 /views/elements/grants/view.ctp:59
+msgid "Represent Type"
+msgstr "事業代表・分担等"
+
+#: /vendors/shells/i18n_auto.php:362 /views/contracts/edit.ctp:24
+#: /views/contracts/view.ctp:41 /views/elements/contracts/view.ctp:59
+#: /views/elements/encourages/view.ctp:61 /views/elements/grants/view.ctp:60
+#: /views/grants/edit.ctp:24 /views/grants/view.ctp:41
+msgid "Represent Researcher Name"
+msgstr "代表者名"
+
+#: /vendors/shells/i18n_auto.php:363 /views/elements/grants/view.ctp:73
+msgid "Grant Funds Institute"
+msgstr "資金元"
+
+#: /vendors/shells/i18n_auto.php:364 /views/elements/adoptions/view.ctp:13
+#: /views/elements/grants/view.ctp:74
+msgid "Grant Delivery Institute"
+msgstr "交付元"
+
+#: /vendors/shells/i18n_auto.php:365 /views/elements/grants/view.ctp:75
+msgid "Delegate 1"
+msgstr "分担・委託先１"
+
+#: /vendors/shells/i18n_auto.php:366 /views/elements/grants/view.ctp:76
+msgid "Delegate 2"
+msgstr "分担・委託先２"
+
+#: /vendors/shells/i18n_auto.php:367 /views/elements/grants/view.ctp:77
+msgid "Delegate 3"
+msgstr "分担・委託先３"
+
+#: /vendors/shells/i18n_auto.php:368 /views/elements/grants/view.ctp:87
+msgid "Delegate 4"
+msgstr "分担・委託先４"
+
+#: /vendors/shells/i18n_auto.php:369 /views/elements/grants/search.ctp:57
+#: /views/elements/grants/view.ctp:89
+msgid "Balance Carried Forward"
+msgstr "前年度繰越金"
+
+#: /vendors/shells/i18n_auto.php:370 /views/elements/grants/search.ctp:60
+#: /views/elements/grants/view.ctp:90
+msgid "Grant This Year Decision Money"
+msgstr "(当該年度)交付決定通知書の金額"
+
+#: /vendors/shells/i18n_auto.php:371 /views/elements/grants/search.ctp:65
+#: /views/elements/grants/view.ctp:101
+msgid "Grant This Year Reception Amount"
+msgstr "(当該年度)受入金額"
+
+#: /vendors/shells/i18n_auto.php:372
+#: /views/elements/assessed_contributions/search.ctp:51
+#: /views/elements/assessed_contributions/view.ctp:69
+#: /views/elements/contracts/search.ctp:60
+#: /views/elements/contracts/view.ctp:87 /views/elements/grants/search.ctp:68
+#: /views/elements/grants/view.ctp:102
+msgid "Primary Cost"
+msgstr "直接経費"
+
+#: /vendors/shells/i18n_auto.php:373 /views/elements/grants/search.ctp:79
+#: /views/elements/grants/view.ctp:115
+msgid "Self Contribute Money"
+msgstr "自己拠出額"
+
+#: /vendors/shells/i18n_auto.php:374 /views/elements/grants/search.ctp:93
+#: /views/elements/grants/view.ctp:129
+msgid "Delegate 1 Money"
+msgstr "分担･委託先１ 金額"
+
+#: /vendors/shells/i18n_auto.php:375 /views/elements/grants/search.ctp:96
+#: /views/elements/grants/view.ctp:130
+msgid "Delegate 2 Money"
+msgstr "分担･委託先２ 金額"
+
+#: /vendors/shells/i18n_auto.php:376 /views/elements/grants/search.ctp:99
+#: /views/elements/grants/view.ctp:131
+msgid "Delegate 3 Money"
+msgstr "分担･委託先３ 金額"
+
+#: /vendors/shells/i18n_auto.php:377 /views/elements/grants/search.ctp:102
+#: /views/elements/grants/view.ctp:132
+msgid "Delegate 4 Money"
+msgstr "分担･委託先４ 金額"
+
+#: /vendors/shells/i18n_auto.php:378 /views/elements/contracts/view.ctp:106
+#: /views/elements/grants/view.ctp:133
+msgid "Billing Type"
+msgstr "収入形態"
+
+#: /vendors/shells/i18n_auto.php:379 /views/elements/grants/search.ctp:116
+#: /views/elements/grants/view.ctp:149
+msgid "Kaken System Registration Date"
+msgstr "科研システム"
+
+#: /vendors/shells/i18n_auto.php:380 /views/elements/grants/search.ctp:119
+#: /views/elements/grants/view.ctp:150
+msgid "Reception Status Entry Date"
+msgstr "受入状況"
+
+#: /vendors/shells/i18n_auto.php:381 /views/contracts/edit.ctp:25
+#: /views/contracts/view.ctp:42 /views/elements/adoptions/view.ctp:137
+#: /views/elements/contracts/view.ctp:180 /views/elements/grants/view.ctp:167
+#: /views/grants/edit.ctp:25 /views/grants/view.ctp:42
+msgid "Remarks1"
+msgstr "備考１"
+
+#: /vendors/shells/i18n_auto.php:382 /views/elements/contracts/view.ctp:186
+#: /views/elements/grants/view.ctp:173
+msgid "Remarks2"
+msgstr "備考２"
+
+#: /vendors/shells/i18n_auto.php:383 /views/elements/contracts/view.ctp:192
+#: /views/elements/grants/view.ctp:179
+msgid "Remarks3"
+msgstr "備考３"
+
+#: /vendors/shells/i18n_auto.php:384
+msgid "Contract Id"
+msgstr "プロジェクトレコードID"
+
+#: /vendors/shells/i18n_auto.php:385 /views/elements/contracts/view.ctp:25
+msgid "Funds Institute"
+msgstr "(資金元)機関名"
+
+#: /vendors/shells/i18n_auto.php:386 /views/elements/contracts/view.ctp:26
+msgid "Project Name"
+msgstr "事業名称"
+
+#: /vendors/shells/i18n_auto.php:387 /views/elements/contracts/search.ctp:20
+#: /views/elements/contracts/view.ctp:28
+#: /views/elements/mhlw_research_grants/search.ctp:88
+#: /views/elements/mhlw_research_grants/view.ctp:147
+#: /views/elements/other_research_grants/search.ctp:88
+#: /views/elements/other_research_grants/view.ctp:132
+msgid "Project Start Year"
+msgstr "当初採択年度"
+
+#: /vendors/shells/i18n_auto.php:388 /views/elements/contracts/search.ctp:23
+#: /views/elements/contracts/view.ctp:39
+msgid "Initial Start Date"
+msgstr "(当初)事業・始期"
+
+#: /vendors/shells/i18n_auto.php:389 /views/elements/contracts/search.ctp:26
+#: /views/elements/contracts/view.ctp:40
+msgid "Initial End Date"
+msgstr "(当初)事業・終期"
+
+#: /vendors/shells/i18n_auto.php:390 /views/elements/contracts/search.ctp:29
+#: /views/elements/contracts/view.ctp:41
+msgid "This Year Start Date"
+msgstr "(当該年度)事業の始期"
+
+#: /vendors/shells/i18n_auto.php:391 /views/elements/contracts/search.ctp:32
+#: /views/elements/contracts/view.ctp:42
+msgid "This Year End Date"
+msgstr "(当該年度)事業の終期"
+
+#: /vendors/shells/i18n_auto.php:392 /views/elements/contracts/search.ctp:49
+#: /views/elements/contracts/view.ctp:73
+msgid "Contract Date"
+msgstr "契約締結日"
+
+#: /vendors/shells/i18n_auto.php:393 /views/elements/contracts/search.ctp:52
+#: /views/elements/contracts/view.ctp:74
+msgid "Contract Amount"
+msgstr "契約金額"
+
+#: /vendors/shells/i18n_auto.php:394 /views/elements/contracts/search.ctp:63
+#: /views/elements/contracts/view.ctp:88
+#: /views/elements/donations/search.ctp:78
+#: /views/elements/donations/view.ctp:143
+msgid "Common Cost"
+msgstr "共通経費"
+
+#: /vendors/shells/i18n_auto.php:395 /views/elements/contracts/search.ctp:89
+#: /views/elements/contracts/view.ctp:120
+msgid "Billing Date 1"
+msgstr "請求日１回"
+
+#: /vendors/shells/i18n_auto.php:396 /views/elements/contracts/search.ctp:98
+#: /views/elements/contracts/view.ctp:123
+msgid "Credit 1"
+msgstr "入金額１回"
+
+#: /vendors/shells/i18n_auto.php:397 /views/elements/contracts/search.ctp:103
+#: /views/elements/contracts/view.ctp:134
+msgid "Billing Date 2"
+msgstr "請求日２回"
+
+#: /vendors/shells/i18n_auto.php:398 /views/elements/contracts/search.ctp:112
+#: /views/elements/contracts/view.ctp:137
+msgid "Credit 2"
+msgstr "入金額２回"
+
+#: /vendors/shells/i18n_auto.php:399 /views/elements/contracts/search.ctp:117
+#: /views/elements/contracts/view.ctp:148
+msgid "Billing Date 3"
+msgstr "請求日３回"
+
+#: /vendors/shells/i18n_auto.php:400 /views/elements/contracts/search.ctp:126
+#: /views/elements/contracts/view.ctp:151
+msgid "Credit 3"
+msgstr "入金額３回"
+
+#: /vendors/shells/i18n_auto.php:401 /views/elements/contracts/search.ctp:131
+#: /views/elements/contracts/view.ctp:162
+msgid "Billing Date 4"
+msgstr "請求日４回"
+
+#: /vendors/shells/i18n_auto.php:402 /views/elements/contracts/search.ctp:140
+#: /views/elements/contracts/view.ctp:165
+msgid "Credit 4"
+msgstr "入金額４回"
+
+#: /vendors/shells/i18n_auto.php:403 /views/roles/admin_view.ctp:48
+#: /views/users/admin_view.ctp:23 /views/users/edit.ctp:14
+msgid "Username"
+msgstr "ユーザー名"
+
+#: /vendors/shells/i18n_auto.php:404 /views/users/admin_view.ctp:30
+msgid "Password"
+msgstr "パスワード"
+
+#: /vendors/shells/i18n_auto.php:405 /views/roles/admin_view.ctp:49
+#: /views/users/admin_view.ctp:37
+msgid "Displayname"
+msgstr "表示名"
+
+#: /vendors/shells/i18n_auto.php:406 /views/roles/admin_view.ctp:52
+#: /views/users/admin_view.ctp:58
+msgid "Tel"
+msgstr "電話番号"
+
+#: /vendors/shells/i18n_auto.php:407 /views/roles/admin_view.ctp:53
+#: /views/users/admin_view.ctp:79
+msgid "Grid Type"
+msgstr "表の形式"
+
+#: /vendors/shells/i18n_auto.php:408 /views/users/admin_view.ctp:72
+msgid "Dateformat"
+msgstr "日付表示形式"
+
+#: /vendors/shells/i18n_auto.php:409 /views/roles/admin_view.ctp:54
+msgid "Role Id"
+msgstr "権限ID"
+
+#: /vendors/shells/i18n_auto.php:410
+msgid "Model Name"
+msgstr "モデル名"
+
+#: /vendors/shells/i18n_auto.php:411
+msgid "Data Id"
+msgstr "データID"
+
+#: /vendors/shells/i18n_auto.php:412
+msgid "User Id"
+msgstr "ユーザーID"
+
+#: /vendors/shells/i18n_auto.php:413
+msgid "Category"
+msgstr "カテゴリ"
+
+#: /vendors/shells/i18n_auto.php:414
+msgid "List Name"
+msgstr "一覧"
+
+#: /vendors/shells/i18n_auto.php:415 /views/elements/adoptions/view.ctp:56
+#: /views/elements/mhlw_research_grants/view.ctp:59
+#: /views/elements/other_research_grants/view.ctp:44
+#: /views/information/view.ctp:19 /views/roles/admin_view.ctp:22
+msgid "Name"
+msgstr "名前"
+
+#: /vendors/shells/i18n_auto.php:416
+msgid "Sort Order"
+msgstr "ソート順"
+
+#: /vendors/shells/i18n_auto.php:417 /views/elements/donations/view.ctp:12
+msgid "Section In Charge"
+msgstr "担当課"
+
+#: /vendors/shells/i18n_auto.php:418 /views/elements/donations/view.ctp:13
+msgid "Receipt No"
+msgstr "領収書番号"
+
+#: /vendors/shells/i18n_auto.php:419 /views/elements/donations/search.ctp:28
+#: /views/elements/donations/view.ctp:14
+msgid "Receipt Send Date"
+msgstr "領収書(礼状)送付日"
+
+#: /vendors/shells/i18n_auto.php:420 /views/elements/donations/view.ctp:25
+msgid "Remarks Receipt"
+msgstr "備考(領収書等)"
+
+#: /vendors/shells/i18n_auto.php:421 /views/elements/donations/view.ctp:32
+msgid "Contract Resolution No"
+msgstr "契約決議番号"
+
+#: /vendors/shells/i18n_auto.php:422 /views/elements/donations/view.ctp:33
+msgid "Income Section Code"
+msgstr "収入担当部門コード"
+
+#: /vendors/shells/i18n_auto.php:423 /views/elements/donations/view.ctp:34
+msgid "Income Section Name"
+msgstr "収入担当部門名称長"
+
+#: /vendors/shells/i18n_auto.php:424 /views/elements/donations/view.ctp:45
+msgid "Contract Obligation"
+msgstr "契約債主コード"
+
+#: /vendors/shells/i18n_auto.php:425 /views/elements/donations/view.ctp:46
+msgid "Contract Obligation Name"
+msgstr "契約債主名称長"
+
+#: /vendors/shells/i18n_auto.php:426 /views/elements/donations/search.ctp:38
+#: /views/elements/donations/view.ctp:47
+msgid "Planned Income"
+msgstr "収入予定金額"
+
+#: /vendors/shells/i18n_auto.php:427 /views/elements/donations/view.ctp:48
+msgid "Foreign Money Type"
+msgstr "外貨種別"
+
+#: /vendors/shells/i18n_auto.php:428 /views/elements/donations/search.ctp:44
+#: /views/elements/donations/view.ctp:49
+msgid "Planned Income Foreign"
+msgstr "収入予定金額(外貨)"
+
+#: /vendors/shells/i18n_auto.php:429 /views/elements/donations/search.ctp:45
+#: /views/elements/donations/view.ctp:59
+msgid "Income Yen"
+msgstr "入金額円"
+
+#: /vendors/shells/i18n_auto.php:430 /views/elements/donations/view.ctp:60
+msgid "Subsidy Type"
+msgstr "種別（奨学寄附金or研究助成金）"
+
+#: /vendors/shells/i18n_auto.php:431 /views/elements/donations/view.ctp:62
+msgid "Project Code Name"
+msgstr "PJコード名称長"
+
+#: /vendors/shells/i18n_auto.php:432 /views/elements/donations/view.ctp:73
+msgid "Vouching Remarks"
+msgstr "伝票備考"
+
+#: /vendors/shells/i18n_auto.php:433 /views/elements/donations/view.ctp:81
+msgid "Contract Resolution Detail No"
+msgstr "契約決議内訳番号"
+
+#: /vendors/shells/i18n_auto.php:434 /views/elements/donations/view.ctp:93
+msgid "Detail Remarks"
+msgstr "明細備考"
+
+#: /vendors/shells/i18n_auto.php:435 /views/elements/donations/view.ctp:99
+msgid "Research Promotion Name"
+msgstr "研究助成名称"
+
+#: /vendors/shells/i18n_auto.php:436 /views/elements/donations/search.ctp:66
+#: /views/elements/donations/view.ctp:100
+msgid "Research Promotion Year"
+msgstr "研究助成採択年度"
+
+#: /vendors/shells/i18n_auto.php:437 /views/elements/donations/view.ctp:113
+msgid "Research Promotion Remarks"
+msgstr "備考(研究助成)"
+
+#: /vendors/shells/i18n_auto.php:438 /views/elements/donations/view.ctp:119
+msgid "Variety"
+msgstr "種別"
+
+#: /vendors/shells/i18n_auto.php:439 /views/elements/donations/view.ctp:139
+#: /views/obligations/view.ctp:20
+msgid "Obligation Name"
+msgstr "債主名"
+
+#: /vendors/shells/i18n_auto.php:440 /views/elements/donations/view.ctp:140
+#: /views/obligations/view.ctp:25
+msgid "Ob Represent Name"
+msgstr "代表者名"
+
+#: /vendors/shells/i18n_auto.php:441 /views/elements/donations/view.ctp:141
+#: /views/obligations/view.ctp:30
+msgid "Ob Job Title"
+msgstr "代表者職"
+
+#: /vendors/shells/i18n_auto.php:442 /views/elements/donations/view.ctp:142
+msgid "Common Cost Check"
+msgstr "共通経費有無"
+
+#: /vendors/shells/i18n_auto.php:443 /views/elements/donations/view.ctp:153
+#: /views/obligations/view.ctp:55
+msgid "Ob Postal Code"
+msgstr "郵便番号"
+
+#: /vendors/shells/i18n_auto.php:444 /views/elements/donations/view.ctp:154
+#: /views/obligations/view.ctp:60
+msgid "Ob Address"
+msgstr "住所"
+
+#: /vendors/shells/i18n_auto.php:445 /views/elements/donations/view.ctp:155
+#: /views/obligations/view.ctp:40
+msgid "Ob Section"
+msgstr "担当部署"
+
+#: /vendors/shells/i18n_auto.php:446 /views/elements/donations/view.ctp:156
+#: /views/obligations/view.ctp:45
+msgid "Ob Person In Charge"
+msgstr "担当者"
+
+#: /vendors/shells/i18n_auto.php:447 /views/elements/adoptions/search.ctp:24
+#: /views/elements/adoptions/view.ctp:14
+#: /views/elements/encourages/search.ctp:27
+#: /views/elements/encourages/view.ctp:14
+msgid "Appointment Date"
+msgstr "内定日"
+
+#: /vendors/shells/i18n_auto.php:448 /views/elements/adoptions/search.ctp:25
+#: /views/elements/adoptions/view.ctp:15
+#: /views/elements/encourages/search.ctp:28
+#: /views/elements/encourages/view.ctp:15
+msgid "Decision Date"
+msgstr "決定日"
+
+#: /vendors/shells/i18n_auto.php:449 /views/elements/encourages/view.ctp:33
+msgid "Domestic Or Not"
+msgstr "国・外"
+
+#: /vendors/shells/i18n_auto.php:450 /views/elements/encourages/view.ctp:34
+msgid "Classification"
+msgstr "区分"
+
+#: /vendors/shells/i18n_auto.php:451 /views/elements/encourages/view.ctp:37
+msgid "Recruiting Year"
+msgstr "採用年度"
+
+#: /vendors/shells/i18n_auto.php:452 /views/elements/encourages/view.ctp:47
+msgid "Reception No"
+msgstr "受付番号"
+
+#: /vendors/shells/i18n_auto.php:453
+#: /views/elements/mhlw_research_grants/search.ctp:26
+#: /views/elements/mhlw_research_grants/view.ctp:15
+msgid "This Year Advance Application Date"
+msgstr "本年立替申込書提出日"
+
+#: /vendors/shells/i18n_auto.php:454 /views/elements/encourages/view.ctp:50
+msgid "Qualification And Others"
+msgstr "資格等"
+
+#: /vendors/shells/i18n_auto.php:455 /views/elements/encourages/view.ctp:51
+msgid "Ambit"
+msgstr "領域"
+
+#: /vendors/shells/i18n_auto.php:456 /views/elements/encourages/view.ctp:62
+msgid "Department Represent Researcher"
+msgstr "所属部局(研究代表者)"
+#: msgstr "所属部局(研究代表者)(旧組織)"
+
+#: /vendors/shells/i18n_auto.php:457
+msgid "Facility Teacher"
+msgstr "指導教員"
+
+#: /vendors/shells/i18n_auto.php:458 /views/elements/encourages/view.ctp:76
+msgid "Foreigner Researcher"
+msgstr "外国人特別研究員"
+
+#: /vendors/shells/i18n_auto.php:459 /views/elements/encourages/view.ctp:77
+msgid "Appointment Department"
+msgstr "内定時所属部局(受入研究者)"
+
+#: /vendors/shells/i18n_auto.php:460 /views/elements/encourages/view.ctp:78
+msgid "Appointment Job Title"
+msgstr "内定時職名(受入研究者)"
+
+#: /vendors/shells/i18n_auto.php:461 /views/elements/encourages/search.ctp:72
+#: /views/elements/encourages/view.ctp:103
+msgid "Recruit Start Date"
+msgstr "採用開始"
+
+#: /vendors/shells/i18n_auto.php:462 /views/elements/encourages/search.ctp:73
+#: /views/elements/encourages/view.ctp:104
+msgid "Recruit End Date"
+msgstr "採用終了"
+
+#: /vendors/shells/i18n_auto.php:463 /views/elements/encourages/view.ctp:105
+msgid "Number Of Month"
+msgstr "月数"
+
+#: /vendors/shells/i18n_auto.php:464 /views/elements/encourages/view.ctp:117
+msgid "Remarks Change"
+msgstr "備考(変更手続等)"
+
+#: /vendors/shells/i18n_auto.php:465 /views/elements/encourages/view.ctp:123
+msgid "Remarks Qualification"
+msgstr "備考(資格変更)"
+
+#: /vendors/shells/i18n_auto.php:466 /views/elements/encourages/search.ctp:82
+#: /views/elements/encourages/view.ctp:135
+msgid "Research Plan Reception Date"
+msgstr "研究計画調書受付日"
+
+#: /vendors/shells/i18n_auto.php:467 /views/elements/encourages/search.ctp:83
+#: /views/elements/encourages/view.ctp:136
+msgid "Confirmation Statement Date"
+msgstr "確認書受付日"
+
+#: /vendors/shells/i18n_auto.php:468 /views/elements/adoptions/search.ctp:62
+#: /views/elements/adoptions/view.ctp:82
+#: /views/elements/encourages/search.ctp:89
+#: /views/elements/encourages/view.ctp:149
+#: /views/elements/mhlw_research_grants/search.ctp:55
+#: /views/elements/mhlw_research_grants/view.ctp:86
+#: /views/elements/other_research_grants/search.ctp:55
+#: /views/elements/other_research_grants/view.ctp:71
+msgid "This Year Application Amount"
+msgstr "本年度応募額"
+
+#: /vendors/shells/i18n_auto.php:469 /views/elements/encourages/search.ctp:90
+#: /views/elements/encourages/view.ctp:150
+msgid "This Year Distributed Amount Appointment"
+msgstr "本年度配分額(内定時)"
+
+#: /vendors/shells/i18n_auto.php:470 /views/elements/encourages/search.ctp:91
+#: /views/elements/encourages/view.ctp:151
+msgid "Next Year Distributed Amount Appointment"
+msgstr "次年度配分額(内定時)"
+
+#: /vendors/shells/i18n_auto.php:471 /views/elements/encourages/search.ctp:92
+#: /views/elements/encourages/view.ctp:152
+msgid "Next2 Year Distributed Amount Appointment"
+msgstr "次々年度配分額(内定時)"
+
+#: /vendors/shells/i18n_auto.php:472 /views/elements/encourages/search.ctp:97
+#: /views/elements/encourages/view.ctp:163
+msgid "This Year Distributed Amount"
+msgstr "本年度配分額"
+
+#: /vendors/shells/i18n_auto.php:473 /views/elements/encourages/search.ctp:98
+#: /views/elements/encourages/view.ctp:164
+msgid "Next Year Distributed Amount"
+msgstr "次年度配分額"
+
+#: /vendors/shells/i18n_auto.php:474 /views/elements/encourages/search.ctp:99
+#: /views/elements/encourages/view.ctp:165
+msgid "Next2 Year Distributed Amount"
+msgstr "次々年度配分額"
+
+#: /vendors/shells/i18n_auto.php:475
+#: /views/elements/assessed_contributions/view.ctp:67
+#: /views/elements/encourages/view.ctp:166
+#: /views/elements/mhlw_research_grants/view.ctp:29
+#: /views/elements/other_research_grants/view.ctp:28
+msgid "Titech Assignment No"
+msgstr "学内課題番号"
+
+#: /vendors/shells/i18n_auto.php:476 /views/elements/encourages/view.ctp:167
+#: /views/elements/mhlw_research_grants/view.ctp:116
+#: /views/elements/other_research_grants/view.ctp:101
+msgid "Research Assignment"
+msgstr "研究課題"
+
+#: /vendors/shells/i18n_auto.php:477 /views/elements/encourages/search.ctp:111
+#: /views/elements/encourages/view.ctp:181
+msgid "Acceptance Statement"
+msgstr "特別研究員採用時受入研究者承諾書"
+
+#: /vendors/shells/i18n_auto.php:478 /views/elements/encourages/search.ctp:112
+#: /views/elements/encourages/view.ctp:182
+msgid "Acceptance Application Reception Date"
+msgstr "受入申請書受付日"
+
+#: /vendors/shells/i18n_auto.php:479 /views/elements/encourages/search.ctp:113
+#: /views/elements/encourages/view.ctp:183
+msgid "Issue Application Reception Date"
+msgstr "交付申請受付日"
+
+#: /vendors/shells/i18n_auto.php:480 /views/elements/adoptions/search.ctp:116
+#: /views/elements/adoptions/view.ctp:149
+#: /views/elements/encourages/search.ctp:119
+#: /views/elements/encourages/view.ctp:196
+msgid "Detail Goods Cost"
+msgstr "内訳（物品費）"
+
+#: /vendors/shells/i18n_auto.php:481 /views/elements/adoptions/search.ctp:117
+#: /views/elements/adoptions/view.ctp:150
+#: /views/elements/encourages/search.ctp:120
+#: /views/elements/encourages/view.ctp:197
+msgid "Detail Travel Cost"
+msgstr "内訳（旅費）"
+
+#: /vendors/shells/i18n_auto.php:482 /views/elements/adoptions/search.ctp:118
+#: /views/elements/adoptions/view.ctp:151
+#: /views/elements/encourages/search.ctp:121
+#: /views/elements/encourages/view.ctp:198
+msgid "Detail Gratuity Cost"
+msgstr "内訳（謝金）"
+
+#: /vendors/shells/i18n_auto.php:483 /views/elements/adoptions/search.ctp:119
+#: /views/elements/adoptions/view.ctp:161
+#: /views/elements/encourages/search.ctp:122
+#: /views/elements/encourages/view.ctp:199
+msgid "Detail Other Cost"
+msgstr "内訳（その他）"
+
+#: /vendors/shells/i18n_auto.php:484 /views/elements/encourages/view.ctp:209
+msgid "Issue Application Remarks"
+msgstr "備考(交付申請時)"
+
+#: /vendors/shells/i18n_auto.php:485 /views/elements/adoptions/search.ctp:142
+#: /views/elements/encourages/search.ctp:132
+#: /views/elements/encourages/view.ctp:219
+msgid "Achievement Report Reception Date"
+msgstr "実績報告受付日"
+
+#: /vendors/shells/i18n_auto.php:486 /views/elements/adoptions/search.ctp:147
+#: /views/elements/adoptions/view.ctp:206
+#: /views/elements/encourages/search.ctp:137
+#: /views/elements/encourages/view.ctp:233
+msgid "Achievement Primary Cost"
+msgstr "実績直接経費"
+
+#: /vendors/shells/i18n_auto.php:487 /views/elements/adoptions/search.ctp:148
+#: /views/elements/adoptions/view.ctp:207
+#: /views/elements/encourages/search.ctp:138
+#: /views/elements/encourages/view.ctp:234
+msgid "Achievement Detail Goods Cost"
+msgstr "実績内訳（物品費）"
+
+#: /vendors/shells/i18n_auto.php:488 /views/elements/adoptions/search.ctp:149
+#: /views/elements/adoptions/view.ctp:208
+#: /views/elements/encourages/search.ctp:139
+#: /views/elements/encourages/view.ctp:235
+msgid "Achievement Detail Travel Cost"
+msgstr "実績内訳(旅費)"
+
+#: /vendors/shells/i18n_auto.php:489 /views/elements/adoptions/search.ctp:150
+#: /views/elements/adoptions/view.ctp:209
+#: /views/elements/encourages/search.ctp:140
+#: /views/elements/encourages/view.ctp:236
+msgid "Achievement Detail Gratuity Cost"
+msgstr "実績内訳(謝金)"
+
+#: /vendors/shells/i18n_auto.php:490 /views/elements/adoptions/search.ctp:151
+#: /views/elements/adoptions/view.ctp:219
+#: /views/elements/encourages/search.ctp:141
+#: /views/elements/encourages/view.ctp:237
+msgid "Achievement Detail Other Cost"
+msgstr "実績内訳(その他)"
+
+#: /vendors/shells/i18n_auto.php:491 /views/elements/adoptions/view.ctp:233
+#: /views/elements/encourages/view.ctp:247
+msgid "Achievement Remarks"
+msgstr "実績備考"
+
+#: /vendors/shells/i18n_auto.php:492 /views/elements/adoptions/search.ctp:166
+#: /views/elements/adoptions/view.ctp:243
+#: /views/elements/encourages/search.ctp:151
+#: /views/elements/encourages/view.ctp:257
+msgid "Achievement Carried Report Reception Date"
+msgstr "実績（繰越）報告受付日"
+
+#: /vendors/shells/i18n_auto.php:493 /views/elements/adoptions/search.ctp:171
+#: /views/elements/adoptions/view.ctp:244
+#: /views/elements/encourages/search.ctp:156
+#: /views/elements/encourages/view.ctp:271
+msgid "Achievement Carried Primary Cost"
+msgstr "実績（繰越）直接経費"
+
+#: /vendors/shells/i18n_auto.php:494 /views/elements/adoptions/search.ctp:172
+#: /views/elements/adoptions/view.ctp:245
+#: /views/elements/encourages/search.ctp:157
+#: /views/elements/encourages/view.ctp:272
+msgid "Achievement Carried Detail Goods Cost"
+msgstr "実績(繰越)内訳(物品費)"
+
+#: /vendors/shells/i18n_auto.php:495 /views/elements/adoptions/search.ctp:173
+#: /views/elements/adoptions/view.ctp:246
+#: /views/elements/encourages/search.ctp:158
+#: /views/elements/encourages/view.ctp:273
+msgid "Achievement Carried Detail Travel Cost"
+msgstr "実績(繰越)内訳(旅費)"
+
+#: /vendors/shells/i18n_auto.php:496 /views/elements/adoptions/search.ctp:174
+#: /views/elements/adoptions/view.ctp:247
+#: /views/elements/encourages/search.ctp:159
+#: /views/elements/encourages/view.ctp:274
+msgid "Achievement Carried Detail Gratuity Cost"
+msgstr "実績(繰越)内訳(謝金)"
+
+#: /vendors/shells/i18n_auto.php:497 /views/elements/adoptions/search.ctp:175
+#: /views/elements/adoptions/view.ctp:257
+#: /views/elements/encourages/search.ctp:160
+#: /views/elements/encourages/view.ctp:275
+msgid "Achievement Carried Detail Other Cost"
+msgstr "実績(繰越)内訳(その他)"
+
+#: /vendors/shells/i18n_auto.php:498 /views/elements/adoptions/view.ctp:259
+#: /views/elements/encourages/view.ctp:285
+msgid "Carried Titech Assignment No"
+msgstr "繰越用学内課題番号"
+
+#: /vendors/shells/i18n_auto.php:499 /views/elements/encourages/search.ctp:166
+#: /views/elements/encourages/view.ctp:299
+msgid "Balance Carried"
+msgstr "繰越額"
+
+#: /vendors/shells/i18n_auto.php:500 /views/elements/adoptions/search.ctp:187
+#: /views/elements/adoptions/view.ctp:261
+#: /views/elements/encourages/search.ctp:167
+#: /views/elements/encourages/view.ctp:300
+msgid "Carried Detail Goods Cost"
+msgstr "繰越分内訳(物品費)"
+
+#: /vendors/shells/i18n_auto.php:501 /views/elements/adoptions/search.ctp:188
+#: /views/elements/adoptions/view.ctp:271
+#: /views/elements/encourages/search.ctp:168
+#: /views/elements/encourages/view.ctp:301
+msgid "Carried Detail Travel Cost"
+msgstr "繰越分内訳(旅費)"
+
+#: /vendors/shells/i18n_auto.php:502 /views/elements/adoptions/search.ctp:189
+#: /views/elements/adoptions/view.ctp:272
+#: /views/elements/encourages/search.ctp:169
+#: /views/elements/encourages/view.ctp:302
+msgid "Carried Detail Gratuity Cost"
+msgstr "繰越分内訳（謝金）"
+
+#: /vendors/shells/i18n_auto.php:503 /views/elements/adoptions/search.ctp:190
+#: /views/elements/adoptions/view.ctp:273
+#: /views/elements/encourages/search.ctp:170
+#: /views/elements/encourages/view.ctp:303
+msgid "Carried Detail Other Cost"
+msgstr "繰越分内訳(その他)"
+
+#: /vendors/shells/i18n_auto.php:504 /views/elements/encourages/view.ctp:313
+msgid "Remarks Carried"
+msgstr "備考(繰越)"
+
+#: /vendors/shells/i18n_auto.php:505 /views/elements/encourages/view.ctp:337
+msgid "Remarks Balance Fixed Turnback"
+msgstr "備考(返還・確定)"
+
+#: /vendors/shells/i18n_auto.php:506
+msgid "Mobile Phone"
+msgstr "携帯番号"
+
+#: /vendors/shells/i18n_auto.php:507
+#: /views/elements/encourages/view.ctp:351;362
+msgid "Extension Researcher"
+msgstr "内線番号(受入研究者)"
+
+#: /vendors/shells/i18n_auto.php:508
+msgid "Received Researcher Email"
+msgstr "受入研究者E-mail"
+
+#: /vendors/shells/i18n_auto.php:509 /views/elements/encourages/view.ctp:90
+msgid "Major"
+msgstr "専攻"
+#: msgstr "専攻(旧組織)"
+
+#: /vendors/shells/i18n_auto.php:510 /views/elements/encourages/view.ctp:91
+msgid "Matriculation Number"
+msgstr "学籍番号"
+
+#: /vendors/shells/i18n_auto.php:511 /views/projects/view.ctp:21
+msgid "Long Name"
+msgstr "長名"
+
+#: /vendors/shells/i18n_auto.php:512 /views/projects/view.ctp:26
+msgid "Short Name"
+msgstr "短名"
+
+#: /vendors/shells/i18n_auto.php:513
+#: /views/elements/assessed_contributions/view.ctp:40
+#: /views/projects/view.ctp:41
+msgid "Department No"
+msgstr "部局コード"
+
+#: /vendors/shells/i18n_auto.php:514 /views/projects/view.ctp:51
+msgid "Goal"
+msgstr "目的"
+
+#: /vendors/shells/i18n_auto.php:515 /views/elements/obligations/form.ctp:7
+#: /views/obligations/view.ctp:15
+msgid "Obligation Code"
+msgstr "債主コード"
+
+#: /vendors/shells/i18n_auto.php:516 /views/obligations/view.ctp:35
+msgid "Ob Postal Code Address"
+msgstr "郵便番号＋住所（担）"
+
+#: /vendors/shells/i18n_auto.php:517 /views/obligations/view.ctp:50
+msgid "Obligation Name Short"
+msgstr "債主名(短)"
+
+#: /vendors/shells/i18n_auto.php:518
+#: /views/elements/mhlw_research_grants/search.ctp:23
+#: /views/elements/mhlw_research_grants/view.ctp:12
+#: /views/elements/other_research_grants/search.ctp:24
+#: /views/elements/other_research_grants/view.ctp:12
+msgid "Grant Initial Appointment Date"
+msgstr "交付内定日"
+
+#: /vendors/shells/i18n_auto.php:519
+#: /views/elements/other_research_grants/search.ctp:27
+#: /views/elements/other_research_grants/view.ctp:15
+msgid "Paying For Day"
+msgstr "立替受付日"
+
+#: /vendors/shells/i18n_auto.php:520
+#: /views/elements/mhlw_research_grants/view.ctp:60
+#: /views/elements/other_research_grants/view.ctp:45
+msgid "Represent Researcher"
+msgstr "代表分担"
+
+#: /vendors/shells/i18n_auto.php:521 /views/elements/adoptions/view.ctp:81
+#: /views/elements/mhlw_research_grants/view.ctp:74
+#: /views/elements/other_research_grants/view.ctp:59
+msgid "Statistical Job"
+msgstr "統計職"
+
+#: /vendors/shells/i18n_auto.php:522
+#: /views/elements/mhlw_research_grants/search.ctp:56
+#: /views/elements/mhlw_research_grants/view.ctp:87
+#: /views/elements/other_research_grants/search.ctp:56
+#: /views/elements/other_research_grants/view.ctp:72
+msgid "This Year Total At Decision"
+msgstr "本年度合計(内定時)"
+
+#: /vendors/shells/i18n_auto.php:523
+#: /views/elements/mhlw_research_grants/search.ctp:57
+#: /views/elements/mhlw_research_grants/view.ctp:88
+#: /views/elements/other_research_grants/search.ctp:57
+#: /views/elements/other_research_grants/view.ctp:73
+msgid "This Year Direct At Decision"
+msgstr "本年度直(内定時)"
+
+#: /vendors/shells/i18n_auto.php:524
+#: /views/elements/mhlw_research_grants/search.ctp:58
+#: /views/elements/mhlw_research_grants/view.ctp:89
+#: /views/elements/other_research_grants/search.ctp:58
+#: /views/elements/other_research_grants/view.ctp:74
+msgid "This Year Indirect At Decision"
+msgstr "本年度間(内定時)"
+
+#: /vendors/shells/i18n_auto.php:525
+#: /views/elements/mhlw_research_grants/search.ctp:64
+#: /views/elements/mhlw_research_grants/view.ctp:101
+#: /views/elements/other_research_grants/search.ctp:64
+#: /views/elements/other_research_grants/view.ctp:86
+msgid "This Year Application Amount Sum"
+msgstr "本年度合計"
+
+#: /vendors/shells/i18n_auto.php:526
+#: /views/elements/mhlw_research_grants/search.ctp:65
+#: /views/elements/mhlw_research_grants/view.ctp:102
+#: /views/elements/other_research_grants/search.ctp:65
+#: /views/elements/other_research_grants/view.ctp:87
+msgid "This Year Direct Cost"
+msgstr "本年度直"
+
+#: /vendors/shells/i18n_auto.php:527
+#: /views/elements/mhlw_research_grants/search.ctp:66
+#: /views/elements/mhlw_research_grants/view.ctp:103
+#: /views/elements/other_research_grants/search.ctp:66
+#: /views/elements/other_research_grants/view.ctp:88
+msgid "This Year Indirect Cost"
+msgstr "本年度間"
+
+#: /vendors/shells/i18n_auto.php:528 /views/elements/adoptions/search.ctp:129
+#: /views/elements/adoptions/view.ctp:181
+#: /views/elements/mhlw_research_grants/search.ctp:73
+#: /views/elements/mhlw_research_grants/view.ctp:123
+#: /views/elements/other_research_grants/search.ctp:73
+#: /views/elements/other_research_grants/view.ctp:108
+msgid "Contribution Count"
+msgstr "分担金件数"
+
+#: /vendors/shells/i18n_auto.php:529 /views/elements/adoptions/search.ctp:131
+#: /views/elements/mhlw_research_grants/search.ctp:74
+#: /views/elements/mhlw_research_grants/view.ctp:124
+#: /views/elements/other_research_grants/search.ctp:74
+#: /views/elements/other_research_grants/view.ctp:109
+msgid "Contribution Partition"
+msgstr "分担金配分額"
+
+#: /vendors/shells/i18n_auto.php:530 /views/elements/adoptions/view.ctp:195
+#: /views/elements/mhlw_research_grants/view.ctp:138
+#: /views/elements/other_research_grants/view.ctp:123
+msgid "Contribution Remarks"
+msgstr "分担金備考"
+
+#: /vendors/shells/i18n_auto.php:531
+#: /views/elements/mhlw_research_grants/search.ctp:86
+#: /views/elements/mhlw_research_grants/view.ctp:145
+#: /views/elements/other_research_grants/search.ctp:86
+#: /views/elements/other_research_grants/view.ctp:130
+msgid "Research Start Date"
+msgstr "研究期間開始日（当該年度）"
+
+#: /vendors/shells/i18n_auto.php:532
+#: /views/elements/mhlw_research_grants/search.ctp:87
+#: /views/elements/mhlw_research_grants/view.ctp:146
+#: /views/elements/other_research_grants/search.ctp:87
+#: /views/elements/other_research_grants/view.ctp:131
+msgid "Research End Date"
+msgstr "研究期間終了日（当該年度）"
+
+#: /vendors/shells/i18n_auto.php:533
+#: /views/elements/mhlw_research_grants/search.ctp:89
+#: /views/elements/mhlw_research_grants/view.ctp:148
+#: /views/elements/other_research_grants/search.ctp:89
+#: /views/elements/other_research_grants/view.ctp:133
+msgid "Project End Year"
+msgstr "終了予定年度"
+
+#: /vendors/shells/i18n_auto.php:534
+#: /views/elements/mhlw_research_grants/view.ctp:27
+msgid "Commission Coi Check"
+msgstr "COI委員会への申出有無"
+
+#: /vendors/shells/i18n_auto.php:535 /views/elements/adoptions/view.ctp:12
+msgid "Type No"
+msgstr "種目No"
+
+#: /vendors/shells/i18n_auto.php:536 /views/elements/adoptions/search.ctp:32
+#: /views/elements/adoptions/view.ctp:26
+msgid "Advance Application Reception Date"
+msgstr "立替申込書受付日"
+
+#: /vendors/shells/i18n_auto.php:537 /views/elements/adoptions/view.ctp:27
+msgid "Move Out In Etc"
+msgstr "転出入等"
+
+#: /vendors/shells/i18n_auto.php:538 /views/elements/adoptions/view.ctp:28
+#: /views/elements/assessed_contributions/view.ctp:56
+msgid "Research Type"
+msgstr "研究種目"
+
+#: /vendors/shells/i18n_auto.php:539 /views/elements/adoptions/view.ctp:29
+msgid "Screening"
+msgstr "審査"
+
+#: /vendors/shells/i18n_auto.php:540 /views/elements/adoptions/view.ctp:39
+msgid "End Before Application"
+msgstr "最終前年申請"
+
+#: /vendors/shells/i18n_auto.php:541 /views/elements/adoptions/view.ctp:40
+msgid "Contribution"
+msgstr "分担金有無"
+
+#: /vendors/shells/i18n_auto.php:542 /views/elements/adoptions/view.ctp:41
+msgid "Detail Ambit No"
+msgstr "細目領域番号"
+
+#: /vendors/shells/i18n_auto.php:543 /views/elements/adoptions/view.ctp:42
+msgid "Division A B"
+msgstr "分割AB"
+
+#: /vendors/shells/i18n_auto.php:544 /views/elements/adoptions/view.ctp:43
+msgid "Research Number Points"
+msgstr "研究項目番号"
+
+#: /vendors/shells/i18n_auto.php:545 /views/elements/adoptions/view.ctp:53
+msgid "Arrange No"
+msgstr "整理番号"
+
+#: /vendors/shells/i18n_auto.php:546 /views/elements/adoptions/view.ctp:54
+msgid "Problem No"
+msgstr "課題番号"
+
+#: /vendors/shells/i18n_auto.php:547 /views/elements/adoptions/view.ctp:70
+msgid "Application Job"
+msgstr "申請時職"
+
+#: /vendors/shells/i18n_auto.php:548 /views/elements/adoptions/view.ctp:71
+msgid "Current Job Title"
+msgstr "現職"
+
+#: /vendors/shells/i18n_auto.php:549 /views/elements/adoptions/search.ctp:63
+#: /views/elements/adoptions/view.ctp:83
+msgid "Current Payment Sum Appointment"
+msgstr "本年度合計（内定時）"
+
+#: /vendors/shells/i18n_auto.php:550 /views/elements/adoptions/search.ctp:64
+#: /views/elements/adoptions/view.ctp:84
+msgid "Current Payment D Appointment"
+msgstr "本年度直（内定時）"
+
+#: /vendors/shells/i18n_auto.php:551 /views/elements/adoptions/search.ctp:65
+#: /views/elements/adoptions/view.ctp:85
+msgid "Current Payment I Appointment"
+msgstr "本年度間（内定時）"
+
+#: /vendors/shells/i18n_auto.php:552 /views/elements/adoptions/search.ctp:70
+#: /views/elements/adoptions/view.ctp:95
+msgid "Next1 Payment D Appointment"
+msgstr "次年度直（内定時）"
+
+#: /vendors/shells/i18n_auto.php:553 /views/elements/adoptions/search.ctp:71
+#: /views/elements/adoptions/view.ctp:96
+msgid "Next2 Payment D Appointment"
+msgstr "次々年度直（内定時）"
+
+#: /vendors/shells/i18n_auto.php:554 /views/elements/adoptions/search.ctp:72
+#: /views/elements/adoptions/view.ctp:97
+msgid "Next3 Payment D Appointment"
+msgstr "次々々年度直（内定時）"
+
+#: /vendors/shells/i18n_auto.php:555 /views/elements/adoptions/search.ctp:73
+#: /views/elements/adoptions/view.ctp:98
+msgid "Next4 Payment D Appointment"
+msgstr "次々々々年度直（内定時）"
+
+#: /vendors/shells/i18n_auto.php:556 /views/elements/adoptions/search.ctp:74
+#: /views/elements/adoptions/view.ctp:99
+msgid "Next5 Payment D Appointment"
+msgstr "次々々々々年度直（内定時）"
+
+#: /vendors/shells/i18n_auto.php:557 /views/elements/adoptions/search.ctp:92
+#: /views/elements/adoptions/view.ctp:125
+msgid "Next5 Payment D"
+msgstr "次々々々々年度直"
+
+#: /vendors/shells/i18n_auto.php:558 /views/elements/adoptions/view.ctp:127
+msgid "Researcher Assignment"
+msgstr "研究課題名"
+
+#: /vendors/shells/i18n_auto.php:559 /views/elements/adoptions/search.ctp:110
+#: /views/elements/adoptions/view.ctp:147
+msgid "Grant Reception Date"
+msgstr "交付申請書受付日"
+
+#: /vendors/shells/i18n_auto.php:560 /views/elements/adoptions/view.ctp:175
+msgid "Remarks Issue Application"
+msgstr "交付申請備考"
+
+#: /vendors/shells/i18n_auto.php:561 /views/elements/adoptions/search.ctp:130
+#: /views/elements/adoptions/view.ctp:182
+msgid "Contribution Amount"
+msgstr "分担金額"
+
+#: /vendors/shells/i18n_auto.php:562 /views/elements/adoptions/view.ctp:184
+msgid "Adjudicator"
+msgstr "審査員"
+
+#: /vendors/shells/i18n_auto.php:563 /views/elements/adoptions/search.ctp:152
+#: /views/elements/adoptions/view.ctp:220
+msgid "Achievement Indirect Cost"
+msgstr "実績間接経費"
+
+#: /vendors/shells/i18n_auto.php:564 /views/elements/adoptions/search.ctp:176
+#: /views/elements/adoptions/view.ctp:258
+msgid "Achievement Carried Indirect Cost"
+msgstr "実績（繰越）関接経費"
+
+#: /vendors/shells/i18n_auto.php:565 /views/elements/adoptions/search.ctp:186
+#: /views/elements/adoptions/view.ctp:260
+msgid "Carried Primary Cost"
+msgstr "繰越分直接経費"
+
+#: /vendors/shells/i18n_auto.php:566 /views/elements/adoptions/search.ctp:191
+#: /views/elements/adoptions/view.ctp:274
+msgid "Carried Indirect Cost"
+msgstr "繰越分間接経費"
+
+#: /vendors/shells/i18n_auto.php:567 /views/elements/adoptions/view.ctp:285
+msgid "Process Carried Remarks"
+msgstr "経過・繰越備考"
+
+#: /vendors/shells/i18n_auto.php:568 /views/elements/adoptions/search.ctp:206
+#: /views/elements/adoptions/view.ctp:296
+msgid "Fixed Amount Primary Cost"
+msgstr "確定額（直接経費）"
+
+#: /vendors/shells/i18n_auto.php:569 /views/elements/adoptions/search.ctp:207
+#: /views/elements/adoptions/view.ctp:297
+msgid "Fixed Amount Indirect Cost"
+msgstr "確定額（間接経費）"
+
+#: /vendors/shells/i18n_auto.php:570 /views/elements/adoptions/search.ctp:209
+#: /views/elements/adoptions/view.ctp:299
+msgid "Turnback Amount Primary Cost"
+msgstr "残額（直接経費）"
+
+#: /vendors/shells/i18n_auto.php:571 /views/elements/adoptions/search.ctp:210
+#: /views/elements/adoptions/view.ctp:309
+msgid "Turnback Amount Indirect Cost"
+msgstr "残額（間接経費）"
+
+#: /vendors/shells/i18n_auto.php:572 /views/elements/adoptions/view.ctp:323
+msgid "Turnback Amount Remarks"
+msgstr "残額・返還額備考"
+
+#: /vendors/shells/i18n_auto.php:573 /views/elements/adoptions/view.ctp:333
+msgid "Self Assessment Person"
+msgstr "自己評価報告書対象者"
+
+#: /vendors/shells/i18n_auto.php:574 /views/elements/adoptions/search.ctp:225
+#: /views/elements/adoptions/view.ctp:334
+msgid "Self Assessment Date"
+msgstr "自己評価報告書受付日"
+
+#: /vendors/shells/i18n_auto.php:575 /views/elements/adoptions/view.ctp:347
+msgid "Self Assessment Remarks"
+msgstr "自己評価報告書備考"
+
+#: /vendors/shells/i18n_auto.php:576 /views/elements/adoptions/view.ctp:353
+msgid "Accomplishment Object Person"
+msgstr "成果報告書提出対象者"
+
+#: /vendors/shells/i18n_auto.php:577 /views/elements/adoptions/search.ctp:230
+#: /views/elements/adoptions/view.ctp:354
+msgid "Accomplishment Date"
+msgstr "成果報告書受付日"
+
+#: /vendors/shells/i18n_auto.php:578 /views/elements/adoptions/search.ctp:231
+#: /views/elements/adoptions/view.ctp:355
+msgid "Process Date"
+msgstr "経過報告書受付日"
+
+#: /vendors/shells/i18n_auto.php:579 /views/elements/adoptions/search.ctp:232
+#: /views/elements/adoptions/view.ctp:356
+msgid "Accomplishment Scheduled Date"
+msgstr "成果報告書提出予定日"
+
+#: /vendors/shells/i18n_auto.php:580 /views/elements/adoptions/view.ctp:367
+msgid "Accomplishment Remarks"
+msgstr "成果報告備考"
+
+#: /vendors/shells/i18n_auto.php:581 /views/elements/adoptions/view.ctp:391
+msgid "Special Mention"
+msgstr "特記"
+
+#: /vendors/shells/i18n_auto.php:582
+#: /views/elements/assessed_contributions/view.ctp:12
+msgid "Representative Affiliation"
+msgstr "代表者の所属機関"
+
+#: /vendors/shells/i18n_auto.php:583
+#: /views/elements/assessed_contributions/view.ctp:13
+msgid "Representative Department"
+msgstr "代表者の所属部局"
+
+#: /vendors/shells/i18n_auto.php:584
+#: /views/elements/assessed_contributions/view.ctp:14
+msgid "Representative Job Type"
+msgstr "代表者の職"
+
+#: /vendors/shells/i18n_auto.php:585
+#: /views/elements/assessed_contributions/view.ctp:15
+msgid "Representative Name"
+msgstr "代表者名"
+
+#: /vendors/shells/i18n_auto.php:586
+#: /views/elements/assessed_contributions/view.ctp:27
+msgid "Co Researcher No"
+msgstr "分担研究者番号"
+
+#: /vendors/shells/i18n_auto.php:587
+#: /views/elements/assessed_contributions/view.ctp:28
+msgid "Co Researcher Department"
+msgstr "分担者の所属部局"
+#: msgstr "分担者の所属部局(旧組織)"
+
+#: /vendors/shells/i18n_auto.php:588
+#: /views/elements/assessed_contributions/view.ctp:39
+msgid "Co Researcher Job Type"
+msgstr "分担者の職"
+
+#: /vendors/shells/i18n_auto.php:589
+#: /views/elements/assessed_contributions/view.ctp:41
+msgid "Co Researcher Name"
+msgstr "分担者名"
+
+#: /vendors/shells/i18n_auto.php:590
+#: /views/elements/assessed_contributions/view.ctp:57
+msgid "Title No"
+msgstr "課題番号"
+
+#: /vendors/shells/i18n_auto.php:591;654
+#: /views/elements/assessed_contributions/view.ctp:68
+#: /views/projects/upload.ctp:13 /views/projects/view.ctp:14
+msgid "Project"
+msgstr "プロジェクトデータ"
+
+#: /vendors/shells/i18n_auto.php:592
+#: /views/elements/assessed_contributions/search.ctp:52
+#: /views/elements/assessed_contributions/view.ctp:70
+msgid "Detail Good Cost"
+msgstr "内訳（物品費）"
+
+#: /vendors/shells/i18n_auto.php:593
+#: /views/elements/assessed_contributions/search.ctp:53
+#: /views/elements/assessed_contributions/view.ctp:71
+msgid "Detail Trip Cost"
+msgstr "内訳（旅費）"
+
+#: /vendors/shells/i18n_auto.php:594
+#: /views/elements/assessed_contributions/search.ctp:54
+#: /views/elements/assessed_contributions/view.ctp:81
+msgid "Detail Reward Cost"
+msgstr "内訳（謝金）"
+
+#: /vendors/shells/i18n_auto.php:595
+#: /views/elements/assessed_contributions/search.ctp:59
+#: /views/elements/assessed_contributions/view.ctp:82
+msgid "Detail Other"
+msgstr "内訳（その他）"
+
+#: /vendors/shells/i18n_auto.php:596
+#: /views/elements/assessed_contributions/view.ctp:101
+msgid "Is Distributed Amount Change"
+msgstr "配分額変更"
+
+#: /vendors/shells/i18n_auto.php:597
+#: /views/elements/assessed_contributions/search.ctp:63
+#: /views/elements/assessed_contributions/view.ctp:102
+msgid "Distributed Amount Change"
+msgstr "変更配分額（直接経費）"
+
+#: /vendors/shells/i18n_auto.php:598
+#: /views/elements/assessed_contributions/search.ctp:68
+#: /views/elements/assessed_contributions/view.ctp:103
+msgid "Change Detail Good Cost"
+msgstr "変更内訳(物品費)"
+
+#: /vendors/shells/i18n_auto.php:599
+#: /views/elements/assessed_contributions/search.ctp:69
+#: /views/elements/assessed_contributions/view.ctp:104
+msgid "Change Detail Trip Cost"
+msgstr "変更内訳(旅費)"
+
+#: /vendors/shells/i18n_auto.php:600
+#: /views/elements/assessed_contributions/search.ctp:70
+#: /views/elements/assessed_contributions/view.ctp:105
+msgid "Change Detail Reward Cost"
+msgstr "変更内訳（謝金）"
+
+#: /vendors/shells/i18n_auto.php:601
+#: /views/elements/assessed_contributions/search.ctp:71
+#: /views/elements/assessed_contributions/view.ctp:115
+msgid "Change Detail Other"
+msgstr "変更内訳（その他）"
+
+#: /vendors/shells/i18n_auto.php:602
+#: /views/elements/assessed_contributions/search.ctp:72
+#: /views/elements/assessed_contributions/view.ctp:116
+msgid "Change Indirect Cost"
+msgstr "変更配分額（間接経費）"
+
+#: /vendors/shells/i18n_auto.php:603
+#: /views/elements/assessed_contributions/view.ctp:129
+msgid "Remarks Distributed Change"
+msgstr "備考（配分額変更）"
+
+#: /vendors/shells/i18n_auto.php:604
+#: /views/elements/assessed_contributions/search.ctp:86
+#: /views/elements/assessed_contributions/view.ctp:139
+msgid "Contribution Repartition Official Letter"
+msgstr "分担金配分予定通知書日付"
+
+#: /vendors/shells/i18n_auto.php:605
+#: /views/elements/assessed_contributions/view.ctp:140
+msgid "Detail Cost Check"
+msgstr "費目内訳有無等"
+
+#: /vendors/shells/i18n_auto.php:606
+#: /views/elements/assessed_contributions/search.ctp:88
+#: /views/elements/assessed_contributions/view.ctp:141
+msgid "Recept Commission Request Date"
+msgstr "受領委任状依頼日"
+
+#: /vendors/shells/i18n_auto.php:607
+#: /views/elements/assessed_contributions/search.ctp:89
+#: /views/elements/assessed_contributions/view.ctp:142
+msgid "Recept Commission Recept Date"
+msgstr "受領委任状受領日"
+
+#: /vendors/shells/i18n_auto.php:608
+#: /views/elements/assessed_contributions/search.ctp:90
+#: /views/elements/assessed_contributions/view.ctp:143
+msgid "Request Transfer"
+msgstr "振込依頼書"
+
+#: /vendors/shells/i18n_auto.php:609
+#: /views/elements/assessed_contributions/search.ctp:95
+#: /views/elements/assessed_contributions/view.ctp:153
+msgid "Representative Organization Send"
+msgstr "代表者機関へ送付"
+
+#: /vendors/shells/i18n_auto.php:610
+#: /views/elements/assessed_contributions/search.ctp:97
+#: /views/elements/assessed_contributions/view.ctp:155
+msgid "Recovery Date"
+msgstr "立替日"
+
+#: /vendors/shells/i18n_auto.php:611
+#: /views/elements/assessed_contributions/search.ctp:98
+#: /views/elements/assessed_contributions/view.ctp:156
+msgid "Payment Confirmed Date"
+msgstr "入金確認表送付日"
+
+#: /vendors/shells/i18n_auto.php:612
+#: /views/elements/assessed_contributions/view.ctp:157
+msgid "Research Plan Contact"
+msgstr "研究企画業務課へ入金連絡"
+
+#: /vendors/shells/i18n_auto.php:613
+#: /views/elements/assessed_contributions/search.ctp:108
+#: /views/elements/assessed_contributions/view.ctp:171
+msgid "Contribution Repartition Official Letter Distributed Change"
+msgstr "分担金配分予定通知書日付（配分額変更）"
+
+#: /vendors/shells/i18n_auto.php:614
+#: /views/elements/assessed_contributions/view.ctp:172
+msgid "Detail Cost Check Amount Change"
+msgstr "費目内訳有無等（配分額変更）"
+
+#: /vendors/shells/i18n_auto.php:615
+#: /views/elements/assessed_contributions/search.ctp:110
+#: /views/elements/assessed_contributions/view.ctp:173
+msgid "Recept Commission Request Date Distributed Change"
+msgstr "受領委任状依頼日（配分額変更）"
+
+#: /vendors/shells/i18n_auto.php:616
+#: /views/elements/assessed_contributions/search.ctp:111
+#: /views/elements/assessed_contributions/view.ctp:174
+msgid "Recept Commission Recept Date Distributed Change"
+msgstr "受領委任状受領日（配分額変更）"
+
+#: /vendors/shells/i18n_auto.php:617
+#: /views/elements/assessed_contributions/search.ctp:112
+#: /views/elements/assessed_contributions/view.ctp:175
+msgid "Request Transfer Distributed Change"
+msgstr "振込依頼書（配分額変更）"
+
+#: /vendors/shells/i18n_auto.php:618
+#: /views/elements/assessed_contributions/search.ctp:117
+#: /views/elements/assessed_contributions/view.ctp:185
+msgid "Representative Organization Send Distributed Change"
+msgstr "代表者機関へ送付（配分額変更）"
+
+#: /vendors/shells/i18n_auto.php:619
+#: /views/elements/assessed_contributions/search.ctp:118
+#: /views/elements/assessed_contributions/view.ctp:186
+msgid "Payment Date Distributed Change"
+msgstr "入出金日（配分額変更）"
+
+#: /vendors/shells/i18n_auto.php:620
+#: /views/elements/assessed_contributions/search.ctp:119
+#: /views/elements/assessed_contributions/view.ctp:187
+msgid "Recovery Date Distributed Change"
+msgstr "立替日（配分額変更）"
+
+#: /vendors/shells/i18n_auto.php:621
+#: /views/elements/assessed_contributions/search.ctp:120
+#: /views/elements/assessed_contributions/view.ctp:188
+msgid "Payment Confirmed Date Distributed Change"
+msgstr "入出金日（配分額変更）"
+
+#: /vendors/shells/i18n_auto.php:622
+#: /views/elements/assessed_contributions/search.ctp:121
+#: /views/elements/assessed_contributions/view.ctp:189
+msgid "Research Plan Contact Distributed Change"
+msgstr "研究企画課へ入金連絡（配分額変更）"
+
+#: /vendors/shells/i18n_auto.php:623
+#: /views/elements/assessed_contributions/view.ctp:199
+msgid "Remarks Distributed Change Process"
+msgstr "備考（配分額変更手続）"
+
+#: /vendors/shells/i18n_auto.php:624
+#: /views/elements/assessed_contributions/search.ctp:131
+#: /views/elements/assessed_contributions/view.ctp:209
+msgid "Exhibit Overdue"
+msgstr "証拠書類提出締切"
+
+#: /vendors/shells/i18n_auto.php:625
+#: /views/elements/assessed_contributions/search.ctp:132
+#: /views/elements/assessed_contributions/view.ctp:210
+msgid "Exhibit Induction Date"
+msgstr "証拠書類提出日"
+
+#: /vendors/shells/i18n_auto.php:626
+#: /views/elements/assessed_contributions/search.ctp:133
+#: /views/elements/assessed_contributions/view.ctp:211
+msgid "Real Primary Cost"
+msgstr "実支出額（直接経費）"
+
+#: /vendors/shells/i18n_auto.php:627
+#: /views/elements/assessed_contributions/search.ctp:134
+#: /views/elements/assessed_contributions/view.ctp:212
+msgid "Expense Detail Goods Cost"
+msgstr "支出内訳（物品費）"
+
+#: /vendors/shells/i18n_auto.php:628
+#: /views/elements/assessed_contributions/search.ctp:135
+#: /views/elements/assessed_contributions/view.ctp:213
+msgid "Expense Detail Trip Cost"
+msgstr "支出内訳（旅費）"
+
+#: /vendors/shells/i18n_auto.php:629
+#: /views/elements/assessed_contributions/search.ctp:140
+#: /views/elements/assessed_contributions/view.ctp:223
+msgid "Expense Detail Reward Cost"
+msgstr "支出内訳（謝金）"
+
+#: /vendors/shells/i18n_auto.php:630
+#: /views/elements/assessed_contributions/search.ctp:141
+#: /views/elements/assessed_contributions/view.ctp:224
+msgid "Expense Detail Other"
+msgstr "支出内訳（その他）"
+
+#: /vendors/shells/i18n_auto.php:631
+#: /views/elements/assessed_contributions/search.ctp:142
+#: /views/elements/assessed_contributions/view.ctp:225
+msgid "Real Indirect Cost"
+msgstr "実支出額（間接経費）"
+
+#: /vendors/shells/i18n_auto.php:632
+#: /views/elements/assessed_contributions/search.ctp:143
+#: /views/elements/assessed_contributions/view.ctp:226
+msgid "Turnback Payment Amount"
+msgstr "返還額（直接経費）"
+
+#: /vendors/shells/i18n_auto.php:633
+#: /views/elements/assessed_contributions/search.ctp:144
+#: /views/elements/assessed_contributions/view.ctp:227
+msgid "Turnback Indirect Amount"
+msgstr "返還額（間接経費）"
+
+#: /vendors/shells/i18n_auto.php:634
+#: /views/elements/assessed_contributions/view.ctp:237
+msgid "Remarks Report"
+msgstr "備考(報告等)"
+
+#: /vendors/shells/i18n_auto.php:635
+#: /views/elements/assessed_contributions/view.ctp:247
+msgid "Represent Postal No"
+msgstr "代表者所属機関〒番号"
+
+#: /vendors/shells/i18n_auto.php:636
+#: /views/elements/assessed_contributions/view.ctp:249
+msgid "Research Institute Name"
+msgstr "研究機関名"
+
+#: /vendors/shells/i18n_auto.php:637
+#: /views/elements/assessed_contributions/view.ctp:250
+msgid "Office In Charge"
+msgstr "事務担当所属"
+
+#: /vendors/shells/i18n_auto.php:638
+#: /views/elements/assessed_contributions/view.ctp:261
+msgid "Tel In Charge"
+msgstr "事務担当TEL"
+
+#: /vendors/shells/i18n_auto.php:639
+#: /views/elements/assessed_contributions/view.ctp:262
+msgid "Fax In Charge"
+msgstr "事務担当FAX"
+
+#: /vendors/shells/i18n_auto.php:640
+#: /views/elements/assessed_contributions/view.ctp:263
+msgid "Email In Charge"
+msgstr "事務担当Eメール"
+
+#: /vendors/shells/i18n_auto.php:641
+#: /views/elements/assessed_contributions/view.ctp:264
+msgid "Other Contact In Charge"
+msgstr "その他事務担当連絡先等"
+
+#: /vendors/shells/i18n_auto.php:642
+#: /views/elements/assessed_contributions/view.ctp:275
+msgid "Remarks Other"
+msgstr "備考（その他）"
+
+#: /vendors/shells/i18n_auto.php:643 /views/researchers/view.ctp:4
+msgid "Researcher"
+msgstr "研究者"
+
+#: /vendors/shells/i18n_auto.php:644 /views/entrusts/history_view.ctp:17
+#: /views/entrusts/upload.ctp:13 /views/entrusts/view.ctp:63
+#: /views/entrusts/view_node.ctp:43
+msgid "Entrust"
+msgstr "共同研究・受託研究（民間企業等）"
+
+#: /vendors/shells/i18n_auto.php:645 /views/nedo_jst_others/upload.ctp:13
+msgid "NedoJstOther"
+msgstr "受託研究（政府系）"
+
+#: /vendors/shells/i18n_auto.php:646 /views/grants/history_view.ctp:17
+#: /views/grants/upload.ctp:13 /views/grants/view.ctp:64
+#: /views/grants/view_node.ctp:43
+msgid "Grant"
+msgstr "その他補助金"
+
+#: /vendors/shells/i18n_auto.php:647 /views/contracts/history_view.ctp:17
+#: /views/contracts/upload.ctp:6 /views/contracts/view.ctp:64
+#: /views/contracts/view_node.ctp:43
+msgid "Contract"
+msgstr "受託事業"
+
+#: /vendors/shells/i18n_auto.php:648 /views/users/admin_view.ctp:12
+msgid "User"
+msgstr "ユーザー"
+
+#: /vendors/shells/i18n_auto.php:649
+msgid "EditStatus"
+msgstr "編集状況"
+
+#: /vendors/shells/i18n_auto.php:650
+msgid "SelectableItem"
+msgstr "プルダウン選択肢マスター"
+
+#: /vendors/shells/i18n_auto.php:651 /views/roles/admin_view.ctp:15
+#: /views/users/admin_view.ctp:65
+#: /plugins/acl/views/aros/admin_user_permissions.ctp:56
+msgid "Role"
+msgstr "権限"
+
+#: /vendors/shells/i18n_auto.php:652 /views/donations/history_view.ctp:17
+#: /views/donations/upload.ctp:6 /views/donations/view.ctp:36
+msgid "Donation"
+msgstr "奨学寄附金"
+
+#: /vendors/shells/i18n_auto.php:655 /views/obligations/upload.ctp:13
+#: /views/obligations/view.ctp:13
+msgid "Obligation"
+msgstr "債主データ"
+
+#: /vendors/shells/i18n_auto.php:656
+#: /views/other_research_grants/upload.ctp:13
+msgid "OtherResearchGrant"
+msgstr "研究補助金(環境・その他)"
+
+#: /vendors/shells/i18n_auto.php:657 /views/mhlw_research_grants/upload.ctp:13
+msgid "MhlwResearchGrant"
+msgstr "科研費（厚生労働）"
+
+#: /vendors/shells/i18n_auto.php:660 /views/researchers/index.ctp:13
+#: /views/researchers/upload.ctp:12
+msgid "Researchers"
+msgstr "研究者情報"
+
+#: /vendors/shells/i18n_auto.php:661 /views/entrusts/index.ctp:36
+#: /views/entrusts/manage.ctp:11 /views/pages/entrust_master.ctp:4
+msgid "Entrusts"
+msgstr "共同研究・受託研究（民間企業等）データ"
+
+#: /vendors/shells/i18n_auto.php:662
+msgid "NedoJstOthers"
+msgstr "受託研究（政府系）"
+
+#: /vendors/shells/i18n_auto.php:663 /views/grants/index.ctp:36
+msgid "Grants"
+msgstr "その他補助金"
+
+#: /vendors/shells/i18n_auto.php:664 /views/contracts/index.ctp:36
+msgid "Contracts"
+msgstr "受託事業データ"
+
+#: /vendors/shells/i18n_auto.php:665 /views/users/admin_index.ctp:36
+msgid "Users"
+msgstr "ユーザー"
+
+#: /vendors/shells/i18n_auto.php:666
+msgid "EditStatuses"
+msgstr "編集状況"
+
+#: /vendors/shells/i18n_auto.php:667
+msgid "SelectableItems"
+msgstr "プルダウン選択肢マスター"
+
+#: /vendors/shells/i18n_auto.php:668 /views/roles/admin_index.ctp:12
+msgid "Roles"
+msgstr "権限"
+
+#: /vendors/shells/i18n_auto.php:670 /views/encourages/index.ctp:38
+msgid "Encourages"
+msgstr "科研費(特別研究員奨励費)"
+
+#: /vendors/shells/i18n_auto.php:671 /views/projects/index.ctp:20
+msgid "Projects"
+msgstr "プロジェクトデータ一覧"
+
+#: /vendors/shells/i18n_auto.php:672 /views/obligations/index.ctp:19
+msgid "Obligations"
+msgstr "債主データ一覧"
+
+#: /vendors/shells/i18n_auto.php:673
+msgid "OtherResearchGrants"
+msgstr "研究補助金(環境・その他)"
+
+#: /vendors/shells/i18n_auto.php:674
+msgid "MhlwResearchGrants"
+msgstr "科研費（厚生労働）"
+
+#: /vendors/shells/i18n_auto.php:675 /views/adoptions/index.ctp:36
+msgid "Adoptions"
+msgstr "科研費(文科・学振)データ"
+
+#: /vendors/shells/i18n_auto.php:676
+msgid "AssessedContributions"
+msgstr "科研費分担金（文科・学振）"
+
+#: /vendors/shells/i18n_auto.php:677
+msgid "index"
+msgstr "一覧"
+
+#: /vendors/shells/i18n_auto.php:678
+msgid "add"
+msgstr "追加"
+
+#: /vendors/shells/i18n_auto.php:679
+msgid "edit"
+msgstr "編集"
+
+#: /vendors/shells/i18n_auto.php:680
+msgid "view"
+msgstr "閲覧"
+
+#: /vendors/shells/i18n_auto.php:681
+msgid "delete"
+msgstr "削除"
+
+#: /vendors/shells/i18n_auto.php:682
+msgid "output_excel"
+msgstr "Excel出力"
+
+#: /vendors/shells/i18n_auto.php:683
+msgid "start"
+msgstr "開始"
+
+#: /vendors/shells/i18n_auto.php:684
+msgid "finish"
+msgstr "終了"
+
+#: /vendors/shells/i18n_auto.php:685
+msgid "json"
+msgstr "JSON形式出力"
+
+#: /vendors/shells/i18n_auto.php:686
+msgid "search_box"
+msgstr "検索ボックス"
+
+#: /vendors/shells/i18n_auto.php:687
+msgid "login"
+msgstr "ログイン"
+
+#: /vendors/shells/i18n_auto.php:688
+msgid "logout"
+msgstr "ログアウト"
+
+#: /vendors/shells/i18n_auto.php:689
+msgid "upload"
+msgstr "アップロード"
+
+#: /vendors/shells/i18n_auto.php:690
+msgid "restore"
+msgstr "復元"
+
+#: /vendors/shells/i18n_auto.php:691
+msgid "copy"
+msgstr "コピー"
+
+#: /vendors/shells/i18n_auto.php:692
+msgid "edit_node"
+msgstr "子データ編集"
+
+#: /vendors/shells/i18n_auto.php:693
+msgid "history_view"
+msgstr "履歴閲覧"
+
+#: /vendors/shells/i18n_auto.php:694
+msgid "add_node"
+msgstr "子データ追加"
+
+#: /vendors/shells/i18n_auto.php:695
+msgid "admin_index"
+msgstr "一覧(管理者用)"
+
+#: /vendors/shells/i18n_auto.php:696
+msgid "admin_add"
+msgstr "追加(管理者用)"
+
+#: /vendors/shells/i18n_auto.php:697
+msgid "admin_edit"
+msgstr "編集(管理者用)"
+
+#: /vendors/shells/i18n_auto.php:698
+msgid "admin_view"
+msgstr "閲覧(管理者用)"
+
+#: /vendors/shells/i18n_auto.php:699
+msgid "admin_delete"
+msgstr "削除(管理者用)"
+
+#: /views/adoptions/add.ctp:3 /views/adoptions/delete_all.ctp:4
+#: /views/adoptions/edit.ctp:3 /views/adoptions/edit_conflict.ctp:4
+#: /views/adoptions/history_view.ctp:4
+#: /views/adoptions/update_researcher.ctp:4 /views/adoptions/upload.ctp:4
+#: /views/adoptions/upload_result.ctp:4 /views/adoptions/view.ctp:5;7
+msgid "List Adoptions"
+msgstr "科研費(文科・学振)データ一覧"
+
+#: /views/adoptions/add.ctp:11
+msgid "Add Adoption"
+msgstr "科研費(文科・学振)データの追加"
+
+#: /views/adoptions/add.ctp:17 /views/adoptions/edit.ctp:24
+#: /views/adoptions/upload.ctp:18 /views/assessed_contributions/add.ctp:16
+#: /views/assessed_contributions/edit.ctp:23
+#: /views/assessed_contributions/upload.ctp:18 /views/contracts/add.ctp:19
+#: /views/contracts/add_node.ctp:22 /views/contracts/edit.ctp:54
+#: /views/contracts/edit_node.ctp:26 /views/contracts/upload.ctp:10
+#: /views/donations/add.ctp:16 /views/donations/edit.ctp:20
+#: /views/donations/upload.ctp:10 /views/encourages/add.ctp:20
+#: /views/encourages/edit.ctp:26 /views/encourages/upload.ctp:17
+#: /views/entrusts/add.ctp:20 /views/entrusts/add_node.ctp:22
+#: /views/entrusts/edit.ctp:53 /views/entrusts/edit_node.ctp:25
+#: /views/entrusts/upload.ctp:17 /views/grants/add.ctp:18
+#: /views/grants/add_node.ctp:22 /views/grants/edit.ctp:53
+#: /views/grants/edit_node.ctp:26 /views/grants/upload.ctp:17
+#: /views/information/add.ctp:19 /views/information/edit.ctp:20
+#: /views/mhlw_research_grants/add.ctp:16
+#: /views/mhlw_research_grants/edit.ctp:19
+#: /views/mhlw_research_grants/upload.ctp:17 /views/nedo_jst_others/add.ctp:17
+#: /views/nedo_jst_others/add_node.ctp:20 /views/nedo_jst_others/edit.ctp:48
+#: /views/nedo_jst_others/edit_node.ctp:23
+#: /views/nedo_jst_others/upload.ctp:17 /views/obligations/add.ctp:17
+#: /views/obligations/edit.ctp:18 /views/obligations/upload.ctp:16
+#: /views/other_research_grants/add.ctp:16
+#: /views/other_research_grants/edit.ctp:18
+#: /views/other_research_grants/upload.ctp:17 /views/projects/add.ctp:14
+#: /views/projects/edit.ctp:15 /views/projects/upload.ctp:16
+#: /views/researchers/upload.ctp:15 /views/roles/admin_add.ctp:20
+#: /views/roles/admin_edit.ctp:20 /views/selectable_items/add.ctp:18
+#: /views/selectable_items/edit.ctp:20 /views/users/admin_add.ctp:26
+#: /views/users/admin_edit.ctp:28 /views/users/edit.ctp:25
+#: /views/users/login.ctp:15
+msgid "Submit"
+msgstr "送信"
+
+#: /views/adoptions/edit.ctp:5 /views/assessed_contributions/edit.ctp:5
+#: /views/contracts/edit.ctp:4 /views/contracts/edit_node.ctp:4
+#: /views/donations/edit.ctp:3 /views/encourages/edit.ctp:4
+#: /views/entrusts/edit.ctp:4 /views/entrusts/edit_node.ctp:4
+#: /views/grants/edit.ctp:4 /views/grants/edit_node.ctp:4
+#: /views/information/edit.ctp:3 /views/information/index.ctp:43
+#: /views/mhlw_research_grants/edit.ctp:5 /views/nedo_jst_others/edit.ctp:4
+#: /views/nedo_jst_others/edit_node.ctp:4 /views/obligations/edit.ctp:3
+#: /views/obligations/index.ctp:53 /views/other_research_grants/edit.ctp:3
+#: /views/projects/edit.ctp:4 /views/projects/index.ctp:54
+#: /views/roles/admin_edit.ctp:3 /views/roles/admin_index.ctp:37
+#: /views/roles/admin_view.ctp:73 /views/selectable_items/edit.ctp:3
+#: /views/selectable_items/index.ctp:30 /views/users/admin_edit.ctp:3
+#: /views/users/admin_index.ctp:65
+msgid "Delete"
+msgstr "削除"
+
+#: /views/adoptions/edit.ctp:5 /views/adoptions/view.ctp:14
+#: /views/assessed_contributions/edit.ctp:5
+#: /views/assessed_contributions/view.ctp:14 /views/contracts/edit.ctp:4
+#: /views/contracts/edit_node.ctp:4 /views/contracts/view.ctp:14
+#: /views/contracts/view_node.ctp:10 /views/donations/edit.ctp:3
+#: /views/donations/view.ctp:12 /views/encourages/edit.ctp:4
+#: /views/encourages/view.ctp:14 /views/entrusts/edit.ctp:4
+#: /views/entrusts/edit_node.ctp:4 /views/entrusts/view.ctp:14
+#: /views/entrusts/view_node.ctp:10 /views/grants/edit.ctp:4
+#: /views/grants/edit_node.ctp:4 /views/grants/view.ctp:14
+#: /views/grants/view_node.ctp:10 /views/information/edit.ctp:3
+#: /views/information/index.ctp:43 /views/information/view.ctp:4
+#: /views/mhlw_research_grants/edit.ctp:5
+#: /views/mhlw_research_grants/view.ctp:12 /views/nedo_jst_others/edit.ctp:4
+#: /views/nedo_jst_others/edit_node.ctp:4 /views/nedo_jst_others/view.ctp:14
+#: /views/nedo_jst_others/view_node.ctp:10 /views/obligations/edit.ctp:3
+#: /views/obligations/index.ctp:53 /views/obligations/view.ctp:4
+#: /views/other_research_grants/edit.ctp:3
+#: /views/other_research_grants/view.ctp:12 /views/projects/edit.ctp:4
+#: /views/projects/index.ctp:54 /views/projects/view.ctp:4
+#: /views/roles/admin_edit.ctp:3 /views/roles/admin_index.ctp:37
+#: /views/roles/admin_view.ctp:4;73 /views/selectable_items/edit.ctp:3
+#: /views/selectable_items/index.ctp:30 /views/users/admin_edit.ctp:3
+#: /views/users/admin_index.ctp:65 /views/users/admin_view.ctp:4
+msgid "Are you sure you want to delete # %s?"
+msgstr "# %sを削除してよろしいですか？"
+
+#: /views/adoptions/edit.ctp:8 /views/adoptions/view.ctp:20
+msgid "Copy Adoption"
+msgstr "科研費(文科・学振)データのコピー"
+
+#: /views/adoptions/edit.ctp:17 /views/adoptions/view.ctp:11
+msgid "Edit Adoption"
+msgstr "科研費(文科・学振)データの編集"
+
+#: /views/adoptions/history_view.ctp:7 /views/adoptions/index.ctp:4
+#: /views/adoptions/view.ctp:17
+msgid "New Adoption"
+msgstr "科研費(文科・学振)データの新規作成"
+
+#: /views/adoptions/history_view.ctp:10
+msgid "Restore Adoption"
+msgstr "科研費(文科・学振)データの復元"
+
+#: /views/adoptions/history_view.ctp:17
+#: /views/assessed_contributions/history_view.ctp:15
+#: /views/contracts/history_view.ctp:17 /views/donations/history_view.ctp:17
+#: /views/encourages/history_view.ctp:17 /views/entrusts/history_view.ctp:17
+#: /views/grants/history_view.ctp:17
+#: /views/nedo_jst_others/history_view.ctp:17
+#: /views/other_research_grants/history_view.ctp:16
+msgid "Last saved record"
+msgstr "最終保存データ"
+
+#: /views/adoptions/index.ctp:61 /views/assessed_contributions/index.ctp:59
+#: /views/contracts/edit.ctp:26 /views/contracts/index.ctp:57
+#: /views/contracts/view.ctp:43 /views/donations/index.ctp:57
+#: /views/encourages/index.ctp:62 /views/entrusts/edit.ctp:27
+#: /views/entrusts/index.ctp:59 /views/entrusts/view.ctp:43
+#: /views/grants/edit.ctp:26 /views/grants/index.ctp:56
+#: /views/grants/view.ctp:43 /views/information/index.ctp:19
+#: /views/mhlw_research_grants/index.ctp:54 /views/nedo_jst_others/edit.ctp:21
+#: /views/nedo_jst_others/index.ctp:65 /views/nedo_jst_others/view.ctp:44
+#: /views/obligations/index.ctp:27 /views/other_research_grants/index.ctp:60
+#: /views/projects/index.ctp:28 /views/researchers/index.ctp:94
+#: /views/roles/admin_index.ctp:17 /views/roles/admin_view.ctp:46
+#: /views/selectable_items/index.ctp:13 /views/users/admin_index.ctp:41
+#: /plugins/acl/views/elements/design/header.ctp:21
+msgid "Actions"
+msgstr "操作"
+
+#: /views/adoptions/index.ctp:188 /views/assessed_contributions/index.ctp:160
+#: /views/contracts/edit.ctp:33 /views/contracts/index.ctp:131
+#: /views/contracts/view.ctp:50 /views/donations/index.ctp:128
+#: /views/encourages/index.ctp:169 /views/entrusts/edit.ctp:34
+#: /views/entrusts/index.ctp:187 /views/entrusts/view.ctp:50
+#: /views/grants/edit.ctp:33 /views/grants/index.ctp:128
+#: /views/grants/view.ctp:50 /views/information/index.ctp:41
+#: /views/mhlw_research_grants/index.ctp:116
+#: /views/nedo_jst_others/edit.ctp:28 /views/nedo_jst_others/index.ctp:324
+#: /views/nedo_jst_others/view.ctp:51 /views/obligations/index.ctp:51
+#: /views/other_research_grants/index.ctp:121 /views/projects/index.ctp:52
+#: /views/researchers/index.ctp:147 /views/roles/admin_index.ctp:35
+#: /views/roles/admin_view.ctp:71 /views/summaries/index.ctp:66
+#: /views/users/admin_index.ctp:63 /views/users/search.ctp:49
+msgid "View"
+msgstr "閲覧"
+
+#: /views/adoptions/index.ctp:190 /views/assessed_contributions/index.ctp:162
+#: /views/contracts/edit.ctp:33 /views/contracts/index.ctp:134
+#: /views/contracts/view.ctp:50 /views/donations/index.ctp:131
+#: /views/encourages/index.ctp:172 /views/entrusts/edit.ctp:34
+#: /views/entrusts/index.ctp:190 /views/entrusts/view.ctp:50
+#: /views/grants/edit.ctp:33 /views/grants/index.ctp:130
+#: /views/grants/view.ctp:50 /views/information/index.ctp:42
+#: /views/mhlw_research_grants/index.ctp:118
+#: /views/nedo_jst_others/edit.ctp:28 /views/nedo_jst_others/index.ctp:325
+#: /views/nedo_jst_others/view.ctp:51 /views/obligations/index.ctp:52
+#: /views/other_research_grants/index.ctp:123 /views/projects/index.ctp:53
+#: /views/roles/admin_index.ctp:36 /views/roles/admin_view.ctp:72
+#: /views/selectable_items/index.ctp:29 /views/users/admin_index.ctp:64
+msgid "Edit"
+msgstr "編集"
+
+#: /views/adoptions/update_researcher.ctp:11
+#: /views/assessed_contributions/update_researcher.ctp:11
+#: /views/contracts/update_researcher.ctp:11
+#: /views/donations/update_researcher.ctp:11
+#: /views/encourages/update_researcher.ctp:11
+#: /views/entrusts/update_researcher.ctp:11
+#: /views/grants/update_researcher.ctp:11
+#: /views/mhlw_research_grants/update_researcher.ctp:11
+#: /views/nedo_jst_others/update_researcher.ctp:11
+#: /views/other_research_grants/update_researcher.ctp:11
+msgid "Update researcher info"
+msgstr "研究者情報の更新"
+
+#: /views/adoptions/update_researcher.ctp:24
+#: /views/assessed_contributions/update_researcher.ctp:24
+#: /views/contracts/update_researcher.ctp:24
+#: /views/donations/update_researcher.ctp:24
+#: /views/encourages/update_researcher.ctp:24
+#: /views/entrusts/update_researcher.ctp:24
+#: /views/grants/update_researcher.ctp:24
+#: /views/mhlw_research_grants/update_researcher.ctp:24
+#: /views/nedo_jst_others/update_researcher.ctp:24
+#: /views/other_research_grants/update_researcher.ctp:24
+msgid "Update All"
+msgstr "一括更新"
+
+#: /views/adoptions/upload.ctp:14 /views/assessed_contributions/upload.ctp:14
+#: /views/contracts/upload.ctp:6 /views/donations/upload.ctp:6
+#: /views/encourages/upload.ctp:13 /views/entrusts/upload.ctp:13
+#: /views/grants/upload.ctp:13 /views/mhlw_research_grants/upload.ctp:13
+#: /views/nedo_jst_others/upload.ctp:13 /views/obligations/upload.ctp:13
+#: /views/other_research_grants/upload.ctp:13 /views/projects/upload.ctp:13
+#: /views/researchers/upload.ctp:12
+msgid "Upload %s"
+msgstr "%sのアップロード"
+
+#: /views/adoptions/view.ctp:14
+msgid "Delete Adoption"
+msgstr "科研費(文科・学振)データの削除"
+
+#: /views/adoptions/view.ctp:30 /views/assessed_contributions/view.ctp:30
+#: /views/contracts/view.ctp:30 /views/contracts/view_node.ctp:27
+#: /views/donations/view.ctp:29 /views/encourages/view.ctp:30
+#: /views/entrusts/view.ctp:30 /views/entrusts/view_node.ctp:27
+#: /views/grants/view.ctp:30 /views/grants/view_node.ctp:27
+#: /views/mhlw_research_grants/view.ctp:28 /views/nedo_jst_others/view.ctp:31
+#: /views/nedo_jst_others/view_node.ctp:27
+#: /views/other_research_grants/view.ctp:28
+msgid "History"
+msgstr "編集履歴"
+
+#: /views/adoptions/view.ctp:31 /views/assessed_contributions/view.ctp:31
+#: /views/contracts/view.ctp:31 /views/contracts/view_node.ctp:28
+#: /views/donations/view.ctp:30 /views/encourages/view.ctp:31
+#: /views/entrusts/view.ctp:31 /views/entrusts/view_node.ctp:28
+#: /views/grants/view.ctp:31 /views/grants/view_node.ctp:28
+#: /views/mhlw_research_grants/view.ctp:29 /views/nedo_jst_others/view.ctp:32
+#: /views/nedo_jst_others/view_node.ctp:28
+#: /views/other_research_grants/view.ctp:29
+msgid "View last saved record"
+msgstr "最終保存データを確認する"
+
+#: /views/assessed_contributions/add.ctp:3
+#: /views/assessed_contributions/delete_all.ctp:4
+#: /views/assessed_contributions/edit.ctp:3
+#: /views/assessed_contributions/edit_conflict.ctp:4
+#: /views/assessed_contributions/history_view.ctp:3
+#: /views/assessed_contributions/update_researcher.ctp:4
+#: /views/assessed_contributions/upload.ctp:4
+#: /views/assessed_contributions/upload_result.ctp:4
+#: /views/assessed_contributions/view.ctp:5;7
+msgid "List Assessed Contributions"
+msgstr "科研費分担金(文科・学振)データの一覧"
+
+#: /views/assessed_contributions/add.ctp:10
+msgid "Add Assessed Contribution"
+msgstr "科研費分担金(文科・学振)データの追加"
+
+#: /views/assessed_contributions/edit.ctp:8
+#: /views/assessed_contributions/view.ctp:20
+msgid "Copy Assessed Contribution"
+msgstr "科研費分担金(文科・学振)データのコピー"
+
+#: /views/assessed_contributions/edit.ctp:16
+#: /views/assessed_contributions/view.ctp:11
+msgid "Edit Assessed Contribution"
+msgstr "科研費分担金(文科・学振)データの編集"
+
+#: /views/assessed_contributions/history_view.ctp:5
+#: /views/assessed_contributions/index.ctp:4
+#: /views/assessed_contributions/view.ctp:17
+msgid "New Assessed Contribution"
+msgstr "科研費分担金(文科・学振)データの作成"
+
+#: /views/assessed_contributions/history_view.ctp:8
+msgid "Restore Assessed Contribution"
+msgstr "科学研究費補助金(文科省)データの復元"
+
+#: /views/assessed_contributions/history_view.ctp:15
+#: /views/assessed_contributions/upload.ctp:14
+#: /views/assessed_contributions/view.ctp:37
+msgid "Assessed Contribution"
+msgstr "科研費分担金(文科・学振)"
+
+#: /views/assessed_contributions/index.ctp:37
+msgid "Assessed Contributions"
+msgstr "科研費分担金(文科・学振)"
+
+#: /views/assessed_contributions/view.ctp:14
+msgid "Delete Assessed Contribution"
+msgstr "科研費分担金(文科・学振)データの削除"
+
+#: /views/contracts/add.ctp:4 /views/contracts/delete_all.ctp:4
+#: /views/contracts/edit.ctp:7 /views/contracts/edit_conflict.ctp:4
+#: /views/contracts/edit_node.ctp:7 /views/contracts/update_researcher.ctp:4
+#: /views/contracts/view.ctp:5;7 /views/contracts/view_node.ctp:4
+msgid "List Contracts"
+msgstr "受託事業データ一覧"
+
+#: /views/contracts/add.ctp:13 /views/contracts/add_node.ctp:15
+msgid "Add Contract"
+msgstr "受託事業データの追加"
+
+#: /views/contracts/add_node.ctp:4 /views/contracts/history_view.ctp:4
+msgid "List Contract"
+msgstr "受託事業データ一覧"
+
+#: /views/contracts/add_node.ctp:15 /views/contracts/edit_node.ctp:17
+#: /views/entrusts/add_node.ctp:15 /views/entrusts/edit_node.ctp:18
+#: /views/grants/add_node.ctp:15 /views/grants/edit_node.ctp:17
+#: /views/nedo_jst_others/add_node.ctp:13
+#: /views/nedo_jst_others/edit_node.ctp:15
+msgid "Child Node of %d"
+msgstr "ID：%dの関連データ"
+
+#: /views/contracts/add_node.ctp:16 /views/contracts/edit_node.ctp:18
+#: /views/entrusts/add_node.ctp:16 /views/entrusts/edit_node.ctp:19
+#: /views/grants/add_node.ctp:16 /views/grants/edit_node.ctp:18
+#: /views/nedo_jst_others/add_node.ctp:14
+#: /views/nedo_jst_others/edit_node.ctp:16
+msgid "This data is child node"
+msgstr ""
+"このデータは他のデータと関連付けされたデータです。このデータを編集すると、他"
+"のデータの数値等が自動的に変更される場合があります。"
+
+#: /views/contracts/edit.ctp:10 /views/contracts/view.ctp:20
+#: /views/contracts/view_node.ctp:16
+msgid "Copy Contract"
+msgstr "受託事業データをコピー"
+
+#: /views/contracts/edit.ctp:20 /views/contracts/view_node.ctp:35
+#: /views/entrusts/edit.ctp:21 /views/entrusts/view_node.ctp:35
+#: /views/grants/edit.ctp:20 /views/grants/view_node.ctp:35
+#: /views/nedo_jst_others/edit.ctp:15 /views/nedo_jst_others/view_node.ctp:35
+msgid "Related"
+msgstr "関連データ"
+
+#: /views/contracts/edit.ctp:46 /views/contracts/edit_node.ctp:17
+#: /views/contracts/view.ctp:11 /views/contracts/view_node.ctp:7
+msgid "Edit Contract"
+msgstr "受託事業データの編集"
+
+#: /views/contracts/history_view.ctp:7 /views/contracts/index.ctp:4
+#: /views/contracts/view.ctp:17 /views/contracts/view_node.ctp:13
+msgid "New Contract"
+msgstr "受託事業データの新規作成"
+
+#: /views/contracts/history_view.ctp:10
+msgid "Restore Contract"
+msgstr "受託事業データの復元"
+
+#: /views/contracts/view.ctp:14 /views/contracts/view_node.ctp:10
+msgid "Delete Contract"
+msgstr "受託事業データの削除"
+
+#: /views/contracts/view.ctp:37 /views/entrusts/view.ctp:37
+#: /views/grants/view.ctp:37 /views/nedo_jst_others/view.ctp:38
+msgid "Detailed Data"
+msgstr "明細レコード"
+
+#: /views/donations/add.ctp:3 /views/donations/delete_all.ctp:4
+#: /views/donations/edit.ctp:4 /views/donations/edit_conflict.ctp:3
+#: /views/donations/history_view.ctp:4
+#: /views/donations/update_researcher.ctp:4 /views/donations/view.ctp:4;6
+msgid "List Donations"
+msgstr "奨学寄附金データ一覧"
+
+#: /views/donations/add.ctp:10
+msgid "Add Donation"
+msgstr "奨学寄附金データの追加"
+
+#: /views/donations/edit.ctp:13 /views/donations/view.ctp:9
+msgid "Edit Donation"
+msgstr "奨学寄附金データの編集"
+
+#: /views/donations/history_view.ctp:7 /views/donations/index.ctp:4
+#: /views/donations/view.ctp:15
+msgid "New Donation"
+msgstr "奨学寄附金データの新規作成"
+
+#: /views/donations/history_view.ctp:10
+msgid "Restore Donation"
+msgstr "奨学寄附金データの復元"
+
+#: /views/donations/view.ctp:12
+msgid "Delete Donation"
+msgstr "奨学寄附金データの削除"
+
+#: /views/donations/view.ctp:18
+msgid "Copy Donation"
+msgstr "奨学寄附金データのコピー"
+
+#: /views/elements/cross_search.ctp:24;102 /views/elements/data_search.ctp:4
+#: /views/elements/adoptions/search.ctp:264
+#: /views/elements/assessed_contributions/search.ctp:182
+#: /views/elements/contracts/search.ctp:176
+#: /views/elements/donations/search.ctp:109
+#: /views/elements/encourages/search.ctp:213
+#: /views/elements/entrusts/search.ctp:212
+#: /views/elements/grants/search.ctp:156
+#: /views/elements/mhlw_research_grants/search.ctp:116
+#: /views/elements/nedo_jst_others/search.ctp:437
+#: /views/elements/other_research_grants/search.ctp:116
+#: /views/researchers/index.ctp:78 /views/summaries/index.ctp:16
+#: /views/users/index.ctp:29 /views/users/search.ctp:7
+msgid "Search"
+msgstr "検索"
+
+#: /views/elements/paginate.ctp:5 /views/roles/admin_index.ctp:51
+#: /views/selectable_items/index.ctp:41
+msgid ""
+"Page %page% of %pages%, showing %current% records out of %count% total, "
+"starting on record %start%, ending on %end%"
+msgstr ""
+"全%pages%ページ中%page%。全%count%レコード中%current%レコードを表示。%start%"
+"レコード目から%end%レコード目まで。"
+
+#: /views/elements/paginate.ctp:11 /views/roles/admin_index.ctp:56
+#: /views/selectable_items/index.ctp:46
+msgid "previous"
+msgstr "前へ"
+
+#: /views/elements/paginate.ctp:17 /views/roles/admin_index.ctp:59
+#: /views/selectable_items/index.ctp:49
+msgid "next"
+msgstr "次へ"
+
+#: /views/elements/adoptions/search.ctp:257
+#: /views/elements/assessed_contributions/search.ctp:175
+#: /views/elements/contracts/search.ctp:166
+#: /views/elements/donations/search.ctp:103
+#: /views/elements/encourages/search.ctp:206
+#: /views/elements/entrusts/search.ctp:202
+#: /views/elements/grants/search.ctp:145
+#: /views/elements/mhlw_research_grants/search.ctp:109
+#: /views/elements/nedo_jst_others/search.ctp:426
+#: /views/elements/other_research_grants/search.ctp:109
+#: /views/researchers/index.ctp:75
+msgid "Limit"
+msgstr "データ表示件数"
+
+#: /views/elements/adoptions/search.ctp:259
+#: /views/elements/assessed_contributions/search.ctp:177
+#: /views/elements/contracts/search.ctp:168
+#: /views/elements/donations/search.ctp:105
+#: /views/elements/encourages/search.ctp:208
+#: /views/elements/entrusts/search.ctp:204
+#: /views/elements/grants/search.ctp:147
+#: /views/elements/mhlw_research_grants/search.ctp:111
+#: /views/elements/nedo_jst_others/search.ctp:428
+#: /views/elements/other_research_grants/search.ctp:111
+msgid "Scope"
+msgstr "データ表示範囲"
+
+#: /views/elements/adoptions/search.ctp:259
+#: /views/elements/assessed_contributions/search.ctp:177
+#: /views/elements/contracts/search.ctp:168
+#: /views/elements/donations/search.ctp:105
+#: /views/elements/encourages/search.ctp:208
+#: /views/elements/entrusts/search.ctp:204
+#: /views/elements/grants/search.ctp:147
+#: /views/elements/mhlw_research_grants/search.ctp:111
+#: /views/elements/nedo_jst_others/search.ctp:428
+#: /views/elements/other_research_grants/search.ctp:111
+msgid "Show Valid Data"
+msgstr "全ての有効なデータを表示する"
+
+#: /views/elements/adoptions/search.ctp:259
+#: /views/elements/assessed_contributions/search.ctp:177
+#: /views/elements/contracts/search.ctp:168
+#: /views/elements/donations/search.ctp:105
+#: /views/elements/encourages/search.ctp:208
+#: /views/elements/entrusts/search.ctp:204
+#: /views/elements/grants/search.ctp:147
+#: /views/elements/mhlw_research_grants/search.ctp:111
+#: /views/elements/nedo_jst_others/search.ctp:428
+#: /views/elements/other_research_grants/search.ctp:111
+msgid "Show Data includes deleted item"
+msgstr "削除済みで表示設定したデータも表示する"
+
+#: /views/elements/adoptions/search.ctp:259
+#: /views/elements/assessed_contributions/search.ctp:177
+#: /views/elements/contracts/search.ctp:168
+#: /views/elements/donations/search.ctp:105
+#: /views/elements/encourages/search.ctp:208
+#: /views/elements/entrusts/search.ctp:204
+#: /views/elements/grants/search.ctp:147
+#: /views/elements/mhlw_research_grants/search.ctp:111
+#: /views/elements/nedo_jst_others/search.ctp:428
+#: /views/elements/other_research_grants/search.ctp:111
+msgid "Show All Data"
+msgstr "全てのデータを表示する(削除済みも含む)"
+
+#: /views/elements/assessed_contributions/view.ctp:29
+msgid "Co Researcher Major Name"
+msgstr "分担者の所属専攻"
+#: msgstr "分担者の所属専攻(旧組織)"
+
+#: /views/elements/mhlw_research_grants/view.ctp:73
+#: /views/elements/other_research_grants/view.ctp:58
+msgid "Affiliated Major Name"
+msgstr "所属専攻名"
+#: msgstr "所属専攻名(旧組織)"
+
+#: /views/elements/nedo_jst_others/form.ctp:349
+msgid "Contraction Change Date(%d)"
+msgstr "変更契約日(%d次)"
+
+#: /views/elements/nedo_jst_others/form.ctp:352
+msgid "Contraction Change Outline(%d)"
+msgstr "変更契約概要(%d次)"
+
+#: /views/elements/nedo_jst_others/search.ctp:354
+msgid "Statement Amount"
+msgstr "請求書発行額"
+
+#: /views/elements/nedo_jst_others/search.ctp:356
+msgid "Contracted Amount"
+msgstr "既契約額"
+
+#: /views/elements/nedo_jst_others/search.ctp:358
+msgid "Contracted Amount Indirect"
+msgstr "既契約額(間接経費)"
+
+#: /views/elements/nedo_jst_others/search.ctp:360
+msgid "Contracted Count"
+msgstr "既契約件数"
+
+#: /views/elements/nedo_jst_others/search.ctp:362
+msgid "Contracted Count Continuance"
+msgstr "既契約件数(継続)"
+
+#: /views/encourages/add.ctp:4 /views/encourages/delete_all.ctp:4
+#: /views/encourages/edit.ctp:7 /views/encourages/edit_conflict.ctp:4
+#: /views/encourages/history_view.ctp:4
+#: /views/encourages/update_researcher.ctp:4 /views/encourages/upload.ctp:4
+#: /views/encourages/upload_result.ctp:4 /views/encourages/view.ctp:5;7
+msgid "List Encourages"
+msgstr "科研費(特別研究員奨励費)データ一覧"
+
+#: /views/encourages/add.ctp:13
+msgid "Add Encourage"
+msgstr "科研費(特別研究員奨励費)データの追加"
+
+#: /views/encourages/edit.ctp:10 /views/encourages/view.ctp:20
+msgid "Copy Encourage"
+msgstr "科研費(特別研究員奨励費)データのコピー"
+
+#: /views/encourages/edit.ctp:19 /views/encourages/view.ctp:11
+msgid "Edit Encourage"
+msgstr "科研費(特別研究員奨励費)データの編集"
+
+#: /views/encourages/history_view.ctp:7 /views/encourages/index.ctp:4
+#: /views/encourages/view.ctp:17
+msgid "New Encourage"
+msgstr "科研費(特別研究員奨励費)データの作成"
+
+#: /views/encourages/history_view.ctp:10
+msgid "Restore Encourage"
+msgstr "科研費(特別研究員奨励費)データの復元"
+
+#: /views/encourages/view.ctp:14
+msgid "Delete Encourage"
+msgstr "科研費(特別研究員奨励費)データの削除"
+
+#: /views/entrusts/add.ctp:4 /views/entrusts/delete_all.ctp:4
+#: /views/entrusts/edit.ctp:7 /views/entrusts/edit_conflict.ctp:4
+#: /views/entrusts/edit_node.ctp:7 /views/entrusts/history_view.ctp:4
+#: /views/entrusts/manage.ctp:4 /views/entrusts/update_researcher.ctp:4
+#: /views/entrusts/upload.ctp:4 /views/entrusts/upload_result.ctp:4
+#: /views/entrusts/view.ctp:5;7 /views/entrusts/view_node.ctp:4
+#: /views/nedo_jst_others/edit_conflict.ctp:4
+msgid "List Entrusts"
+msgstr "共同研究・受託研究（民間企業等）データ一覧"
+
+#: /views/entrusts/add.ctp:13 /views/entrusts/add_node.ctp:15
+msgid "Add Entrust"
+msgstr "共同研究・受託研究（民間企業等）データの追加"
+
+#: /views/entrusts/add_node.ctp:4
+msgid "List Entrust"
+msgstr "共同研究・受託研究（民間企業等）データ一覧"
+
+#: /views/entrusts/edit.ctp:10 /views/entrusts/view.ctp:20
+#: /views/entrusts/view_node.ctp:16
+msgid "Copy Entrust"
+msgstr "コピーして新規データを作成"
+
+#: /views/entrusts/edit.ctp:46 /views/entrusts/edit_node.ctp:18
+#: /views/entrusts/view.ctp:11 /views/entrusts/view_node.ctp:7
+msgid "Edit Entrust"
+msgstr "共同研究・受託研究（民間企業等）データの編集"
+
+#: /views/entrusts/history_view.ctp:7 /views/entrusts/index.ctp:4
+#: /views/entrusts/view.ctp:17 /views/entrusts/view_node.ctp:13
+msgid "New Entrust"
+msgstr "共同研究・受託研究（民間企業等）データの新規作成"
+
+#: /views/entrusts/history_view.ctp:10
+msgid "Restore Entrust"
+msgstr "共同研究・受託研究（民間企業等）データを復元する"
+
+#: /views/entrusts/view.ctp:14 /views/entrusts/view_node.ctp:10
+msgid "Delete Entrust"
+msgstr "共同研究・受託研究（民間企業等）データの削除"
+
+#: /views/grants/add.ctp:4 /views/grants/delete_all.ctp:4
+#: /views/grants/edit.ctp:7 /views/grants/edit_conflict.ctp:4
+#: /views/grants/edit_node.ctp:7 /views/grants/update_researcher.ctp:4
+#: /views/grants/upload.ctp:4 /views/grants/upload_result.ctp:4
+#: /views/grants/view.ctp:5;7 /views/grants/view_node.ctp:4
+msgid "List Grants"
+msgstr "その他補助金データ一覧"
+
+#: /views/grants/add.ctp:12 /views/grants/add_node.ctp:15
+msgid "Add Grant"
+msgstr "その他補助金データの追加"
+
+#: /views/grants/add_node.ctp:4 /views/grants/history_view.ctp:4
+msgid "List Grant"
+msgstr "その他補助金データ一覧"
+
+#: /views/grants/edit.ctp:10 /views/grants/view.ctp:20
+#: /views/grants/view_node.ctp:16
+msgid "Copy Grant"
+msgstr "その他補助金データをコピー"
+
+#: /views/grants/edit.ctp:46 /views/grants/edit_node.ctp:17
+#: /views/grants/view.ctp:11 /views/grants/view_node.ctp:7
+msgid "Edit Grant"
+msgstr "その他補助金データの編集"
+
+#: /views/grants/history_view.ctp:7 /views/grants/index.ctp:4
+#: /views/grants/view.ctp:17 /views/grants/view_node.ctp:13
+msgid "New Grant"
+msgstr "その他補助金データの新規作成"
+
+#: /views/grants/history_view.ctp:10
+msgid "Restore Grant"
+msgstr "その他補助金データの復元"
+
+#: /views/grants/view.ctp:14 /views/grants/view_node.ctp:10
+msgid "Delete Grant"
+msgstr "その他補助金データの削除"
+
+#: /views/information/add.ctp:3 /views/information/edit.ctp:4
+#: /views/information/view.ctp:5
+msgid "List Information"
+msgstr "お知らせ一覧"
+
+#: /views/information/add.ctp:10
+msgid "Add Information"
+msgstr "お知らせの追加"
+
+#: /views/information/edit.ctp:10 /views/information/view.ctp:3
+msgid "Edit Information"
+msgstr "お知らせの編集"
+
+#: /views/information/index.ctp:3 /views/information/view.ctp:6
+msgid "New Information"
+msgstr "お知らせの新規作成"
+
+#: /views/information/view.ctp:4
+msgid "Delete Information"
+msgstr "お知らせの削除"
+
+#: /views/information/view.ctp:24
+msgid "Description"
+msgstr "詳細"
+
+#: /views/information/view.ctp:34
+msgid "Startdate"
+msgstr "掲載開始日"
+
+#: /views/information/view.ctp:39
+msgid "Enddate"
+msgstr "掲載終了日"
+
+#: /views/layouts/default.ctp:24
+msgid "Titech KenDB"
+msgstr "東京工業大学研究力DB"
+
+#: /views/layouts/default.ctp:92
+msgid "Administrator"
+msgstr "管理者"
+
+#: /views/layouts/default.ctp:94
+msgid "Settings"
+msgstr "設定"
+
+#: /views/layouts/default.ctp:98
+msgid "Logout"
+msgstr "ログアウト"
+
+#: /views/mhlw_research_grants/add.ctp:3
+#: /views/mhlw_research_grants/delete_all.ctp:4
+#: /views/mhlw_research_grants/edit.ctp:3
+#: /views/mhlw_research_grants/history_view.ctp:3
+#: /views/mhlw_research_grants/view.ctp:4;6
+msgid "List Mhlw Research Grants"
+msgstr "科研費（厚生労働）の一覧"
+
+#: /views/mhlw_research_grants/add.ctp:10
+msgid "Add Mhlw Research Grant"
+msgstr "科研費（厚生労働）データの追加"
+
+#: /views/mhlw_research_grants/edit.ctp:12
+#: /views/mhlw_research_grants/view.ctp:9
+msgid "Edit Mhlw Research Grant"
+msgstr "科研費（厚生労働）データの編集"
+
+#: /views/mhlw_research_grants/edit_conflict.ctp:4
+#: /views/other_research_grants/edit_conflict.ctp:4
+#: /views/other_research_grants/update_researcher.ctp:4
+#: /views/other_research_grants/upload.ctp:4
+#: /views/other_research_grants/upload_result.ctp:4
+msgid "List OtherResearchGrants"
+msgstr "科研費（厚生労働）の一覧"
+
+#: /views/mhlw_research_grants/history_view.ctp:5
+#: /views/mhlw_research_grants/index.ctp:4
+#: /views/mhlw_research_grants/view.ctp:15
+msgid "New Mhlw Research Grant"
+msgstr "科研費（厚生労働）データの新規作成"
+
+#: /views/mhlw_research_grants/history_view.ctp:8
+msgid "Restore Mhlw Research Grant"
+msgstr "科研費（厚生労働）データの復元"
+
+#: /views/mhlw_research_grants/history_view.ctp:16
+#: /views/mhlw_research_grants/view.ctp:35
+msgid "Mhlw Research Grant"
+msgstr "科研費（厚生労働）"
+
+#: /views/mhlw_research_grants/index.ctp:36
+msgid "Mhlw Research Grants"
+msgstr "科研費（厚生労働）"
+
+#: /views/mhlw_research_grants/update_researcher.ctp:4
+#: /views/mhlw_research_grants/upload.ctp:4
+#: /views/mhlw_research_grants/upload_result.ctp:4
+msgid "List MhlwResearchGrants"
+msgstr "科研費（厚生労働）データの一覧"
+
+#: /views/mhlw_research_grants/view.ctp:12
+msgid "Delete Mhlw Research Grant"
+msgstr "科研費（厚生労働）データの削除"
+
+#: /views/mhlw_research_grants/view.ctp:18
+msgid "Copy Mhlw Research Grant"
+msgstr "科研費（厚生労働）データのコピー"
+
+#: /views/nedo_jst_others/add.ctp:4 /views/nedo_jst_others/add_node.ctp:4
+#: /views/nedo_jst_others/delete_all.ctp:4 /views/nedo_jst_others/edit.ctp:7
+#: /views/nedo_jst_others/edit_node.ctp:7 /views/nedo_jst_others/upload.ctp:4
+#: /views/nedo_jst_others/upload_result.ctp:4
+#: /views/nedo_jst_others/view.ctp:5;7 /views/nedo_jst_others/view_node.ctp:4
+msgid "List Nedo Jst Others"
+msgstr "受託研究（政府系）データ一覧"
+
+#: /views/nedo_jst_others/add.ctp:11 /views/nedo_jst_others/add_node.ctp:13
+msgid "Add Nedo Jst Other"
+msgstr "受託研究（政府系）の追加"
+
+#: /views/nedo_jst_others/edit.ctp:41 /views/nedo_jst_others/edit_node.ctp:15
+#: /views/nedo_jst_others/view.ctp:11 /views/nedo_jst_others/view_node.ctp:7
+msgid "Edit Nedo Jst Other"
+msgstr "受託研究（政府系）の編集"
+
+#: /views/nedo_jst_others/history_view.ctp:4
+msgid "List Nedo Jst Other"
+msgstr "受託研究（政府系）データ一覧"
+
+#: /views/nedo_jst_others/history_view.ctp:7
+#: /views/nedo_jst_others/index.ctp:4 /views/nedo_jst_others/view.ctp:17
+#: /views/nedo_jst_others/view_node.ctp:13
+msgid "New Nedo Jst Other"
+msgstr "受託研究（政府系）の新規作成"
+
+#: /views/nedo_jst_others/history_view.ctp:10
+msgid "Restore Nedo Jst Other"
+msgstr "受託研究（政府系）の復元"
+
+#: /views/nedo_jst_others/history_view.ctp:17
+#: /views/nedo_jst_others/manage.ctp:4 /views/nedo_jst_others/view.ctp:64
+#: /views/nedo_jst_others/view_node.ctp:43
+#: /views/pages/nedo_jst_other_master.ctp:4
+msgid "Nedo Jst Other"
+msgstr "受託研究（政府系）"
+
+#: /views/nedo_jst_others/index.ctp:38
+msgid "Nedo Jst Others"
+msgstr "受託研究（政府系）"
+
+#: /views/nedo_jst_others/index.ctp:202;204;206;208;210;212;214;216;218;220;222;224;226;228;230;232;234;236;238;240
+msgid "Contraction Change Date %d"
+msgstr "変更契約日(%d次)"
+
+#: /views/nedo_jst_others/index.ctp:203;205;207;209;211;213;215;217;219;221;223;225;227;229;231;233;235;237;239;241
+msgid "Contraction Change Outline %d"
+msgstr "変更契約概要(%d次)"
+
+#: /views/nedo_jst_others/update_researcher.ctp:4
+msgid "List NedoJstOthres"
+msgstr "科研費(特別研究員奨励費)データ一覧"
+
+#: /views/nedo_jst_others/view.ctp:14 /views/nedo_jst_others/view_node.ctp:10
+msgid "Delete Nedo Jst Other"
+msgstr "受託研究（政府系）データの削除"
+
+#: /views/nedo_jst_others/view.ctp:20 /views/nedo_jst_others/view_node.ctp:16
+msgid "Copy Nedo Jst Other"
+msgstr "受託研究（政府系）をコピー"
+
+#: /views/obligations/add.ctp:4 /views/obligations/edit.ctp:4
+#: /views/obligations/upload.ctp:4 /views/obligations/upload_result.ctp:4
+#: /views/obligations/view.ctp:5
+msgid "List Obligations"
+msgstr "債主データ一覧"
+
+#: /views/obligations/add.ctp:11
+msgid "Add Obligation"
+msgstr "債主データの追加"
+
+#: /views/obligations/edit.ctp:11 /views/obligations/view.ctp:3
+msgid "Edit Obligation"
+msgstr "債主データの編集"
+
+#: /views/obligations/index.ctp:3 /views/obligations/view.ctp:6
+msgid "New Obligation"
+msgstr "債主データの新規作成"
+
+#: /views/obligations/view.ctp:4
+msgid "Delete Obligation"
+msgstr "債主データの削除"
+
+#: /views/other_research_grants/add.ctp:3
+#: /views/other_research_grants/delete_all.ctp:4
+#: /views/other_research_grants/edit.ctp:4
+#: /views/other_research_grants/history_view.ctp:3
+#: /views/other_research_grants/view.ctp:4;6
+msgid "List Other Research Grants"
+msgstr "研究補助金(環境・その他)データの一覧"
+
+#: /views/other_research_grants/add.ctp:10
+msgid "Add Other Research Grant"
+msgstr "研究補助金(環境・その他)データの追加"
+
+#: /views/other_research_grants/edit.ctp:11
+#: /views/other_research_grants/view.ctp:9
+msgid "Edit Other Research Grant"
+msgstr "研究補助金(環境・その他)データの編集"
+
+#: /views/other_research_grants/history_view.ctp:5
+#: /views/other_research_grants/index.ctp:4
+#: /views/other_research_grants/view.ctp:15
+msgid "New Other Research Grant"
+msgstr "研究補助金(環境・その他)データの新規作成"
+
+#: /views/other_research_grants/history_view.ctp:8
+msgid "Restore Other Research Grant"
+msgstr "研究補助金(環境・その他)データの復元"
+
+#: /views/other_research_grants/index.ctp:36
+msgid "Other Research Grants"
+msgstr "研究補助金(環境・その他)"
+
+#: /views/other_research_grants/view.ctp:12
+msgid "Delete Other Research Grant"
+msgstr "研究補助金(環境・その他)データの削除"
+
+#: /views/other_research_grants/view.ctp:18
+msgid "Copy Other Research Grant"
+msgstr "研究補助金(環境・その他)データのコピー"
+
+#: /views/projects/add.ctp:3 /views/projects/edit.ctp:3
+#: /views/projects/upload.ctp:4 /views/projects/upload_result.ctp:4
+#: /views/projects/view.ctp:5
+msgid "List Projects"
+msgstr "プロジェクト一覧"
+
+#: /views/projects/add.ctp:10
+msgid "Add Project"
+msgstr "プロジェクト追加"
+
+#: /views/projects/edit.ctp:11 /views/projects/view.ctp:3
+msgid "Edit Project"
+msgstr "プロジェクト情報編集"
+
+#: /views/projects/index.ctp:3 /views/projects/view.ctp:6
+msgid "New Project"
+msgstr "新規プロジェクト作成"
+
+#: /views/projects/view.ctp:4
+msgid "Delete Project"
+msgstr "プロジェクト削除"
+
+#: /views/roles/admin_add.ctp:3 /views/roles/admin_edit.ctp:4
+#: /views/roles/admin_view.ctp:5
+msgid "List Roles"
+msgstr "権限一覧"
+
+#: /views/roles/admin_add.ctp:4 /views/roles/admin_edit.ctp:5
+#: /views/roles/admin_index.ctp:4 /views/roles/admin_view.ctp:7
+#: /views/users/admin_add.ctp:3 /views/users/admin_edit.ctp:4
+#: /views/users/admin_view.ctp:5
+msgid "List Users"
+msgstr "ユーザー一覧"
+
+#: /views/roles/admin_add.ctp:5 /views/roles/admin_edit.ctp:6
+#: /views/roles/admin_index.ctp:5 /views/roles/admin_view.ctp:8
+#: /views/users/admin_index.ctp:3 /views/users/admin_view.ctp:6
+msgid "New User"
+msgstr "新規ユーザー"
+
+#: /views/roles/admin_add.ctp:15
+msgid "Admin Add Role"
+msgstr "権限追加"
+
+#: /views/roles/admin_edit.ctp:14
+msgid "Admin Edit Role"
+msgstr "権限編集"
+
+#: /views/roles/admin_index.ctp:3 /views/roles/admin_view.ctp:6
+msgid "New Role"
+msgstr "新規権限作成"
+
+#: /views/roles/admin_view.ctp:3
+msgid "Edit Role"
+msgstr "権限情報編集"
+
+#: /views/roles/admin_view.ctp:4
+msgid "Delete Role"
+msgstr "権限削除"
+
+#: /views/roles/admin_view.ctp:41
+msgid "Related Users"
+msgstr "関連するユーザー"
+
+#: /views/selectable_items/add.ctp:3 /views/selectable_items/edit.ctp:4
+msgid "List"
+msgstr "一覧"
+
+#: /views/selectable_items/edit.ctp:11
+msgid "Edit Selectable Item"
+msgstr "データ編集"
+
+#: /views/selectable_items/index.ctp:3
+msgid "New Selectable Item"
+msgstr "新規データ作成"
+
+#: /views/summaries/index.ctp:28 /views/users/search.ctp:21
+msgid "Action"
+msgstr "操作"
+
+#: /views/users/admin_add.ctp:12
+msgid "Add User"
+msgstr "ユーザー追加"
+
+#: /views/users/admin_auto_backup_list.ctp:4 /views/users/admin_index.ctp:27
+msgid "Database Backup List"
+msgstr "データベースバックアップファイル一覧"
+
+#: /views/users/admin_edit.ctp:13 /views/users/admin_view.ctp:3
+#: /views/users/edit.ctp:11
+msgid "Edit User"
+msgstr "ユーザー情報編集"
+
+#: /views/users/admin_index.ctp:9;10
+msgid "Manage ACL"
+msgstr "アクセスコントロールの管理"
+
+#: /views/users/admin_index.ctp:14;15
+msgid "Manage Role"
+msgstr "権限管理"
+
+#: /views/users/admin_index.ctp:19;20
+msgid "Manage Information"
+msgstr "お知らせの管理"
+
+#: /views/users/admin_index.ctp:24;25
+msgid "Backup Database"
+msgstr "データベースのバックアップ"
+
+#: /views/users/admin_view.ctp:4
+msgid "Delete User"
+msgstr "ユーザー削除"
+
+#: /views/users/edit.ctp:16
+msgid "New Password"
+msgstr "パスワード"
+
+#: /views/users/index.ctp:25
+msgid "There is no information."
+msgstr "お知らせはありません"
+
+#: /views/users/login.ctp:3
+msgid "Login"
+msgstr "ログイン"
+
+#: /views/users/search.ctp:9
+msgid "Search Result"
+msgstr "検索結果"
+
+#: /views/users/search.ctp:26
+msgid "Common Search Research Area"
+msgstr "事業名/研究分野"
+
+#: /views/users/search.ctp:68
+msgid "There is no search result."
+msgstr "該当するデータはありません"
+
+#: /webroot/test.php:88
+msgid "Debug setting does not allow access to this url."
+msgstr "このURLへのアクセスは禁止されています"
+
+#: /plugins/acl/controllers/acos_controller.php:24
+msgid "The ACO table has been cleared"
+msgstr "ACOテーブルをクリアしました"
+
+#: /plugins/acl/controllers/acos_controller.php:28
+msgid "The ACO table could not be cleared"
+msgstr "ACOテーブルをクリアできませんでした"
+
+#: /plugins/acl/controllers/aros_controller.php:172
+msgid "The user role has been updated"
+msgstr "ユーザーロールを更新しました"
+
+#: /plugins/acl/controllers/aros_controller.php:176
+msgid "The user role could not be updated"
+msgstr "ユーザーロールの更新ができませんでした"
+
+#: /plugins/acl/controllers/aros_controller.php:232
+msgid "The user '%s' does not exist in the ARO table"
+msgstr "AROテーブルには%sというユーザーが存在しません"
+
+#: /plugins/acl/controllers/aros_controller.php:286
+msgid "The permissions have been cleared"
+msgstr "パーミッションをクリアしました"
+
+#: /plugins/acl/controllers/aros_controller.php:290
+msgid "The permissions could not be cleared"
+msgstr "パーミッションをクリアできませんでした"
+
+#: /plugins/acl/controllers/aros_controller.php:309;332
+msgid "The role '%s' does not exist in the ARO table"
+msgstr "%sというロールはAROテーブルには存在しません"
+
+#: /plugins/acl/views/acos/admin_acos_missing.ctp:8
+msgid ""
+"Some controllers have been modified, resulting in actions that are not "
+"referenced as ACO in the database."
+msgstr ""
+"いくつかのコントローラーに変更がありましたので、ACOテーブルで参照されていない"
+"ものが発生している可能性があります"
+
+#: /plugins/acl/views/acos/admin_acos_missing.ctp:15
+msgid "You can update the ACOs by clicking on the following link"
+msgstr "以下のリンクをクリックすることでACOを更新することができます"
+
+#: /plugins/acl/views/acos/admin_acos_missing.ctp:16
+msgid "Build missing ACOs"
+msgstr "不足しているACOを作成"
+
+#: /plugins/acl/views/acos/admin_acos_missing.ctp:20
+msgid ""
+"Please be aware that this message will appear only once. But you can always "
+"rebuild the ACOs by going to the ACO tab."
+msgstr ""
+"このメッセージは１度しか表示されませんが、いつでもACOをACOタブから再構築する"
+"ことができます"
+
+#: /plugins/acl/views/acos/admin_build_acl.ctp:15
+msgid "The following actions ACOs have been created"
+msgstr "以下のアクションのACOが作成されました"
+
+#: /plugins/acl/views/acos/admin_build_acl.ctp:22
+msgid "There was no new actions ACOs to create"
+msgstr "ACOを作成すべき新しいアクションはありません"
+
+#: /plugins/acl/views/acos/admin_build_acl.ctp:29
+msgid "This page allows you to build missing actions ACOs if any."
+msgstr "このページでは不足しているACOを作成することができます"
+
+#: /plugins/acl/views/acos/admin_build_acl.ctp:33
+msgid "Clicking the link will not destroy existing actions ACOs."
+msgstr "このリンクをクリックしても既存のACOには影響ありません"
+
+#: /plugins/acl/views/acos/admin_build_acl.ctp:37
+#: /plugins/acl/views/aros/admin_check.ctp:43
+msgid "Build"
+msgstr "作成"
+
+#: /plugins/acl/views/acos/admin_empty_acos.ctp:12
+msgid "This page allows you to clear all actions ACOs."
+msgstr "このページでは全てのACOをクリアすることができます"
+
+#: /plugins/acl/views/acos/admin_empty_acos.ctp:16
+msgid ""
+"Clicking the link will destroy all existing actions ACOs and associated "
+"permissions."
+msgstr ""
+"以下のリンクをクリックすると全ての既存のACOと関連するパーミッションをクリアし"
+"ます"
+
+#: /plugins/acl/views/acos/admin_empty_acos.ctp:20
+msgid "Clear ACOs"
+msgstr "ACOのクリア"
+
+#: /plugins/acl/views/acos/admin_empty_acos.ctp:20
+msgid "Are you sure you want to destroy all existing ACOs ?"
+msgstr "全ての既存のACOを削除してもよろしいですか？"
+
+#: /plugins/acl/views/aros/admin_check.ctp:12
+msgid "Roles without corresponding Aro"
+msgstr "AROに関連付けられていないロール"
+
+#: /plugins/acl/views/aros/admin_check.ctp:27
+msgid "Users without corresponding Aro"
+msgstr "AROに関連付けされていないユーザー"
+
+#: /plugins/acl/views/aros/admin_check.ctp:49
+msgid "There is no missing ARO."
+msgstr "不足しているAROはありません"
+
+#: /plugins/acl/views/aros/admin_role_permissions.ctp:17
+msgid "Clear permissions table"
+msgstr "パーミッションテーブルをクリアする"
+
+#: /plugins/acl/views/aros/admin_role_permissions.ctp:17
+msgid "Are you sure you want to delete all roles and users permissions ?"
+msgstr ""
+"全てのロールパーミッションとユーザーパーミッションを削除してもよろしいです"
+"か？"
+
+#: /plugins/acl/views/aros/admin_role_permissions.ctp:29
+msgid "grant access to <em>all actions</em>"
+msgstr "<em>全てのアクション</em>へのアクセス権限を与える"
+
+#: /plugins/acl/views/aros/admin_role_permissions.ctp:30
+msgid "deny access to <em>all actions</em>"
+msgstr "<em>全てのアクション</em>へのアクセス権限を削除する"
+
+#: /plugins/acl/views/aros/admin_role_permissions.ctp:40
+msgid ""
+"Are you sure you want to grant access to all actions of each controller to "
+"the role '%s' ?"
+msgstr ""
+"%sのロールに全てのコントローラーの全アクションへのアクセス権限を付与してよろ"
+"しいですか？"
+
+#: /plugins/acl/views/aros/admin_role_permissions.ctp:41
+msgid ""
+"Are you sure you want to deny access to all actions of each controller to "
+"the role '%s' ?"
+msgstr ""
+"%sのロールから全てのコントローラーの全アクションへのアクセス権限を削除してよ"
+"ろしいですか？"
+
+#: /plugins/acl/views/aros/admin_role_permissions.ctp:59
+#: /plugins/acl/views/aros/admin_user_permissions.ctp:90
+msgid "action"
+msgstr "操作"
+
+#: /plugins/acl/views/aros/admin_role_permissions.ctp:118;200
+#: /plugins/acl/views/aros/ajax_role_denied.ctp:6
+#: /plugins/acl/views/aros/ajax_role_granted.ctp:6
+#: /plugins/acl/views/aros/ajax_user_denied.ctp:12
+#: /plugins/acl/views/aros/ajax_user_granted.ctp:12
+msgid "The ACO node is probably missing. Please try to rebuild the ACOs first."
+msgstr "ACOノードが存在しないようなので、ACOの再構築を行ってください"
+
+#: /plugins/acl/views/aros/admin_role_permissions.ctp:147
+#: /plugins/acl/views/aros/admin_user_permissions.ctp:149
+msgid "Plugin"
+msgstr "プラグイン"
+
+#: /plugins/acl/views/aros/admin_role_permissions.ctp:222
+#: /plugins/acl/views/aros/admin_user_permissions.ctp:207
+msgid "authorized"
+msgstr "アクセス許可"
+
+#: /plugins/acl/views/aros/admin_role_permissions.ctp:224
+#: /plugins/acl/views/aros/admin_user_permissions.ctp:209
+msgid "blocked"
+msgstr "アクセス拒否"
+
+#: /plugins/acl/views/aros/admin_user_permissions.ctp:19
+msgid "This page allows to manage users specific rights"
+msgstr "このページではユーザーに特定の権限を付与することができます"
+
+#: /plugins/acl/views/aros/admin_user_permissions.ctp:28
+msgid "user"
+msgstr "ユーザー"
+
+#: /plugins/acl/views/aros/admin_user_permissions.ctp:38
+msgid "Manage user specific rights"
+msgstr "ユーザー権限の管理"
+
+#: /plugins/acl/views/aros/admin_user_permissions.ctp:72
+#: /plugins/acl/views/aros/admin_users.ctp:43
+msgid "Update the user role"
+msgstr "ユーザーロールの更新"
+
+#: /plugins/acl/views/aros/admin_user_permissions.ctp:82
+#: /plugins/acl/views/elements/design/header.ctp:20
+msgid "Permissions"
+msgstr "パーミッション"
+
+#: /plugins/acl/views/aros/admin_user_permissions.ctp:90
+msgid "authorization"
+msgstr "認証"
+
+#: /plugins/acl/views/aros/admin_users.ctp:67
+msgid "Some users AROS are missing. Click on a role to assign one to a user."
+msgstr ""
+"いくつかのユーザーのAROが不足しているようです。ユーザーにロールを割り当ててく"
+"ださい"
+
+#: /plugins/acl/views/aros/ajax_role_denied.ctp:6
+#: /plugins/acl/views/aros/ajax_role_granted.ctp:6
+msgid "The role node does not exist in the ARO table"
+msgstr "ロールノードがAROテーブルに存在していません"
+
+#: /plugins/acl/views/aros/ajax_user_denied.ctp:8
+#: /plugins/acl/views/aros/ajax_user_granted.ctp:8
+msgid "The user node does not exist in the ARO table"
+msgstr "ユーザーノードがAROテーブルに存在しません"
+
+#: /plugins/acl/views/aros/ajax_user_denied.ctp:16
+#: /plugins/acl/views/aros/ajax_user_granted.ctp:16
+msgid ""
+"The ARO or the ACO node is probably missing. Please try to rebuild the ACOs "
+"first."
+msgstr "AROもしくはACOノードが不足しています。ACOを再構築してください"
+
+#: /plugins/acl/views/elements/acos/links.ctp:6
+msgid "Build actions ACOs"
+msgstr "アクションのACOを作成"
+
+#: /plugins/acl/views/elements/acos/links.ctp:7
+msgid "Clear actions ACOs"
+msgstr "アクションのACOをクリアする"
+
+#: /plugins/acl/views/elements/acos/links.ctp:7
+msgid "are you sure ?"
+msgstr "よろしいですか？"
+
+#: /plugins/acl/views/elements/aros/links.ctp:6
+msgid "Build missing AROs"
+msgstr "不足しているAROを作成"
+
+#: /plugins/acl/views/elements/aros/links.ctp:7
+msgid "Users roles"
+msgstr "ユーザーロール"
+
+#: /plugins/acl/views/elements/aros/links.ctp:8
+msgid "Roles permissions"
+msgstr "ロール権限"
+
+#: /plugins/acl/views/elements/aros/links.ctp:9
+msgid "Users permissions"
+msgstr "ユーザー権限"
+
+#: /plugins/acl/views/elements/design/header.ctp:4;11
+msgid "ACL plugin"
+msgstr "アクセスコントロール管理"
+
+#: /plugins/search/controllers/components/prg.php:232
+msgid "Please correct the errors below."
+msgstr "下記のエラーを修正してください"
+
+#: /controllers/summaries_controller.php:326
+msgid "Unaggregate"
+msgstr "集計対象外"
+
+#: /views/elements/cross_search.ctp:197;197
+#: /views/elements/summaries/aggregate.ctp:24;24
+msgid "Age"
+msgstr "年齢"
+
+#: /views/elements/cross_search.ctp:212;212
+#: /views/elements/summaries/aggregate.ctp:39;39
+msgid "Age Based At"
+msgstr "年齢計算基準日"
+
+#: /views/elements/summaries/aggregate.ctp:75;75
+msgid "Rank Count"
+msgstr "ランキング数"
+
+
+#: /views/users/admin_index.ctp:10;11;10;11
+msgid "Aggregate"
+msgstr "集計"
+
+#~ msgid "Please input search condition."
+#~ msgstr "検索条件を入力してください"
+
+#~ msgid "Former4 Reception Amount"
+#~ msgstr "前々々々年度受入額"
+
+#~ msgid "Former3 Reception Amount"
+#~ msgstr "前々々年度受入額"
+
+#~ msgid "Former2 Reception Amount"
+#~ msgstr "前々年度受入額"
+
+#~ msgid "Former1 Reception Amount"
+#~ msgstr "前年度受入額"
+
+#~ msgid "Current Reception Amount"
+#~ msgstr "当年度受入額"
+
+#~ msgid "Next1 Reception Amount"
+#~ msgstr "次年度受入額"
+
+#~ msgid "Total This Year Reception Amount"
+#~ msgstr "当該年度の受入金額合計"
+
+#~ msgid "Income Dollar"
+#~ msgstr "入金額ドル"
+
+#~ msgid "Acceptance Researcher"
+#~ msgstr "受入研究者"
+
+#~ msgid "Retrospective Approval"
+#~ msgstr "事後承諾分"
+
+#~ msgid "Researcher Total"
+#~ msgstr "研究者トータル"
+
+#~ msgid "Current Department"
+#~ msgstr "現所属部局"
+
+#~ msgid "Student Belongs To"
+#~ msgstr "学生所属"
+
+#~ msgid "Foreign Dispatch Application Status"
+#~ msgstr "優秀若手（海外派遣）応募状況"
+
+#~ msgid "Confirmation Statement"
+#~ msgstr "確認書"
+
+#~ msgid "New Common Assignment No"
+#~ msgstr "新汎用用課題番号"
+
+#~ msgid "Goods Cost"
+#~ msgstr "物品費"
+
+#~ msgid "Travel Cost"
+#~ msgstr "旅費"
+
+#~ msgid "Gratuity Cost"
+#~ msgstr "謝金等"
+
+#~ msgid "Other Cost 1"
+#~ msgstr "その他"
+
+#~ msgid "Detail Direct Cost Sum"
+#~ msgstr "使用内訳（直接計）"
+
+#~ msgid "Remarks Issu Application"
+#~ msgstr "備考（交付申請）"
+
+#~ msgid "Remarks Achievement Report"
+#~ msgstr "備考（実績報告）"
+
+#~ msgid "Delivery Amount"
+#~ msgstr "交付額(実績報告書)"
+
+#~ msgid "Real Cost Sum"
+#~ msgstr "実支出額計"
+
+#~ msgid "Student No"
+#~ msgstr "学籍番号（DC）"
+
+#~ msgid "Titech Email"
+#~ msgstr "学内メール"
+
+#~ msgid "Invalid mhlw research grant"
+#~ msgstr "無効な科研費（厚生労働）"
+
+#~ msgid "The mhlw research grant has been saved"
+#~ msgstr "科研費（厚生労働）を保存しました"
+
+#~ msgid "The mhlw research grant could not be saved. Please, try again."
+#~ msgstr "科研費（厚生労働）の保存に失敗しました。再度試してください"
+
+#~ msgid "Invalid id for mhlw research grant"
+#~ msgstr "科研費（厚生労働）のIDが無効です"
+
+#~ msgid "Mhlw research grant deleted"
+#~ msgstr "科研費（厚生労働）を削除しました"
+
+#~ msgid "Mhlw research grant was not deleted"
+#~ msgstr "科研費（厚生労働）を削除できませんでした"
+
+#, fuzzy
+#~ msgid "Emai"
+#~ msgstr "メール"
+
+#~ msgid "Next Quarter 1 Income"
+#~ msgstr "次年度第１・四半期収納額（見込み）"
+
+#~ msgid "Admin"
+#~ msgstr "管理者フラグ"
+
+#~ msgid "CakePHP: the rapid development php framework"
+#~ msgstr "本年度直"
+
+#, fuzzy
+#~ msgid "Research Place Reception Date"
+#~ msgstr "契約書受領日"
+
+#~ msgid "Quarter Check"
+#~ msgstr "四半期チェック"
+
+#~ msgid "Account Year"
+#~ msgstr "会計年度"
+
+#~ msgid "Quarter 2 Income"
+#~ msgstr "第２・四半期収納額（見込み）"
+
+#~ msgid "Quarter 3 Income"
+#~ msgstr "第３・四半期収納額（見込み）"
+
+#~ msgid "Quarter 4 Income"
+#~ msgstr "第４・四半期収納額（見込み）"
+
+#~ msgid "The contract has been saved"
+#~ msgstr "受託事業データを保存しました"
+
+#~ msgid "The contract could not be saved. Please, try again."
+#~ msgstr "受託事業データの保存ができませんでした。再度試してください"
+
+#~ msgid "Invalid id for contract"
+#~ msgstr "受託事業データのidが無効です"
+
+#~ msgid "Contract deleted"
+#~ msgstr "受託事業データを削除しました"
+
+#~ msgid "Contract was not deleted"
+#~ msgstr "受託事業データは削除できませんでした"
+
+#~ msgid "Open To Starsearch"
+#~ msgstr "StarSearchに公開する"
+
+#~ msgid "The nedo jst other has been saved"
+#~ msgstr "NEDO/JST/その他データを保存しました"
+
+#~ msgid "The nedo jst other could not be saved. Please, try again."
+#~ msgstr "NEDO/JST/その他データの保存ができませんでした。再度試してください"
+
+#~ msgid "Invalid id for nedo jst other"
+#~ msgstr "NEDO/JST/その他データのIDが無効です"
+
+#~ msgid "Nedo jst other deleted"
+#~ msgstr "NEDO/JST/その他データを削除しました"
+
+#~ msgid "Nedo jst other was not deleted"
+#~ msgstr "NEDO/JST/その他データは削除できませんでした"
+
+#~ msgid "Operated By"
+#~ msgstr "更新者"
+
+#~ msgid ""
+#~ "%d records has been imported. but some records failed to insert or update."
+#~ msgstr ""
+#~ "%d件のデータをインポートしましたが、いくつかのデータはインポートに失敗して"
+#~ "います"
+
+#~ msgid "Researcher deleted"
+#~ msgstr "研究者情報を削除しました"
+
+#~ msgid "Delete Selectable Item"
+#~ msgstr "データ削除"
+
+#~ msgid "Show Hidden Data"
+#~ msgstr "非表示に設定したデータも表示する"
+
+#~ msgid "Current Payment Dd"
+#~ msgstr "本年度直"
+
+#~ msgid "Can not create temporary file."
+#~ msgstr "一時ファイルを作成することができませんでした"
+
+#~ msgid "Can not rewind temporary file."
+#~ msgstr "一時ファイルを読み込むことができませんでした"
+
+msgid "Institute Code"
+msgstr "学院名等"
+
+msgid "School Code"
+msgstr "系名等"
+
+msgid "Course Code"
+msgstr "コース名等"
+
+msgid "Responsible"
+msgstr "担当テーブル"
+
+msgid "Organization"
+msgstr "所属"
+
+msgid "Responsible Code"
+msgstr "主副コード"
+
+msgid "List Responsibles"
+msgstr "担当テーブル一覧"
+
+msgid "Edit Responsible"
+msgstr "担当テーブルの編集"
+
+msgid "Upload Responsibles"
+msgstr "担当テーブルの一括アップロード"
+
+msgid "Organizations"
+msgstr "組織テーブル"
+
+msgid "Classifier"
+msgstr "分類"
+
+msgid "Code"
+msgstr "コード"
+
+msgid "Japanese Name"
+msgstr "名称"
+
+msgid "English Name"
+msgstr "英語名称"
+
+msgid "List Organizations"
+msgstr "組織テーブル一覧"
+
+msgid "Edit Organization"
+msgstr "組織テーブルの編集"
+
+msgid "Upload Organizations"
+msgstr "組織テーブルの一括アップロード"
+
+msgid "Responsibles"
+msgstr "担当テーブル"
