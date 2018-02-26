@@ -25,28 +25,9 @@
 <?php
 echo $this->Html->meta('icon');
 echo "\n";
-echo $this->Html->css('kendb_common');
+echo $this->Html->css('style');
 echo "\n";
-echo $this->Html->css('kendb_menu_style');
-echo "\n";
-echo $this->Html->css("txtdef");
-echo "\n";
-echo $this->Html->css("txtbig");
-echo "\n";
-echo $this->Html->css('flexigrid/flexigrid');
-echo "\n";
-echo $this->Html->css('datePicker');
-echo "\n";
-echo $this->Html->css('jquery.autocomplete');
-echo "\n";
-echo $this->Html->css('smoothness/jquery-ui-1.8.6.custom');
-echo "\n";
-echo $this->Html->css('smoothness/jquery.ui.core');
-echo "\n";
-echo $this->Html->css('smoothness/jquery.ui.theme');
-echo "\n";
-echo $this->Html->css('smoothness/jquery.ui.tabs');
-echo "\n";
+
 echo $javascript->link('jquery');
 echo "\n";
 echo $javascript->link('jquery.formtips.1.2.2');

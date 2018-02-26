@@ -1,0 +1,41 @@
+
+section.import-report{
+    $color-border:gray;
+    $color-error:#ffeeee;
+
+    padding:1rem;
+    
+    &>p{
+        padding:1rem;
+    }
+    
+    table{
+
+        margin-top:1rem;
+        margin-bottom:1rem;
+
+        border: 1px solid $color-border;
+
+        .text-right{
+            text-align:right;
+        }
+
+        td,th{
+            border: 1px solid $color-border;
+            padding:0.125rem;
+        }
+        tr.error{
+            background-color:$color-error;
+            td,th{
+            }
+        }
+
+    }
+    .w-50{
+        width:50%;
+    }
+    .w-25{
+        width:25%;
+    }
+
+}
