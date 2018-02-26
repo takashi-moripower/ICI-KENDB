@@ -351,12 +351,6 @@ class Adoption extends AppModel {
                 'allowEmpty' => true,
             ),
         ),
-        'researcher_no' => array(
-            'alphanumeric' => array(
-                'rule' => array('alphanumeric'),
-                'allowEmpty' => true,
-            ),
-        ),
         'grant_reception_date' => array(
             'date' => array(
                 'rule' => array('date'),
@@ -615,17 +609,8 @@ class Adoption extends AppModel {
                 'allowEmpty' => true,
             ),
         ),
-        'personal_no' => array(
-            'alphaNumeric' => array(
-                'rule' => array('alphaNumeric'),
-                'allowEmpty' => false,
-                'message'=>'英数字以外が含まれている'
-            ),
-            'length'=>array(
-                'rule'=>array('equallength',8),
-                'message'=>'8文字で入力してください'
-            )
-        ),
+        'personal_no' => self::VALIDATION_PERSONAL_ID,
+        'researcher_no' => self::VALIDATION_PERSONAL_ID,
     );
 
     /**

@@ -11,16 +11,20 @@
 
 <?php echo $this->element("crumbs"); ?>
 
-<section style="padding:1rem;">
+<section class="import-report">
     <h2>インポート結果報告</h2>
     <?= $this->element('import/report') ?>
     <p>
-        以上の原因により、インポート処理を中止しました<br/>
-        データベースの更新は行われていません
+        <?php if( $result ): ?>
+        データのインポートは正常に実行されました
+        <?php else: ?>
+        データ異常を発見したため、インポートは実行されませんでした<br/>
+        データベースは更新されていません
+        <?php endif; ?>
     </p>
     <p>
         以下の場所にログファイルが生成されました<br/>
-        <?= $logFile ?><br/>
+        <?= $logFile ?>
     </p>
 </section>
 
@@ -29,3 +33,4 @@
         <?php print_r($DEBUG); ?>
     </pre>
 <?php endif; ?>
+

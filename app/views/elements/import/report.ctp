@@ -39,7 +39,7 @@
                 <th class="w-50">状態</th>
             </tr>
             <tr>
-                <td><?= count($header) ?></td>
+                <td><?= $report['header']['count'] ?></td>
                 <td>正常</td>
             </tr>
         <?php endif; ?>            
@@ -58,13 +58,13 @@
             </tr>
             <?php
             foreach ($report['error']['body'] as $id => $b_rep):
-                foreach ($b_rep as $label => $data):
+                foreach ($b_rep as $b_rep2):
                     ?>
                     <tr class="error">
                         <td class="text-right"><?= $id + 2 ?>行目</td>
-                        <td><?= $label ?></td>
-                        <td><?= $data['value'] ?></td>
-                        <td><?= $data['message'] ?></td>
+                        <td><?= $b_rep2['label'] ?></td>
+                        <td><?= $b_rep2['value'] ?></td>
+                        <td><?= $b_rep2['message'] ?></td>
                     </tr>
                     <?php
                 endforeach;

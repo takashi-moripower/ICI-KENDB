@@ -53,6 +53,8 @@ class ImportExcelComponent extends BaseExcelComponent {
         '研究室収益化額' => array('間接経費（研究室配当分）'),
         '成果報告書先方様式' => array('成先方様式'),
     );
+    const RESULT_SUCCESS = 1;
+    const RESULT_FAILED = 0;
 
     public function startup($controller) {
         parent::startup($controller);
@@ -68,7 +70,17 @@ class ImportExcelComponent extends BaseExcelComponent {
      * @param type $path
      * @param type $val
      */
-    protected function _addReport($path, $val) {
+    protected function _addReport($path, $val, $isArray = false) {
+        if ($isArray) {
+            $oldVal = Set::classicExtract($this->_report, $path);
+            if (isset($oldVal)) {
+                array_push($oldVal, $val);
+                $val = $oldVal;
+            } else {
+                $val = [$val];
+            }
+        }
+
         $this->_report = Set::insert($this->_report, $path, $val);
         $this->getController()->set('report', $this->_report);
     }
@@ -97,12 +109,16 @@ class ImportExcelComponent extends BaseExcelComponent {
             return;
         }
         if (!$this->_validationHeader()) {
-            $controller->render('/common/import_error');
+            $this->ImportLog->log('ヘッダーに異常が発見されたため、処理を中断しました');
+            $controller->set('result', self::RESULT_FAILED);
+            $controller->render('/common/import_result');
             return;
         }
 
         if (!$this->_validationBody()) {
-            $controller->render('/common/import_error');
+            $this->ImportLog->log('データに異常が発見されたため、処理を中断しました');
+            $controller->set('result', self::RESULT_FAILED);
+            $controller->render('/common/import_result');
             return;
         }
 
@@ -113,10 +129,12 @@ class ImportExcelComponent extends BaseExcelComponent {
         ]);
 
         $this->_registerData();
-        
-        $controller->set('report',$this->_report);
 
-        $this->getController()->render('/common/import_success');
+        $controller->set('report', $this->_report);
+
+
+        $controller->set('result', self::RESULT_SUCCESS);
+        $this->getController()->render('/common/import_result');
     }
 
     protected function _registerData() {
@@ -153,11 +171,11 @@ class ImportExcelComponent extends BaseExcelComponent {
                 $logMsg .= "失敗";
             }
 
-            $this->ImportLog->log($logMsg);
+//            $this->ImportLog->log($logMsg);
         }
 
-        $logMsg = "更新成功:{$this->_report['register']['update']}\t"
-                . "追加成功:{$this->_report['register']['insert']}\t"
+        $logMsg = "追加成功:{$this->_report['register']['insert']}\t"
+                . "更新成功:{$this->_report['register']['update']}\t"
                 . "失敗:{$this->_report['register']['failed']}";
 
         $this->ImportLog->log($logMsg);
@@ -202,7 +220,10 @@ class ImportExcelComponent extends BaseExcelComponent {
                 foreach ($model->invalidFields() as $invalidField => $msg) {
                     $label = $this->_field2Label($invalidField);
                     $value = $dataPost[$this->_field2ColId($invalidField)];
-                    $this->_addReport("error.body.{$id}.{$label}", ['value' => $value, 'message' => $msg]);
+                    $this->_addReport("error.body.{$id}", ['label' => $label, 'value' => $value, 'message' => $msg], true);
+
+                    $log = ($id + 2) . "行目\t{$label}\t{$value}\t{$msg}";
+                    $this->ImportLog->log($log);
                 }
                 $valid = false;
             }
@@ -236,8 +257,9 @@ class ImportExcelComponent extends BaseExcelComponent {
         }
 
         if ($valid) {
-            $count = count($this->_header);
+            $count = count($headers_model);
             $this->ImportLog->log("ヘッダー\t{$count}項目\t正常");
+            $this->_addReport('header.count', $count);
         }
 
         return $valid;
@@ -352,6 +374,8 @@ class ImportExcelComponent extends BaseExcelComponent {
 
         $this->_report = Set::insert($this->_report, 'file.name', $this->_fileName);
         $this->_report = Set::insert($this->_report, 'file.size', $data['size']);
+
+        $this->ImportLog->log("ファイル {$this->_fileName}({$data['size']}byte) を読み込みました");
 
         return true;
     }
