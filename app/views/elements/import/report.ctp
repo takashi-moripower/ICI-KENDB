@@ -11,41 +11,46 @@
         </tr>
     </tbody>
 </table>
-<h3>ヘッダー</h3>
-<table class="import-report">
-    <tbody>
-        <?php if (!empty($report['error']['header'])): ?>
-            <?php foreach ($report['error']['header'] as $id => $h_rep): ?>
+<?php if (empty($header)): ?>
+<p>
+    ファイルの読み込みに失敗
+</p>
+<?php else: ?>
+    <h3>ヘッダー</h3>
+    <table class="import-report">
+        <tbody>
+            <?php if (!empty($report['error']['header'])): ?>
                 <tr>
                     <th class="w-25">列</th>
                     <th class="w-25">値</th>
                     <th class="w-50">エラーメッセージ</th>
                 </tr>
-                <tr class="error">
-                    <td>
-                        <?= $id ?>列
-                    </td>
-                    <td>
-                        <?= $h_rep['value'] ?>
-                    </td>
-                    <td>
-                        <?= $h_rep['error'] ?>
-                    </td>
+                <?php foreach ($report['error']['header'] as $id => $h_rep): ?>
+                    <tr class="error">
+                        <td>
+                            <?= $id ?>列
+                        </td>
+                        <td>
+                            <?= $h_rep['value'] ?>
+                        </td>
+                        <td>
+                            <?= $h_rep['error'] ?>
+                        </td>
+                    </tr>
+                <?php endforeach ?>
+            <?php else: ?>
+                <tr>
+                    <th class="w-50 text-right">項目数</th>
+                    <th class="w-50">状態</th>
                 </tr>
-            <?php endforeach ?>
-        <?php else: ?>
-            <tr>
-                <th class="w-50 text-right">項目数</th>
-                <th class="w-50">状態</th>
-            </tr>
-            <tr>
-                <td><?= $report['header']['count'] ?></td>
-                <td>正常</td>
-            </tr>
-        <?php endif; ?>            
-    </tbody>
-</table>
-
+                <tr>
+                    <td><?= $report['header']['count'] ?></td>
+                    <td>正常</td>
+                </tr>
+            <?php endif; ?>            
+        </tbody>
+    </table>
+<?php endif; ?>
 <?php if (!empty($report['error']['body'])): ?>
     <h3>データ本体</h3>
     <table class="import-report">

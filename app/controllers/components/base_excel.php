@@ -7,7 +7,7 @@
  */
 
 class BaseExcelComponent extends Object {
-
+    
     protected $_controller;
     protected $_excel;
 

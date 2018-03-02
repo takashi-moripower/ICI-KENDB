@@ -13,8 +13,8 @@ class ImportExcelComponent extends BaseExcelComponent {
     protected $_tmpFile;
     protected $_format;
     protected $_reader;
-    protected $_body;
-    protected $_header;
+    protected $_body = null;
+    protected $_header = null;
     protected $_report = [];
 
     const ID_PATTERN = "/[0-9a-zA-Z]{8}/";
@@ -106,6 +106,9 @@ class ImportExcelComponent extends BaseExcelComponent {
             return;
         }
         if (!$this->_readExcel()) {
+            $this->ImportLog->log('ファイルの読み取りに失敗、処理を中断しました');
+            $controller->set('result', self::RESULT_FAILED);
+            $controller->render('/common/import_result');
             return;
         }
         if (!$this->_validationHeader()) {
@@ -240,7 +243,6 @@ class ImportExcelComponent extends BaseExcelComponent {
         $headers_model = $this->getModel()->getFileHeader();
         $headers_post = $this->_header;
         $alias = self::HEADER_ALIAS;
-
         $valid = true;
         foreach ($headers_model as $id => $header_model) {
 
@@ -274,52 +276,30 @@ class ImportExcelComponent extends BaseExcelComponent {
         $worksheet = $this->getExcel()->getActiveSheet();
         $controller = $this->getController();
 
-        foreach ($worksheet->getRowIterator() as $row) {
-            $tmp = array();
-            $cellite = $row->getCellIterator();
-            $cellite->setIterateOnlyExistingCells(false);
-            foreach ($cellite as $cell) {
-                if (!is_null($cell)) {
-                    try {
-                        $string_value = (string) $cell->getCalculatedValue();
-                    } catch (Exception $e) {
-                        $controller->Session->setFlash("Excelシートの値を取得できません。外部参照等が無いか確認してください");
-                        return false;
-                    }
-                    $tmp[] = $string_value;
-                } else {
-                    $tmp[] = "";
-                }
+        $this->_body = [];
+        $this->_header = null;
+return false;
+        foreach ($worksheet->getRowIterator() as $rowId => $rowObj) {
+
+            $rowArray = self::row2array($rowObj);
+
+            if ($rowArray == null) {
+                return false;
             }
-            if (1 == $row->getRowIndex()) {
-                for ($i = 0; $i < count($tmp); $i++) {
-                    $str = $tmp[$i];
-                    $str = str_replace("\r", "", $str);
-                    $str = str_replace("\n", "", $str);
-                    $str = trim($str);
-                    $tmp[$i] = $str;
-                }
-                $header = $tmp;
-            } else {
-                // もし行が空白のみならスキップする
-                $is_empty_line = true;
-                foreach ($tmp as $tmp_item) {
-                    if (trim($tmp_item) != "") {
-                        $is_empty_line = false;
-                    }
-                }
-                if (!$is_empty_line) {
-                    $body[] = $tmp;
-                } else {
-                    $this->log("空行なので登録をスキップします", LOG_DEBUG);
-                }
+
+            if (self::isRowEmpty($rowArray)) {
+                continue;
             }
+
+            if ($this->_header == null) {
+                $this->_header = array_map( [get_class($this),'formatHeader'], $rowArray);
+                continue;
+            }
+
+            $this->_body[] = $rowArray;
         }
 
-        $this->_header = $header;
-        $this->_body = $body;
-
-        $controller->set(compact('header', 'body'));
+        $controller->set(['header' => $this->_header, 'body' => $this->_body]);
 
         return true;
     }
@@ -377,7 +357,45 @@ class ImportExcelComponent extends BaseExcelComponent {
 
         $this->ImportLog->log("ファイル {$this->_fileName}({$data['size']}byte) を読み込みました");
 
+        $this->getController()->set('report',$this->_report);
+        
         return true;
+    }
+
+    public static function row2array($row) {
+        $tmp = array();
+        $cellite = $row->getCellIterator();
+        $cellite->setIterateOnlyExistingCells(false);
+        foreach ($cellite as $cell) {
+            if (!is_null($cell)) {
+                try {
+                    $string_value = (string) $cell->getCalculatedValue();
+                } catch (Exception $e) {
+                    return null;
+                }
+                $tmp[] = $string_value;
+            } else {
+                $tmp[] = "";
+            }
+        }
+
+        return $tmp;
+    }
+
+    public static function isRowEmpty($row) {
+        foreach ($row as $cell) {
+            if (trim($cell) != "") {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public static function formatHeader($value) {
+        $value = trim($value);
+        $value = str_replace("\r", "", $value);
+        $value = str_replace("\n", "", $value);
+        return $value;
     }
 
 }
