@@ -278,7 +278,7 @@ class ImportExcelComponent extends BaseExcelComponent {
 
         $this->_body = [];
         $this->_header = null;
-return false;
+
         foreach ($worksheet->getRowIterator() as $rowId => $rowObj) {
 
             $rowArray = self::row2array($rowObj);
