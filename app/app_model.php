@@ -95,7 +95,7 @@ class AppModel extends Model {
      */
     var $numeric_non_currency_field = array();
 
-    const VALIDATION_PERSONAL_ID = [
+    const VALIDATION_PERSONAL_NO = [
         'empty' => [
             'rule' => 'notEmpty',
             'message' => '値を入力してください'

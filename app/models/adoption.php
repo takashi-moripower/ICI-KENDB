@@ -609,8 +609,8 @@ class Adoption extends AppModel {
                 'allowEmpty' => true,
             ),
         ),
-        'personal_no' => self::VALIDATION_PERSONAL_ID,
-        'researcher_no' => self::VALIDATION_PERSONAL_ID,
+        'personal_no' => self::VALIDATION_PERSONAL_NO,
+        'researcher_no' => self::VALIDATION_PERSONAL_NO,
     );
 
     /**

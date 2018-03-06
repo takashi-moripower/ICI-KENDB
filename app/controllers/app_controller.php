@@ -27,7 +27,7 @@
  */
 class AppController extends Controller {
 
-    var $components = array('Acl', 'Auth', 'RequestHandler', 'Session', 'Cookie' , 'FileValidation' , 'ExportExcel' , 'ImportExcel' );
+    var $components = array('Acl', 'Auth', 'RequestHandler', 'Session', 'Cookie', 'FileValidation', 'ExportExcel', 'ImportExcel');
     // ヘルパー (http://book.cakephp.org/1.3/ja/The-Manual/Developing-with-CakePHP/Helpers.html#id1 )
     var $helpers = array('Html', 'Form', 'Javascript', 'Session',
         'KendbForm', // app/views/helpers/kendb_form.php
@@ -528,8 +528,8 @@ class AppController extends Controller {
 
         $this->_processCSVDownload($csv_string, $filename);
     }
-    
-        /**
+
+    /**
      * Excelに一括出力する
      *
      * @param string $modelname モデル名
@@ -539,9 +539,8 @@ class AppController extends Controller {
      * @return None
      */
     function _makeExcelObject($modelname, $datalist, $exceltype = "Excel5") {
-        $this->ExportExcel->export( $modelname, $datalist, $exceltype );
+        $this->ExportExcel->export($modelname, $datalist, $exceltype);
     }
-
 
     /**
      * Excelに一括出力する
@@ -1098,14 +1097,14 @@ class AppController extends Controller {
      *
      * @return None
      */
-    function _upload($modelname,$pkey){
+    function _upload($modelname, $pkey) {
         //  使途不明、互換性維持のため残す
         $this->set("next_id", $this->$modelname->getAvailableMinimumId());
-        
+
         //  処理実体　コンポーネントに丸投げ
-        $this->ImportExcel->import($modelname,$pkey);
+        $this->ImportExcel->import($modelname, $pkey);
     }
-    
+
     function _upload0($modelname, $pkey) {
         if (!empty($this->data)) {
             $message = "";
@@ -1131,6 +1130,14 @@ class AppController extends Controller {
      * @return None
      */
     function _uploadAndCreateNode($modelname, $pkey, $child_id_column) {
+        //  使途不明、互換性維持のため残す
+        $this->set("next_id", $this->$modelname->getAvailableMinimumId());
+
+        //  処理実体　コンポーネントに丸投げ
+        $this->ImportExcel->import($modelname, $pkey , $child_id_column );
+    }
+
+    function _uploadAndCreateNode0($modelname, $pkey, $child_id_column) {
         if (!empty($this->data)) {
             $message = "";
             $error_message = array();

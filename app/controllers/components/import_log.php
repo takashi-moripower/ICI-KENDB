@@ -6,6 +6,7 @@
  * and open the template in the editor.
  */
 App::import('Utility', 'Set');
+App::import('Utility', 'Inflector');
 
 class ImportLog extends Object {
 
@@ -27,13 +28,14 @@ class ImportLog extends Object {
             $now = new \DateTime;
             $login_user_id = $this->_controller->Auth->User('id');
 
-            $this->_fileName = $this->getFilePath() . lcfirst($this->_controller->name) . '-' . $now->format('YmdHis') . '-' . sprintf('%06d', $login_user_id) . '.log';
+            $this->_fileName = $this->getFilePath() . Inflector::underscore($this->_controller->name) . '_' . $now->format('YmdHis') . '_' . sprintf('%06d', $login_user_id) . '.log';
         }
         return $this->_fileName;
     }
 
     function log($msg) {
         if (preg_match('/\n$/', $msg)) {
+            
         } else {
             $msg .= "\n";
         }

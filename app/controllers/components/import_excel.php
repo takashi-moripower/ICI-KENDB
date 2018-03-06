@@ -9,6 +9,7 @@ class ImportExcelComponent extends BaseExcelComponent {
 
     protected $_modelName;
     protected $_primaryKey;
+    protected $_parentKey;
     protected $_fileName;
     protected $_tmpFile;
     protected $_format;
@@ -85,10 +86,18 @@ class ImportExcelComponent extends BaseExcelComponent {
         $this->getController()->set('report', $this->_report);
     }
 
-    public function import($modelName, $primaryKey) {
+    /**
+     * 
+     * @param type $modelName   
+     * @param type $primaryKey  
+     * @param type $parentKey   親ノード情報を格納するカラム nullの時は親子関係なし
+     * @return type
+     */
+    public function import($modelName, $primaryKey, $parentKey = null) {
 
         $this->_modelName = $modelName;
         $this->_primaryKey = $primaryKey;
+        $this->_parentKey = $parentKey;
 
         $controller = $this->getController();
 
@@ -133,16 +142,129 @@ class ImportExcelComponent extends BaseExcelComponent {
 
         $this->_registerData();
 
-        $controller->set('report', $this->_report);
+        if ($parentKey) {//データ構造に親子関係がある場合
+            $this->_registerChildren();
+        }
 
+        $controller->set('report', $this->_report);
 
         $controller->set('result', self::RESULT_SUCCESS);
         $this->getController()->render('/common/import_result');
     }
 
+    protected function _registerChildren() {
+        $model = $this->getModel();
+
+        $this->_addReport('details', [
+            'insert' => 0,
+            'update' => 0,
+            'failed' => 0,
+            'none'=>0,
+        ]);
+
+
+        foreach ($this->_report['id_saved'] as $id) {
+            $model->recursive = 1;
+            $model->primaryKey = $this->_primaryKey;
+            $rec = $model->read(null, $id);
+
+            //ノードが存在しない場合　通常発生しない
+            if (empty($rec)) {
+                $this->_report['details']['failed'] ++;
+                continue;
+            }
+
+            // 子ノードだったら何もしない
+            if ($this->_isChild($rec)) {
+                $this->_report['details']['none'] ++;
+                continue;
+            }
+
+            //以降は$recが親だった場合の処理
+            $children = Set::extract($rec, "{$this->_modelName}Node");
+
+            // 子ノードが存在しなかった場合　親と同じ情報を子ノード（明細）として追加する
+            if (empty($children)) {
+                if ($this->_insertChild($rec)) {
+                    $this->_report['details']['insert'] ++;
+                } else {
+                    $this->_report['details']['failed'] ++;
+                }
+                continue;
+            }
+            // 子ノード数が１だったら親データで子を上書きする
+            if (count($children) == 1) {
+                if ($this->_updateChild($rec)) {
+                    $this->_report['details']['update'] ++;
+                } else {
+                    $this->_report['details']['failed'] ++;
+                }
+            }
+        }
+    }
+
+    /**
+     * 自身が親ノードで、子ノード数が1だったら　親ノードの情報で子ノード(明細）を更新する
+     */
+    protected function _updateChild($rec) {
+        $model = $this->getModel();
+        $model->recursive = -1;
+        $model->primaryKey = $this->_primaryKey;
+
+        $child_id = Set::extract($rec, "{$this->_modelName}Node.0.{$this->_primaryKey}");
+        $child = $model->read(null, $child_id);
+
+        if (empty($child)) {
+            return false;
+        }
+
+        foreach ($child[$this->_modelName] as $key => $value) {
+            if ($key == $this->_primaryKey || $key == $this->_parentKey) {// id,parent_id はいじらない
+                continue;
+            }
+            $child[$this->_modelName][$key] = $rec[$this->_modelName][$key];
+        }
+        return $model->save($child);
+    }
+
+    /**
+     * 自身が親ノードで、子ノード数が０だったら　親と同じ情報を子ノード（明細）として追加する
+     * @param type $rec
+     */
+    protected function _insertChild($rec) {
+        $model = $this->getModel();
+
+        $id = $rec[$this->_modelName][$this->_primaryKey];
+        debug($id);
+
+        //parent_idに保存済み親データのIDを入れる
+        $rec[$this->_modelName][$this->_parentKey] = $id;
+        //id を未設定に
+        unset($rec[$this->_modelName][$this->_primaryKey]);
+
+        debug($rec);
+
+        $model->create();
+        return $model->save($rec);
+    }
+
+    /**
+     * 該当レコードが子ノードかどうか判定
+     * @param type $rec
+     * @return type
+     */
+    protected function _isChild($rec) {
+        return !empty(Set::extract($rec, "{$this->_modelName}.{$this->_parentKey}"));
+    }
+
+    /**
+     * データ保存処理本体
+     */
     protected function _registerData() {
 
         $model = $this->getModel();
+
+        $idSaved = [];
 
         foreach ($this->_body as $row => $data) {
 
@@ -169,12 +291,12 @@ class ImportExcelComponent extends BaseExcelComponent {
                     $this->_report['register']['update'] ++;
                 }
                 $logMsg .= "成功";
+
+                $idSaved[] = $model->id;
             } else {
                 $this->_report['register']['failed'] ++;
                 $logMsg .= "失敗";
             }
-
-//            $this->ImportLog->log($logMsg);
         }
 
         $logMsg = "追加成功:{$this->_report['register']['insert']}\t"
@@ -182,6 +304,8 @@ class ImportExcelComponent extends BaseExcelComponent {
                 . "失敗:{$this->_report['register']['failed']}";
 
         $this->ImportLog->log($logMsg);
+
+        $this->_report['id_saved'] = $idSaved;
     }
 
     /**
@@ -246,7 +370,11 @@ class ImportExcelComponent extends BaseExcelComponent {
         $valid = true;
         foreach ($headers_model as $id => $header_model) {
 
-            $header_post = self::process_header($headers_post[$id]);
+            if (isset($headers_post[$id])) {
+                $header_post = self::process_header($headers_post[$id]);
+            } else {
+                $header_post = null;
+            }
             $header_model = self::process_header($header_model);
 
             if ($header_post == $header_model || (isset($alias[$header_model]) && in_array($header_post, $alias[$header_model]))) {
@@ -292,7 +420,7 @@ class ImportExcelComponent extends BaseExcelComponent {
             }
 
             if ($this->_header == null) {
-                $this->_header = array_map( [get_class($this),'formatHeader'], $rowArray);
+                $this->_header = array_map([get_class($this), 'formatHeader'], $rowArray);
                 continue;
             }
 
@@ -357,8 +485,8 @@ class ImportExcelComponent extends BaseExcelComponent {
 
         $this->ImportLog->log("ファイル {$this->_fileName}({$data['size']}byte) を読み込みました");
 
-        $this->getController()->set('report',$this->_report);
-        
+        $this->getController()->set('report', $this->_report);
+
         return true;
     }
 

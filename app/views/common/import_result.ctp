@@ -28,9 +28,4 @@
     </p>
 </section>
 
-<?php if (isset($DEBUG)): ?>
-    <pre>
-        <?php print_r($DEBUG); ?>
-    </pre>
-<?php endif; ?>
 
