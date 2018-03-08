@@ -15,17 +15,19 @@
     <h2>インポート結果報告</h2>
     <?= $this->element('import/report') ?>
     <p>
-        <?php if( $result ): ?>
-        データのインポートは正常に実行されました
+        <?php if ($result): ?>
+            データのインポートは正常に実行されました
         <?php else: ?>
-        異常が発生したため、インポートは実行されませんでした<br/>
-        データベースは更新されていません
+            異常が発生したため、インポートは実行されませんでした<br/>
+            データベースは更新されていません
         <?php endif; ?>
     </p>
     <p>
         以下の場所にログファイルが生成されました<br/>
-        <?= $logFile ?>
+        <?= $this->Html->link($logFile, $logUrl, ['target' => '_blank']) ?>
     </p>
 </section>
 
 
+<?= WWW_ROOT
+ ?>

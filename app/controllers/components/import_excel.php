@@ -64,6 +64,7 @@ class ImportExcelComponent extends BaseExcelComponent {
         $this->ImportLog->startup($controller);
 
         $this->getController()->set('logFile', $this->ImportLog->getFileName());
+        $this->getController()->set('logUrl', $this->ImportLog->getUrl());
     }
 
     /**
